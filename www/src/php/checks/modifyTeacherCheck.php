@@ -64,14 +64,35 @@ if($fkSection == "Section")
     $validateData = false;
 }
 
+//REGEX ===========================================================
+//pattern
+$namesPattern = "/^[A-Z][a-z]+(-|| )[A-z]*$/";
+
+//FirstName
+if(!preg_match($namesPattern, $teaFirstname))
+{
+    $errors[$key] = REGEX_ERROR;
+    $validateData = false;
+}
+//Name
+if(!preg_match($namesPattern, $teaName))
+{
+    $errors[$key] = REGEX_ERROR;
+    $validateData = false;
+}
+//NickName
+if(!preg_match($namesPattern, $teaNickname))
+{
+    $errors[$key] = REGEX_ERROR;
+    $validateData = false;
+}
+
 //AFFICHAGE DES ERREURS ===========================================================
 foreach($errors as $error)
 {
     echo $error;
     echo '<br>';
 }
-
-//REGEX ===========================================================
 
 //Redirection ===========================================================
 if($validateData == true)
@@ -85,7 +106,7 @@ if($validateData == true)
 else
 {
     //Renvoyer à la page de création6
-    header("location: ../modifyTeacher.php");
+    header("location: ../modifyTeacher.php?idTeacher=$id");
 }
 
 ?>

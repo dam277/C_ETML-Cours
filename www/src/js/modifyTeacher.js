@@ -13,11 +13,11 @@ function checkRdoBtn(gender)
 	let rdobtnGender;			//rdobtnGender variable
 
 	//Set the rdobtnGender variable to the which have to be checked
-	if(gender == "M")
+	if(gender.toLowerCase() == "m")
 	{
 		rdobtnGender = document.getElementById("man");
 	}
-	else if(gender == "W")
+	else if(gender.toLowerCase() == "w")
 	{
 		rdobtnGender = document.getElementById("woman");
 	}

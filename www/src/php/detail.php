@@ -44,7 +44,28 @@ $section = $Database->getOneSection($teacher['fkSection']);
             <tr>
                 <td> 
                     <!-- Detail -->
-                    <h2> Détail : <?= $teacher['teaFirstname'] . " " . $teacher['teaName'] . " " . $teacher['teaGender']?> </h2> 
+                    <h2> Détail : <?= $teacher['teaFirstname'] . " " . $teacher['teaName']?> 
+                        <?php
+                        if($teacher['teaGender'] == "m")
+                        {
+                        ?>
+                            <img src="../../ressources/images/genderMale.png" alt="Sexe masculin"/>
+                        <?php
+                        }
+                        else if($teacher['teaGender'] == "w")
+                        {
+                        ?>
+                            <img src="../../ressources/images/genderFemale.png" alt="Sexe féminin"/>
+                        <?php
+                        }
+                        else
+                        {
+                        ?>
+                            <img src="../../ressources/images/genderOther.png" alt="Sexe masculin"/>
+                        <?php
+                        }
+                        ?>
+                    </h2> 
                 </td>
                 <td> 
                     <!-- Section -->

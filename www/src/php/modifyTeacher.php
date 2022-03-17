@@ -27,7 +27,7 @@ $idSection = $section["idSection"];
 
 <!-- HTML ------------------------------------------------------------------------------------------------------------------->
 <!DOCTYPE html>
-<html lang="en" onload="check(<?= $teaGender ?>);">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
