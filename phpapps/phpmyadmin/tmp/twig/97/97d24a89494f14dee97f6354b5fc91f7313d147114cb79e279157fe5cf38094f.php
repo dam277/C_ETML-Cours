@@ -61,6 +61,6 @@ class __TwigTemplate_d4435997c03522f646b3b4dfc6e134566379b42faaa88c2cfff9702a423
 
     public function getSourceContext()
     {
-        return new Source("", "login/footer.twig", "C:\\Users\\damloup\\Desktop\\Cours\\phpapps\\phpmyadmin\\templates\\login\\footer.twig");
+        return new Source("", "login/footer.twig", "C:\\Users\\damloup\\Desktop\\ETML-Cours\\phpapps\\phpmyadmin\\templates\\login\\footer.twig");
     }
 }

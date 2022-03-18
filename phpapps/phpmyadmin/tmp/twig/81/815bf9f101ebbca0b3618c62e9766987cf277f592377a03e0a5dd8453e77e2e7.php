@@ -257,6 +257,6 @@ class __TwigTemplate_d5be0a4c4334e6e52daf880eaef6758a67791d1e8b1b4d48620a211fdf9
 
     public function getSourceContext()
     {
-        return new Source("", "database/structure/table_header.twig", "C:\\Users\\damloup\\Desktop\\Cours\\phpapps\\phpmyadmin\\templates\\database\\structure\\table_header.twig");
+        return new Source("", "database/structure/table_header.twig", "C:\\Users\\damloup\\Desktop\\ETML-Cours\\phpapps\\phpmyadmin\\templates\\database\\structure\\table_header.twig");
     }
 }

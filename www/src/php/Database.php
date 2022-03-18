@@ -20,10 +20,12 @@
      */
     public function __construct()
     {
-        $serverInfo = file_get_contents("C:/Users/damis/Desktop/developpement/01-Github/Cours/www/src/php/info/config.json");
+        $pathConfig = __DIR__."/info/config.json";
+        $serverInfo = file_get_contents($pathConfig);
         $info = json_decode($serverInfo, true);
 
-        $secretServerInfo = file_get_contents("C:/Users/damis/Desktop/developpement/01-Github/Cours/www/src/php/info/secret.json");
+        $pathSecret = __DIR__."/info/secret.json";
+        $secretServerInfo = file_get_contents($pathSecret);
         $secretInfo = json_decode($secretServerInfo, true);
 
         $server = $info['hostname'];

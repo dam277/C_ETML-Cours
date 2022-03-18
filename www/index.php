@@ -5,15 +5,11 @@ include_once("src/php/Database.php");
 $Database = new Database();
 
 //Check si la requête était un get 
-if (isset($_GET["idSession"])) 
-{
-    if ($_GET["idSession"] == "false")
-    {
+if (isset($_GET["idSession"])) {
+    if ($_GET["idSession"] == "false") {
         //Detruit le cookie
         setcookie("session", null, time() + 30 * 24 * 3600);
-    } 
-    else 
-    {
+    } else {
         //Création du cookie de session
         $session = $_GET["idSession"];
         setcookie("session", $session, time() + 30 * 24 * 3600);
@@ -24,12 +20,9 @@ if (isset($_GET["idSession"]))
 }
 
 //Crée le user avec l'id de la session
-if (isset($_COOKIE["session"])) 
-{
+if (isset($_COOKIE["session"])) {
     $user = $Database->IsConnect($_COOKIE["session"]);
-}
-else
-{
+} else {
     $user = null;
 }
 
@@ -55,32 +48,36 @@ echo "</pre>";
 <body>
     <!-- HEADER ------------------------------------------------------------------------------------------------------------------->
     <header>
+        <div style="float: right;">
+            <?php
+            //Check si un utilisateur est connecté
+            if (isset($user)) 
+            {
+                //Se déconnecter
+            ?>
+                <form action="src/php/login.php" method="POST">
+                    <?= $user["useLogin"]; ?>
+                    <input type="submit" value="Se déconnecter">
+                </form>
+            <?php
+            }
+             else 
+            {
+                //Se connecter
+            ?>
+                <form action="src/php/login.php" method="POST">
+                    <input type="text" name="useLogin" id="login" placeholder="Login">
+                    <input type="text" name="usePassword" id="password" placeholder="Mot de passe">
+                    <input type="submit" value="Se connecter">
+                </form>
+            <?php
+            }
+            ?>
+        </div>
         <?php
         //Include the header
         include("src/php/includes/header.php");
         ?>
-        <?php
-        //Check si un utilisateur est connecté
-        if (isset($user)) {
-            //Se déconnecter
-        ?>
-            <form action="src/php/login.php" method="POST">
-                <?= $user["useLogin"]; ?>
-                <input type="submit" value="Se déconnecter">
-            </form>
-        <?php
-        } else {
-            //Se connecter
-        ?>
-            <form action="src/php/login.php" method="POST">
-                <input type="text" name="useLogin" id="login" placeholder="Login">
-                <input type="text" name="usePassword" id="password" placeholder="Mot de passe">
-                <input type="submit" value="Se connecter">
-            </form>
-        <?php
-        }
-        ?>
-
     </header>
     <!-- MAIN ------------------------------------------------------------------------------------------------------------------->
     <main>
@@ -95,8 +92,7 @@ echo "</pre>";
             </thead>
             <tbody>
                 <?php
-                foreach ($Database->getAllTeachers() as $key => $value) 
-                {
+                foreach ($Database->getAllTeachers() as $key => $value) {
                 ?>
                     <tr>
                         <td> <?= $value["teaFirstname"] . " " . $value["teaName"]; ?></td>
@@ -146,7 +142,7 @@ echo "</pre>";
                     if ($user) 
                     {
                         //Si il est egal à 1 lui donner les droits sinon pas
-                        if ($user["useAdministrator"] == 1)
+                        if ($user["useAdministrator"] == 1) 
                         {
                     ?>
                             <!-- AJOUTER UN NOUVEL ENSEIGNANT -->
