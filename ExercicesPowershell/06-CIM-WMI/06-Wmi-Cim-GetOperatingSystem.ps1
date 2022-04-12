@@ -1,0 +1,1 @@
+﻿Get-CimClass -ClassName CIM_OperatingSystem

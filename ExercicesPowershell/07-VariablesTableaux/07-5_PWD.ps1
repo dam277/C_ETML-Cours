@@ -1,0 +1,2 @@
+#Chemin absolu
+$PWD;
