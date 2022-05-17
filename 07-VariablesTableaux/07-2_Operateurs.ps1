@@ -24,7 +24,7 @@ toto NE bonjour
 6 -lt 8  
 # Output: True
 
-################################################ -ge => <= => Coté droite plus grand ou egale
+################################################ -le => <= => Coté droite plus grand ou egale
 8 -le 8  
 # Output: True
 
