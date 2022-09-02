@@ -1,6 +1,7 @@
 <nav>
     <ul class="nav nav-justified">
         <li><a href="index.php?controller=shop&action=list">Shop</a></li>
+        <li><a href="index.php?controller=basket&action=list">Panier</a></li>
         <?php
         if(isset($_SESSION['right']) && $_SESSION['right'] == 'admin'){
         ?>

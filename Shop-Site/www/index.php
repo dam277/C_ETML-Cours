@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+var_dump($_SESSION);
+
 /**
  * ETML
  * Date: 01.06.2017
@@ -20,6 +22,7 @@ include 'controller/AdminController.php';
 include 'controller/HomeController.php';
 include 'controller/LoginController.php';
 include 'controller/ShopController.php';
+include 'controller/BasketController.php';
 
 date_default_timezone_set('Europe/Zurich');
 
@@ -62,6 +65,9 @@ class MainController {
                 break;
             case 'shop':
                 $link = new ShopController();
+                break;
+            case 'basket':
+                $link = new BasketController();
                 break;
             default:
                 $link = new HomeController();

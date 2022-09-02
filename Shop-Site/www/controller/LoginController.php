@@ -9,7 +9,7 @@ include_once 'classes/LoginRepository.php';
 class LoginController extends Controller {
 
     /**
-     * Dispatch current action
+     * Dispatch current Action
      *
      * @return mixed
      */

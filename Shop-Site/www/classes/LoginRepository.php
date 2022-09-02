@@ -40,7 +40,7 @@ class LoginRepository implements Entity {
         $columns = '*';
         $where = "useLogin = '$login'";
 
-        $request =  new DataBaseQuery();
+        $request = new DataBaseQuery();
 
         return $request->select($table, $columns, $where);
 
