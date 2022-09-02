@@ -1,0 +1,51 @@
+ PMA_token |s:32:"3b247039252c717d7177516d63633e5b"; HMAC_secret |s:16:"r6:cbIYu"Kn"]q%J";browser_access_time|a:1:{s:36:"0a276e2f-2332-ce7b-6a5f-334e49a5c3af";i:1661778841;}encryption_key|s:32:"˝0(¯ﬂ§Æ¢öãÚÔyB§>ì≈YDå÷§xôÇg";relation|a:1:{i:1;a:41:{s:11:"PMA_VERSION";s:5:"5.0.4";s:7:"relwork";b:0;s:11:"displaywork";b:0;s:12:"bookmarkwork";b:0;s:7:"pdfwork";b:0;s:8:"commwork";b:0;s:8:"mimework";b:0;s:11:"historywork";b:0;s:10:"recentwork";b:0;s:12:"favoritework";b:0;s:11:"uiprefswork";b:0;s:12:"trackingwork";b:0;s:14:"userconfigwork";b:0;s:9:"menuswork";b:0;s:7:"navwork";b:0;s:17:"savedsearcheswork";b:0;s:18:"centralcolumnswork";b:0;s:20:"designersettingswork";b:0;s:19:"exporttemplateswork";b:0;s:8:"allworks";b:0;s:4:"user";s:4:"root";s:2:"db";s:10:"phpmyadmin";s:8:"bookmark";s:13:"pma__bookmark";s:15:"central_columns";s:20:"pma__central_columns";s:11:"column_info";s:16:"pma__column_info";s:17:"designer_settings";s:22:"pma__designer_settings";s:16:"export_templates";s:21:"pma__export_templates";s:8:"favorite";s:13:"pma__favorite";s:7:"history";s:12:"pma__history";s:16:"navigationhiding";s:21:"pma__navigationhiding";s:9:"pdf_pages";s:14:"pma__pdf_pages";s:6:"recent";s:11:"pma__recent";s:8:"relation";s:13:"pma__relation";s:13:"savedsearches";s:18:"pma__savedsearches";s:12:"table_coords";s:17:"pma__table_coords";s:10:"table_info";s:15:"pma__table_info";s:13:"table_uiprefs";s:18:"pma__table_uiprefs";s:8:"tracking";s:13:"pma__tracking";s:10:"userconfig";s:15:"pma__userconfig";s:10:"usergroups";s:15:"pma__usergroups";s:5:"users";s:10:"pma__users";}}cache|a:3:{s:13:"server_1_root";a:18:{s:14:"mysql_cur_user";s:14:"root@localhost";s:17:"is_create_db_priv";b:1;s:14:"is_reload_priv";b:1;s:12:"db_to_create";s:0:"";s:30:"dbs_where_create_table_allowed";a:1:{i:0;s:1:"*";}s:11:"dbs_to_test";b:0;s:9:"proc_priv";b:1;s:10:"table_priv";b:1;s:8:"col_priv";b:1;s:7:"db_priv";b:1;s:12:"is_grantuser";b:1;s:13:"is_createuser";b:1;s:12:"is_superuser";b:1;s:11:"binary_logs";a:0:{}s:18:"menu-levels-server";a:13:{s:9:"databases";s:17:"Bases de donn√©es";s:3:"sql";s:3:"SQL";s:6:"status";s:5:"√âtat";s:6:"rights";s:12:"Utilisateurs";s:6:"export";s:8:"Exporter";s:6:"import";s:8:"Importer";s:8:"settings";s:11:"Param√®tres";s:6:"binlog";s:15:"Journal binaire";s:11:"replication";s:12:"R√©plication";s:4:"vars";s:9:"Variables";s:7:"charset";s:19:"Jeux de caract√®res";s:7:"plugins";s:10:"Extensions";s:6:"engine";s:7:"Moteurs";}s:14:"menu-levels-db";a:14:{s:9:"structure";s:9:"Structure";s:3:"sql";s:3:"SQL";s:6:"search";s:10:"Rechercher";s:5:"query";s:8:"Requ√™te";s:6:"export";s:8:"Exporter";s:6:"import";s:8:"Importer";s:9:"operation";s:11:"Op√©rations";s:10:"privileges";s:11:"Privil√®ges";s:8:"routines";s:21:"Proc√©dures stock√©es";s:6:"events";s:12:"√âv√®nements";s:8:"triggers";s:13:"D√©clencheurs";s:8:"tracking";s:5:"Suivi";s:8:"designer";s:10:"Concepteur";s:15:"central_columns";s:18:"Colonnes centrales";}s:19:"profiling_supported";b:1;s:17:"menu-levels-table";a:11:{s:6:"browse";s:9:"Parcourir";s:9:"structure";s:9:"Structure";s:3:"sql";s:3:"SQL";s:6:"search";s:10:"Rechercher";s:6:"insert";s:8:"Ins√©rer";s:6:"export";s:8:"Exporter";s:6:"import";s:8:"Importer";s:10:"privileges";s:11:"Privil√®ges";s:9:"operation";s:11:"Op√©rations";s:8:"tracking";s:5:"Suivi";s:8:"triggers";s:13:"D√©clencheurs";}}s:8:"server_1";a:4:{s:15:"userprefs_mtime";i:1661776770;s:14:"userprefs_type";s:7:"session";s:12:"config_mtime";i:1661776575;s:9:"userprefs";a:2:{s:4:"lang";s:2:"fr";s:7:"Console";a:1:{s:4:"Mode";s:8:"collapse";}}}s:13:"version_check";a:2:{s:8:"response";s:420:"{
+    "date": "2022-05-11", 
+    "version": "5.2.0", 
+    "releases": [
+        {
+            "date": "2022-05-11", 
+            "php_versions": ">=7.2,<8.1", 
+            "version": "5.2.0", 
+            "mysql_versions": ">=5.5"
+        }, 
+        {
+            "date": "2022-02-11", 
+            "php_versions": ">=5.5,<8.0", 
+            "version": "4.9.10", 
+            "mysql_versions": ">=5.5"
+        }
+    ]
+}";s:9:"timestamp";i:1661776708;}}userconfig|a:2:{s:2:"db";a:2:{s:4:"lang";s:2:"fr";s:12:"Console/Mode";s:8:"collapse";}s:2:"ts";i:1661776770;}two_factor_check|b:1;git_location|N;is_git_revision|b:0;tmpval|a:16:{s:14:"favoriteTables";a:1:{i:1;a:0:{}}s:12:"recentTables";a:1:{i:1;a:1:{i:0;a:2:{s:2:"db";s:7:"db_shop";s:5:"table";s:10:"t_category";}}}s:18:"table_limit_offset";i:0;s:21:"table_limit_offset_db";s:7:"db_shop";s:5:"query";a:10:{s:32:"9ee672c9226ffb689cabc3d32e8e95ca";a:8:{s:3:"sql";s:144:"--
+-- Index pour la table `t_product`
+--
+ALTER TABLE `t_product`
+  ADD PRIMARY KEY (`idProduct`),
+  ADD KEY `Index_Category` (`fkCategory`)";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"94bfb239fe9121786d4111ae483adaad";a:8:{s:3:"sql";s:91:"--
+-- Index pour la table `t_user`
+--
+ALTER TABLE `t_user`
+  ADD PRIMARY KEY (`idUser`)";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"7c4d012e95db2c1c228432f80465ac0c";a:8:{s:3:"sql";s:207:"--
+-- AUTO_INCREMENT pour les tables export√©es
+--
+
+--
+-- AUTO_INCREMENT pour la table `t_category`
+--
+ALTER TABLE `t_category`
+  MODIFY `idCategory` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"75294a9e87bd89eed85afc606916ebc5";a:8:{s:3:"sql";s:148:"--
+-- AUTO_INCREMENT pour la table `t_product`
+--
+ALTER TABLE `t_product`
+  MODIFY `idProduct` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"34b8ba9df85fc083dd26fcc5ae48a738";a:8:{s:3:"sql";s:139:"--
+-- AUTO_INCREMENT pour la table `t_user`
+--
+ALTER TABLE `t_user`
+  MODIFY `idUser` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"e9b5d522f86380b53f8baf3f4fce7d24";a:8:{s:3:"sql";s:229:"--
+-- Contraintes pour les tables export√©es
+--
+
+--
+-- Contraintes pour la table `t_product`
+--
+ALTER TABLE `t_product`
+  ADD CONSTRAINT `t_product_ibfk_1` FOREIGN KEY (`fkCategory`) REFERENCES `t_category` (`idCategory`)";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"314a2a6af715a117719831abd47a7e59";a:8:{s:3:"sql";s:62:"/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"3156cc0fff730d17edc1acfdb05ed71c";a:8:{s:3:"sql";s:64:"/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"dcdde952b3211bb4e1b0a9110e18a57f";a:8:{s:3:"sql";s:62:"/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"cb5b61d904f2c5c32a87ce4874464077";a:8:{s:3:"sql";s:26:"SELECT * FROM `t_category`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";s:1:"0";s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}}s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;s:12:"display_blob";b:0;s:19:"hide_transformation";b:0;s:3:"pos";s:1:"0";s:8:"max_rows";i:25;s:12:"repeat_cells";i:100;s:20:"possible_as_geometry";b:1;s:13:"table_uiprefs";a:1:{i:1;a:1:{s:7:"db_shop";a:1:{s:10:"t_category";a:0:{}}}}}ConfigFile1|a:2:{s:7:"Console";a:1:{s:4:"Mode";s:8:"collapse";}s:7:"Servers";a:1:{i:1;a:2:{s:7:"only_db";s:0:"";s:7:"hide_db";s:0:"";}}}debug|a:0:{}Import_message|a:2:{s:7:"message";N;s:11:"go_back_url";s:21:"db_sql.php?db=db_shop";}is_multi_query|b:0;sql_history|a:2:{i:0;a:3:{s:2:"db";s:7:"db_shop";s:5:"table";s:0:"";s:8:"sqlquery";s:62:"/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */";}i:1;a:3:{s:2:"db";s:7:"db_shop";s:5:"table";s:10:"t_category";s:8:"sqlquery";s:26:"SELECT * FROM `t_category`";}}errors|a:0:{}
