@@ -4,18 +4,37 @@
 	<!-- Three columns of text below the carousel -->
 	<div class="row">
 		<?php
-		if ($products != '') 
+		if (!is_null($products)) 
 		{
-			foreach ($products as $product) {
-				echo '<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">';
-				echo '<div class="boxProduct">';
-				echo '<div class="nameProduct"><h4>' . $product['proName'] . '</h4></div>';
-				echo '<div class="imageProduct"><img src="resources/image/' . $product['proImage'] . '"/></div>';
-				echo '<div class="priceProduct">CHF ' . $product['proPrice'] . '</div>';
-				echo '<a class="btn btn-default" href="index.php?controller=shop&action=detail&id=' . $product['idProduct'] . '">Détail</a>';
-				echo '</div>';
-				echo '</div>';
+			?>
+			<table class="col-lg-64 col-md-24 col-sm-12 col-xs-12 table table-striped">
+				<tr>
+					<th>Description</th>
+					<th>Prix</th>
+					<th>Quantité</th>
+					<th>Sous-total</th>
+				</tr>
+			<?php
+			foreach ($products as $product) 
+			{
+				?>
+				<tr>
+					<td><?= $product['proName'] ?></td>
+					<td><?= "CHF " . $product['proPrice'] ?></td>
+					<td><?= $product['proQuantity']?></td>
+					<td><?= "CHF " . $product['subtotal'] ?></td>
+				</tr>
+				<?php
 			}
+			?>
+				<tr>
+					<td>Total</td>
+					<td></td>
+					<td></td>
+					<td><?= "CHF " ?></td>
+				</tr>
+			</table>
+			<?php
 		}
 		else
 		{
@@ -23,4 +42,5 @@
 		}
 		?>
 	</div>
+	
 </div>

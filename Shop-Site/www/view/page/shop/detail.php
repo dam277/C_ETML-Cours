@@ -13,6 +13,7 @@
 			echo '<p>Encore : ' . $product[0]['proQuantity'] . ' en stock</p>';
 			echo '<br>';
 			echo '<a href="index.php?controller=basket&action=add&idProduct=' . $product[0]['idProduct'] . '" class="btn btn-default" ';
+			echo '<a href="basket/basketController->AddAction()" class="btn btn-default" ';
 			if ($product[0]["proQuantity"] == 0) {
 				echo 'disabled';
 			}
