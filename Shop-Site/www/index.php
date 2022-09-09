@@ -1,9 +1,13 @@
 <?php
 session_start();
 
-echo '<pre>';
-var_dump($_SESSION);
-echo '</pre>';
+$debugSession = true;
+if($debugSession)
+{
+    echo '<pre>';
+    var_dump($_SESSION);
+    echo '</pre>';
+}
 
 
 
