@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$debugSession = true;
+$debugSession = false;
 if($debugSession)
 {
     echo '<pre>';
@@ -31,6 +31,7 @@ include 'controller/HomeController.php';
 include 'controller/LoginController.php';
 include 'controller/ShopController.php';
 include 'controller/BasketController.php';
+include 'controller/PurchaseController.php';
 
 date_default_timezone_set('Europe/Zurich');
 
@@ -76,6 +77,9 @@ class MainController {
                 break;
             case 'basket':
                 $link = new BasketController();
+                break;
+            case 'purchase':
+                $link = new PurchaseController();
                 break;
             default:
                 $link = new HomeController();

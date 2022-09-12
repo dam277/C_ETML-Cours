@@ -58,6 +58,7 @@ class BasketController extends Controller {
         $shopRepository = new ShopRepository();
         $product = $shopRepository->findOne($_GET["idProduct"]);
         $isNotInBasket = true;
+        $isAtMax = false;
 
         // Check if basket is set
         if (isset($_SESSION["basket"])) 
@@ -65,26 +66,35 @@ class BasketController extends Controller {
             // Check if the product added is on the basket 
             foreach ($_SESSION["basket"] as $key => $basketProduct) 
             {
+                // Check products id
                 if ($basketProduct["idProduct"] == $product[0]["idProduct"]) 
                 {
-                    $_SESSION["basket"][$key]["proQuantity"]++;
-                    $_SESSION["basket"][$key]["subtotal"] = $product[0]["proPrice"] * $_SESSION["basket"][$key]["proQuantity"];
-                    $isNotInBasket = false;   
+                    // Check if the quantity of products in basket are lower than the product stock
+                    if ($basketProduct["quantity"] < $product[0]["proQuantity"])
+                    {
+                        $_SESSION["basket"][$key]["quantity"]++;
+                        $_SESSION["basket"][$key]["subtotal"] = $product[0]["proPrice"] * $_SESSION["basket"][$key]["quantity"];
+                        $isNotInBasket = false;  
+                    }
+                    else
+                    {
+                        $isAtMax = true;
+                    }
                 }
             }
         }
 
-
         // Check if the product is currently in the basket
-        if ($isNotInBasket) 
+        if ($isNotInBasket && $isAtMax == false) 
         {
             $_SESSION["basket"][] = array
             (
                 "idProduct" => $product[0]["idProduct"],
                 "proName" => $product[0]["proName"],
                 "proPrice" => $product[0]["proPrice"],
-                "proQuantity" => 1,
-                "subtotal" => $product[0]["proPrice"]
+                "proQuantity" => $product[0]["proQuantity"],
+                "subtotal" => $product[0]["proPrice"],
+                "quantity" => 1
                 //"proDescription" => $product[0]["proDescription"],
                 //"proImage" => $product[0]["proImage"],
                 //"proLike" => $product[0]["proLike"],
@@ -95,15 +105,9 @@ class BasketController extends Controller {
         }
 
         // Set the total
-        $total = 0;
-        foreach ($_SESSION["basket"] as $product) 
-        {
-            $total += $product["subtotal"];
-        }
+        $this->SetTotal();
 
-        // Put the total on the basket
-        $_SESSION["totalPrice"] = $total;
-
+        // redirect
         $this->redirectBasket();
     }
 
@@ -132,16 +136,71 @@ class BasketController extends Controller {
      */
     private function modifyAction()
     {
-        // Get the view
-        $view = file_get_contents('view/page/basket/modify.php');
+        // Check if we receive a post or not
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') 
+        {
+            // Check if the quantity is set
+            if (isset($_POST["quantity"]) && $_POST["quantity"] != "") 
+            {
+                // Check all the session
+                foreach ($_SESSION["basket"] as $key => $product) 
+                {
+                    // Check if the ids are the same
+                    if ($product["idProduct"] == $_GET["idProduct"]) 
+                    {
+                        // Set the quantity
+                        $_SESSION["basket"][$key]["quantity"] = $_POST["quantity"];
+                        $_SESSION["basket"][$key]["subtotal"] = $product["proPrice"] * $_SESSION["basket"][$key]["quantity"];
+                        $this->SetTotal();
+                        $this->redirectBasket();
+                    }
+                }
+            }
+        }
+        else
+        {
+            // Get the product
+            $idProduct = $_GET["idProduct"];
 
-        // Replace variables
-        ob_start();
-        eval('?>' . $view);
-        $content = ob_get_clean();
+            // Set product
+            $product = array();
 
-        return $content;
-        $this->redirectBasket();
+            // Search the right product in the basket
+            foreach ($_SESSION["basket"] as $key => $productToModify) 
+            {
+                if ($productToModify["idProduct"] == $idProduct) 
+                {
+                    $product = $_SESSION["basket"][$key];
+                }
+            }
+
+            // Get the view
+            $view = file_get_contents('view/page/basket/modify.php');
+
+            // Replace variables
+            ob_start();
+            eval('?>' . $view);
+            $content = ob_get_clean();
+
+            return $content;
+        }
+    }
+
+    /**
+     * Set the total price of the basket
+     *
+     */
+    private function SetTotal()
+    {
+        // Set total
+        $total = 0;
+        foreach ($_SESSION["basket"] as $product) 
+        {
+            $total += $product["subtotal"];
+        }
+
+        // Put the total on the basket
+        $_SESSION["totalPrice"] = $total;
     }
 
     /**

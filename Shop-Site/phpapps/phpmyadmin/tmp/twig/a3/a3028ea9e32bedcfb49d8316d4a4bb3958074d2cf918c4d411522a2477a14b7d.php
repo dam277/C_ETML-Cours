@@ -86,6 +86,6 @@ class __TwigTemplate_baa5b0901829afcbe37cf0d6d1c322a759fbfaa9701ce7c56f9a8fc9391
 
     public function getSourceContext()
     {
-        return new Source("", "navigation/tree/path.twig", "C:\\Users\\damloup\\Desktop\\01-UwAmp\\01-UwAmp\\phpapps\\phpmyadmin\\templates\\navigation\\tree\\path.twig");
+        return new Source("", "navigation/tree/path.twig", "C:\\Users\\damloup\\Desktop\\ETML-Cours\\Shop-Site\\phpapps\\phpmyadmin\\templates\\navigation\\tree\\path.twig");
     }
 }

@@ -104,6 +104,6 @@ class __TwigTemplate_c75886fb162e8eaae8716229e96baab5ea82e293a456d5458c9c501e6fc
 
     public function getSourceContext()
     {
-        return new Source("", "footer.twig", "C:\\Users\\damloup\\Desktop\\01-UwAmp\\01-UwAmp\\phpapps\\phpmyadmin\\templates\\footer.twig");
+        return new Source("", "footer.twig", "C:\\Users\\damloup\\Desktop\\ETML-Cours\\Shop-Site\\phpapps\\phpmyadmin\\templates\\footer.twig");
     }
 }

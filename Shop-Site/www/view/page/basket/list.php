@@ -25,7 +25,7 @@
 				<tr>
 					<td><?= $product['proName'] ?></td>
 					<td><?= "CHF " . $product['proPrice'] ?></td>
-					<td><?= $product['proQuantity']?></td>
+					<td><?= $product['quantity']?></td>
 					<td><?= "CHF " . $product['subtotal'] ?></td>
 					<td>
 						<a href="index.php?controller=basket&action=modify&idProduct=<?= $product["idProduct"] ?>">/</a>
@@ -52,6 +52,11 @@
 			</table>
 			<?php
 			}
+			?>
+			<a href="index.php?controller=purchase&action=delivery">
+				<input type="button" value="Passer la commande">
+			</a>
+			<?php
 		}
 		else
 		{
