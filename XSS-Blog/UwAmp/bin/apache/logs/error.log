@@ -1,0 +1,11 @@
+[Wed Sep 14 10:53:13.563530 2022] [ssl:warn] [pid 7480:tid 656] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Sep 14 10:53:13.564564 2022] [ssl:warn] [pid 7480:tid 656] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 14 10:53:13.635529 2022] [ssl:warn] [pid 7480:tid 656] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 14 10:53:13.635529 2022] [ssl:warn] [pid 7480:tid 656] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Sep 14 10:53:13.635529 2022] [ssl:warn] [pid 7480:tid 656] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 14 10:53:13.666537 2022] [mpm_winnt:notice] [pid 7480:tid 656] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Wed Sep 14 10:53:13.666537 2022] [mpm_winnt:notice] [pid 7480:tid 656] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Sep 14 10:53:13.666537 2022] [core:notice] [pid 7480:tid 656] AH00094: Command line: 'C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/damloup/Desktop/ETML-Cours/XSS-Blog/UwAmp/bin/apache -f C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Wed Sep 14 10:53:13.670536 2022] [mpm_winnt:notice] [pid 7480:tid 656] AH00418: Parent: Created child process 13452
+[Wed Sep 14 10:53:14.078646 2022] [ssl:warn] [pid 13452:tid 648] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Sep 14 10:53:14.078646 2022] [ssl:warn] [pid 13452:tid 648] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
