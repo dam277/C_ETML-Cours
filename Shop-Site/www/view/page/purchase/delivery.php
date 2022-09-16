@@ -1,9 +1,9 @@
 <div class="container">
-
+	
 	<h2>Choisir un moyen de livraison</h2>
 	<!-- Three columns of text below the carousel -->
 	<div class="row">
-		<form action="index.php?controller=purchase&action=confirmDelivery">
+		<form method="get" action="index.php?controller=purchase&action=payment" >
 			<ul>
 				<?php
 				foreach ($methods as $key => $method) 

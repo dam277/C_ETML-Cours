@@ -4,7 +4,6 @@
  * Date: 01.06.2017
  * Shop
  */
-
 include_once 'classes/DeliveryRepository.php';
 
 class PurchaseController extends Controller
@@ -17,7 +16,7 @@ class PurchaseController extends Controller
     public function display() {
 
         $action = $_GET['action'] . "Action";
-
+        var_dump($action);
         // return $this->$page();
 
         /* TODO :
@@ -56,6 +55,14 @@ class PurchaseController extends Controller
     {
         $error = "L'un des champs n'a pas été renseigné";
         var_dump($_POST);
+        $view = file_get_contents('view/page/purchase/delivery.php');
+
+
+        ob_start();
+        eval('?>' . $view);
+        $content = ob_get_clean();
+
+        return $content;
     }
 
     /**

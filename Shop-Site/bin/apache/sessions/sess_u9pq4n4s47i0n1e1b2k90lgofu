@@ -1,1 +1,0 @@
-basket|a:3:{i:0;a:5:{s:9:"idProduct";s:1:"2";s:7:"proName";s:8:"Pantalon";s:8:"proPrice";s:4:"49.9";s:11:"proQuantity";i:1;s:8:"subtotal";s:4:"49.9";}i:1;a:5:{s:9:"idProduct";s:1:"1";s:7:"proName";s:8:"Pullover";s:8:"proPrice";s:4:"20.9";s:11:"proQuantity";i:1;s:8:"subtotal";s:4:"20.9";}i:2;a:2:{s:11:"proQuantity";i:1;s:8:"subtotal";d:49.9;}}totalPrice|d:120.69999999999999;

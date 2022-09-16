@@ -9,8 +9,6 @@ if($debugSession)
     echo '</pre>';
 }
 
-
-
 /**
  * ETML
  * Date: 01.06.2017
@@ -97,8 +95,9 @@ class MainController {
      */
     protected function viewBuild($currentPage) {
 
+        
             $content = $currentPage->display();
-
+            
             if (get_class($currentPage) == 'DownloadController') {
                 echo $content;
             } else {
