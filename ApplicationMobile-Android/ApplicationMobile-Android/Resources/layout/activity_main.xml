@@ -1,25 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/main"
-    android:orientation="vertical">
-
-    <Button
-        android:id="@+id/btnHello"
-        android:text="Hello"
-        android:textColor="#ff33bbff"
-        android:background="#ffeeee"
-        android:enabled="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-    />
+    android:background="@color/abc_decor_view_status_guard"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px">
     <TextView
-        android:text="Text"
+        android:text="Modules"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btnHello"
-        android:id="@+id/textViewHello" />
-</LinearLayout>
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/abc_action_button_min_width_overflow_material"
+        android:id="@+id/modules" />
+    <Button
+        android:text="To Do List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/modules"
+        android:id="@+id/btnToDoList" />
+    <Button
+        android:text="Ma journée"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/modules"
+        android:layout_toRightOf="@id/btnToDoList"
+        android:id="@+id/btnMyDay" />
+    <Button
+        android:text="Catégories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnToDoList"
+        android:id="@+id/btnCategories" />
+</RelativeLayout>

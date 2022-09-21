@@ -1,5 +1,7 @@
 adaptive-icon;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
 adaptive-icon;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
+android.support.constraint.ConstraintLayout;obj\Debug\120\res\layout\activity_main.xml
+android.support.constraint.Guideline;obj\Debug\120\res\layout\activity_main.xml
 background;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
 Button;obj\Debug\120\res\layout\activity_main.xml
@@ -10,8 +12,13 @@ external-cache-path;C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Androi
 external-path;C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Android\ApplicationMobile-Android\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
+GridLayout;obj\Debug\120\res\layout\activity_main.xml
+GridView;obj\Debug\120\res\layout\activity_main.xml
+ImageView;obj\Debug\120\res\layout\activity_main.xml
 item;obj\Debug\120\res\values\styles.xml
+Label;obj\Debug\120\res\layout\activity_main.xml
 LinearLayout;obj\Debug\120\res\layout\activity_main.xml
+LinearLayout;obj\Debug\120\res\layout\activity_second.xml
 paths;C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Android\ApplicationMobile-Android\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 RelativeLayout;obj\Debug\120\res\layout\activity_main.xml
 resources;obj\Debug\120\res\values\colors.xml
@@ -21,3 +28,4 @@ resources;obj\Debug\120\res\values\styles.xml
 string;obj\Debug\120\res\values\strings.xml
 style;obj\Debug\120\res\values\styles.xml
 TextView;obj\Debug\120\res\layout\activity_main.xml
+TextView;obj\Debug\120\res\layout\activity_second.xml

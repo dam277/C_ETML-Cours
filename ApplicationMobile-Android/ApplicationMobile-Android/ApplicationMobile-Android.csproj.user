@@ -6,6 +6,6 @@
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
     <ActiveDebugProfile>pixel_5_-_api_30</ActiveDebugProfile>
     <DefaultDevice>pixel_5_-_api_30</DefaultDevice>
-    <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
+    <AndroidDesignerPreferredTheme>DarkTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

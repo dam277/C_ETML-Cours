@@ -10,6 +10,7 @@ public class SecondActivity
 	public static final String __md_methods;
 	static {
 		__md_methods = 
+			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"";
 		mono.android.Runtime.register ("ApplicationMobile_Android.SecondActivity, ApplicationMobile-Android", SecondActivity.class, __md_methods);
 	}
@@ -29,6 +30,14 @@ public class SecondActivity
 		if (getClass () == SecondActivity.class)
 			mono.android.TypeManager.Activate ("ApplicationMobile_Android.SecondActivity, ApplicationMobile-Android", "System.Int32, mscorlib", this, new java.lang.Object[] { p0 });
 	}
+
+
+	public void onCreate (android.os.Bundle p0)
+	{
+		n_onCreate (p0);
+	}
+
+	private native void n_onCreate (android.os.Bundle p0);
 
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)
