@@ -53,10 +53,25 @@ class PurchaseController extends Controller
      */
     private function confirmDeliveryAction()
     {
-        $error = "L'un des champs n'a pas été renseigné";
-        var_dump($_POST);
-        $view = file_get_contents('view/page/purchase/delivery.php');
+        $deliveryRepository = new DeliveryRepository();
+        $methods = $deliveryRepository->findAll();
 
+        // Errors
+        $errors = array();
+
+        // Set errors
+        $error = "L'un des champs n'a pas été renseigné";
+        if (!isset($_POST["method"])) 
+        {
+            $errors[] = $error;
+            // Get the view
+            $view = file_get_contents('view/page/purchase/delivery.php');
+        }
+        else
+        {
+            // Get the view
+            $view = file_get_contents('view/page/purchase/payment.php');
+        }
 
         ob_start();
         eval('?>' . $view);
@@ -72,6 +87,7 @@ class PurchaseController extends Controller
      */
     private function paymentAction() 
     {
+       
         $view = file_get_contents('view/page/purchase/payment.php');
 
         ob_start();
