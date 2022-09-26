@@ -14,12 +14,23 @@ Start:
 ; ***********************Move the ship**************************   
 ; **************************************************************   
 SHIP: 
+        CALL    PlaceShip       ;
+        ; Get keyboard key
+        MOVE    _KEYBOARD, A    ;
+        TEST    A:#_KEYBOARDDOWN; IF -> Check if the down is active
+        JUMP,EQ ShipDown        ; YES -> Get down placement
+        JUMP    ShipUp          ; NO -> Get up placement
 
+        MOVE    #5, A           ;
+        CALL    _WaitSec        ;
+        CALL    PlaceShip       ;
 
 ShipDown:
-
+        INC     {SP}+_PosY      ;
+        CALL    PlaceShip       ;
 ShipUp:
-
+        DEC     {SP}+_PosY      ;
+        CALL    PlaceShip       ;
 ShipTop:
 
 ShipBottom:
@@ -28,9 +39,11 @@ ShipBottom:
 ;*************Place the ship at a precise place****************   
 ;**************************************************************   
 PlaceShip:				;    
+        
         ; Get the positions of ship 
-        MOVE	#_PosY, Y		; Position X 
-        MOVE	#_PosX, X		; Position Y 
+        MOVE	#_PosY, Y		; Position Y 
+        MOVE	#_PosX, X		; Position X 
+
         ; Display Ship 
         DEC	Y		            ;  
         CALL	_NotPixel		; 
@@ -71,7 +84,7 @@ PlaceShip:				;
         CALL    _NotPixel       ; 
         INC X                   ;  
         CALL    _NotPixel       ;
-
+        
 
 
 
