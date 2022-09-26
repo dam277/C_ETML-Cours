@@ -26,4 +26,22 @@ class DeliveryRepository implements Entity {
 
     }
 
+    /**
+     * Find One entry
+     *
+     * @param $idDelivery
+     *
+     * @return array
+     */
+    public function findOne($idDelivery) {
+
+        $table = 't_delivery';
+        $columns = '*';
+        $where = "idDelivery = '$idDelivery'";
+
+        $request = new DataBaseQuery();
+
+        return $request->select($table, $columns, $where);
+
+    }
 }
