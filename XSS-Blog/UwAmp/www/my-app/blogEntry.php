@@ -1,6 +1,18 @@
 <?php
+include_once("database.php");
 
+$database = new Database();
+$text = htmlspecialchars($_POST["text"]);
+$database->insert($text);
 
+$informations = array();
+
+foreach ($_POST as $key => $value) {
+    
+    $informations[$key] = htmlspecialchars($value);
+}
+
+$messages = $database->GetData();
 ?>
 
 <!DOCTYPE html>
@@ -12,6 +24,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php
+    foreach ($messages as $key => $value) 
+    {
+        echo $value["mesText"];
+        echo "<br>";
+    }
+    ?>
 </body>
 </html>

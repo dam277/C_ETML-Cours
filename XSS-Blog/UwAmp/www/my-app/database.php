@@ -4,12 +4,12 @@ class Database
     /** @var \PDO $connection */
     private $connection;
 
-    private string $db = "db_blog";
-    private string $username = "root";
-    private string $password = "root";
-    private string $host = "localhost";
-    private string $port = "3306";
-    private string $charset = "utf8";
+    private $db = "db_blog";
+    private $username = "root";
+    private $password = "root";
+    private $host = "localhost";
+    private $port = "3306";
+    private $charset = "utf8";
 
 
     public function __construct()

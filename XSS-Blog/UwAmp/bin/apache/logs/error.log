@@ -47,3 +47,296 @@
 [Wed Sep 21 10:26:26.766794 2022] [ssl:warn] [pid 13072:tid 612] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
 [Wed Sep 21 10:26:26.782426 2022] [mpm_winnt:notice] [pid 13072:tid 612] AH00354: Child: Starting 64 worker threads.
 [Wed Sep 21 11:24:01.648103 2022] [mpm_winnt:crit] [pid 13072:tid 612] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Sep 28 08:24:06.864769 2022] [ssl:warn] [pid 12640:tid 624] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Sep 28 08:24:06.864769 2022] [ssl:warn] [pid 12640:tid 624] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 28 08:24:06.885803 2022] [core:warn] [pid 12640:tid 624] AH00098: pid file C:/Users/damloup/Desktop/ETML-Cours/XSS-Blog/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Sep 28 08:24:06.934686 2022] [ssl:warn] [pid 12640:tid 624] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 28 08:24:06.934686 2022] [ssl:warn] [pid 12640:tid 624] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Sep 28 08:24:06.934686 2022] [ssl:warn] [pid 12640:tid 624] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 28 08:24:20.903095 2022] [mpm_winnt:notice] [pid 12640:tid 624] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Sep 28 08:24:20.903095 2022] [mpm_winnt:notice] [pid 12640:tid 624] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Sep 28 08:24:20.903095 2022] [core:notice] [pid 12640:tid 624] AH00094: Command line: 'C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/damloup/Desktop/ETML-Cours/XSS-Blog/UwAmp/bin/apache -f C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Wed Sep 28 08:24:20.903095 2022] [mpm_winnt:notice] [pid 12640:tid 624] AH00418: Parent: Created child process 8228
+[Wed Sep 28 08:24:21.283078 2022] [ssl:warn] [pid 8228:tid 476] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Sep 28 08:24:21.288112 2022] [ssl:warn] [pid 8228:tid 476] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 28 08:24:21.343573 2022] [ssl:warn] [pid 8228:tid 476] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 28 08:24:21.343573 2022] [ssl:warn] [pid 8228:tid 476] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Sep 28 08:24:21.343573 2022] [ssl:warn] [pid 8228:tid 476] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 28 08:24:21.362751 2022] [mpm_winnt:notice] [pid 8228:tid 476] AH00354: Child: Starting 64 worker threads.
+[Wed Sep 28 08:29:15.616918 2022] [mpm_winnt:crit] [pid 8228:tid 476] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Sep 28 08:29:17.061321 2022] [ssl:warn] [pid 14100:tid 540] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Sep 28 08:29:17.061321 2022] [ssl:warn] [pid 14100:tid 540] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 28 08:29:17.079290 2022] [core:warn] [pid 14100:tid 540] AH00098: pid file C:/Users/damloup/Desktop/ETML-Cours/XSS-Blog/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Sep 28 08:29:17.119297 2022] [ssl:warn] [pid 14100:tid 540] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 28 08:29:17.120292 2022] [ssl:warn] [pid 14100:tid 540] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Sep 28 08:29:17.120292 2022] [ssl:warn] [pid 14100:tid 540] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 28 08:29:17.135297 2022] [mpm_winnt:notice] [pid 14100:tid 540] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Sep 28 08:29:17.135297 2022] [mpm_winnt:notice] [pid 14100:tid 540] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Sep 28 08:29:17.135297 2022] [core:notice] [pid 14100:tid 540] AH00094: Command line: 'C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/damloup/Desktop/ETML-Cours/XSS-Blog/UwAmp/bin/apache -f C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Wed Sep 28 08:29:17.137292 2022] [mpm_winnt:notice] [pid 14100:tid 540] AH00418: Parent: Created child process 7452
+[Wed Sep 28 08:29:17.484329 2022] [ssl:warn] [pid 7452:tid 604] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Sep 28 08:29:17.484329 2022] [ssl:warn] [pid 7452:tid 604] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 28 08:29:17.538322 2022] [ssl:warn] [pid 7452:tid 604] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Sep 28 08:29:17.539321 2022] [ssl:warn] [pid 7452:tid 604] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Sep 28 08:29:17.539321 2022] [ssl:warn] [pid 7452:tid 604] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Sep 28 08:29:17.555290 2022] [mpm_winnt:notice] [pid 7452:tid 604] AH00354: Child: Starting 64 worker threads.
+[Wed Sep 28 08:46:48.958957 2022] [:error] [pid 7452:tid 1288] [client ::1:63377] PHP Fatal error:  Uncaught Error: Class 'Database' not found in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:2\nStack trace:\n#0 {main}\n  thrown in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 2, referer: http://localhost/
+[Wed Sep 28 08:46:50.919927 2022] [:error] [pid 7452:tid 1288] [client ::1:63377] PHP Fatal error:  Uncaught Error: Class 'Database' not found in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:2\nStack trace:\n#0 {main}\n  thrown in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 2, referer: http://localhost/
+[Wed Sep 28 08:48:06.088523 2022] [:error] [pid 7452:tid 1288] [client ::1:63397] PHP Fatal error:  Uncaught Error: Class 'Database' not found in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 10, referer: http://localhost/
+[Wed Sep 28 08:48:19.469380 2022] [:error] [pid 7452:tid 1288] [client ::1:63398] PHP Fatal error:  Uncaught Error: Class 'Database' not found in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:10\nStack trace:\n#0 {main}\n  thrown in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 10, referer: http://localhost/
+[Wed Sep 28 08:48:40.956925 2022] [:error] [pid 7452:tid 1288] [client ::1:63404] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting variable (T_VARIABLE) in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php on line 7, referer: http://localhost/
+[Wed Sep 28 08:49:11.395217 2022] [:error] [pid 7452:tid 1288] [client ::1:63412] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting variable (T_VARIABLE) in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php on line 7, referer: http://localhost/
+[Wed Sep 28 08:50:59.393386 2022] [:error] [pid 7452:tid 1288] [client ::1:63440] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting variable (T_VARIABLE) in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php on line 7, referer: http://localhost/
+[Wed Sep 28 08:51:11.041861 2022] [:error] [pid 7452:tid 1288] [client ::1:63441] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting variable (T_VARIABLE) in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php on line 7, referer: http://localhost/
+[Wed Sep 28 08:51:19.369445 2022] [:error] [pid 7452:tid 1288] [client ::1:63447] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting variable (T_VARIABLE) in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php on line 7, referer: http://localhost/
+[Wed Sep 28 08:51:23.895880 2022] [:error] [pid 7452:tid 1288] [client ::1:63447] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting variable (T_VARIABLE) in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php on line 7, referer: http://localhost/
+[Wed Sep 28 08:51:28.200065 2022] [:error] [pid 7452:tid 1288] [client ::1:63447] PHP Parse error:  syntax error, unexpected 'string' (T_STRING), expecting variable (T_VARIABLE) in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php on line 7, referer: http://localhost/
+[Wed Sep 28 08:53:16.467705 2022] [:error] [pid 7452:tid 1288] [client ::1:63491] PHP Notice:  Undefined variable: variable in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 20, referer: http://localhost/
+[Wed Sep 28 08:53:16.467705 2022] [:error] [pid 7452:tid 1288] [client ::1:63491] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 08:53:16.467705 2022] [:error] [pid 7452:tid 1288] [client ::1:63491] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 08:53:16.467705 2022] [:error] [pid 7452:tid 1288] [client ::1:63491] PHP Warning:  Invalid argument supplied for foreach() in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 20, referer: http://localhost/
+[Wed Sep 28 08:53:16.467705 2022] [:error] [pid 7452:tid 1288] [client ::1:63491] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 08:53:16.467705 2022] [:error] [pid 7452:tid 1288] [client ::1:63491] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 08:54:03.693188 2022] [:error] [pid 7452:tid 1288] [client ::1:63492] PHP Notice:  Undefined variable: variable in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 20, referer: http://localhost/
+[Wed Sep 28 08:54:03.693188 2022] [:error] [pid 7452:tid 1288] [client ::1:63492] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 08:54:03.693188 2022] [:error] [pid 7452:tid 1288] [client ::1:63492] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 08:54:03.693188 2022] [:error] [pid 7452:tid 1288] [client ::1:63492] PHP Warning:  Invalid argument supplied for foreach() in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 20, referer: http://localhost/
+[Wed Sep 28 08:54:03.693188 2022] [:error] [pid 7452:tid 1288] [client ::1:63492] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 08:54:03.693188 2022] [:error] [pid 7452:tid 1288] [client ::1:63492] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 08:55:15.598901 2022] [:error] [pid 7452:tid 1296] [client ::1:63536] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 24, referer: http://localhost/
+[Wed Sep 28 08:55:15.598901 2022] [:error] [pid 7452:tid 1296] [client ::1:63536] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 08:55:15.598901 2022] [:error] [pid 7452:tid 1296] [client ::1:63536] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 08:55:15.598901 2022] [:error] [pid 7452:tid 1296] [client ::1:63536] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 24, referer: http://localhost/
+[Wed Sep 28 08:55:15.599909 2022] [:error] [pid 7452:tid 1296] [client ::1:63536] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 08:55:15.599909 2022] [:error] [pid 7452:tid 1296] [client ::1:63536] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 08:55:42.571532 2022] [:error] [pid 7452:tid 1280] [client ::1:63553] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25, referer: http://localhost/
+[Wed Sep 28 08:55:42.571532 2022] [:error] [pid 7452:tid 1280] [client ::1:63553] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 08:55:42.571532 2022] [:error] [pid 7452:tid 1280] [client ::1:63553] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 08:56:00.533647 2022] [:error] [pid 7452:tid 1296] [client ::1:63569] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 27, referer: http://localhost/
+[Wed Sep 28 08:56:00.533647 2022] [:error] [pid 7452:tid 1296] [client ::1:63569] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 08:56:00.533647 2022] [:error] [pid 7452:tid 1296] [client ::1:63569] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 08:56:16.929436 2022] [:error] [pid 7452:tid 1296] [client ::1:63570] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 26, referer: http://localhost/
+[Wed Sep 28 08:56:16.929436 2022] [:error] [pid 7452:tid 1296] [client ::1:63570] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 08:56:16.929436 2022] [:error] [pid 7452:tid 1296] [client ::1:63570] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 08:56:16.929436 2022] [:error] [pid 7452:tid 1296] [client ::1:63570] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 26, referer: http://localhost/
+[Wed Sep 28 08:56:16.929436 2022] [:error] [pid 7452:tid 1296] [client ::1:63570] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 08:56:16.929436 2022] [:error] [pid 7452:tid 1296] [client ::1:63570] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 08:56:16.929436 2022] [:error] [pid 7452:tid 1296] [client ::1:63570] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 26, referer: http://localhost/
+[Wed Sep 28 08:56:16.929436 2022] [:error] [pid 7452:tid 1296] [client ::1:63570] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 08:56:16.929436 2022] [:error] [pid 7452:tid 1296] [client ::1:63570] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 08:56:16.929436 2022] [:error] [pid 7452:tid 1296] [client ::1:63570] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 26, referer: http://localhost/
+[Wed Sep 28 08:56:16.929436 2022] [:error] [pid 7452:tid 1296] [client ::1:63570] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 08:56:16.929436 2022] [:error] [pid 7452:tid 1296] [client ::1:63570] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 08:56:16.929436 2022] [:error] [pid 7452:tid 1296] [client ::1:63570] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 26, referer: http://localhost/
+[Wed Sep 28 08:56:16.929436 2022] [:error] [pid 7452:tid 1296] [client ::1:63570] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 08:56:16.929436 2022] [:error] [pid 7452:tid 1296] [client ::1:63570] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 08:59:12.392721 2022] [:error] [pid 7452:tid 1256] [client ::1:63641] PHP Notice:  Undefined index: text in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 5
+[Wed Sep 28 08:59:12.392721 2022] [:error] [pid 7452:tid 1256] [client ::1:63641] PHP Stack trace:
+[Wed Sep 28 08:59:12.392721 2022] [:error] [pid 7452:tid 1256] [client ::1:63641] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:12.393720 2022] [:error] [pid 7452:tid 1256] [client ::1:63641] PHP Notice:  Undefined index: text in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 6
+[Wed Sep 28 08:59:12.393720 2022] [:error] [pid 7452:tid 1256] [client ::1:63641] PHP Stack trace:
+[Wed Sep 28 08:59:12.393720 2022] [:error] [pid 7452:tid 1256] [client ::1:63641] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:32.106104 2022] [:error] [pid 7452:tid 1256] [client ::1:63642] PHP Notice:  Undefined index: text in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 5
+[Wed Sep 28 08:59:32.106104 2022] [:error] [pid 7452:tid 1256] [client ::1:63642] PHP Stack trace:
+[Wed Sep 28 08:59:32.106104 2022] [:error] [pid 7452:tid 1256] [client ::1:63642] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:32.109011 2022] [:error] [pid 7452:tid 1256] [client ::1:63642] PHP Notice:  Undefined index: text in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 6
+[Wed Sep 28 08:59:32.109011 2022] [:error] [pid 7452:tid 1256] [client ::1:63642] PHP Stack trace:
+[Wed Sep 28 08:59:32.109011 2022] [:error] [pid 7452:tid 1256] [client ::1:63642] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:40.225169 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Notice:  Undefined index: text in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 5
+[Wed Sep 28 08:59:40.225169 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Stack trace:
+[Wed Sep 28 08:59:40.225169 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:40.227153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Notice:  Undefined index: text in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 6
+[Wed Sep 28 08:59:40.227153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Stack trace:
+[Wed Sep 28 08:59:40.227153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:40.227153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:40.227153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Stack trace:
+[Wed Sep 28 08:59:40.227153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:40.227153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:40.227153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Stack trace:
+[Wed Sep 28 08:59:40.227153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:40.227153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:40.227153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Stack trace:
+[Wed Sep 28 08:59:40.227153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:40.227153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:40.227153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Stack trace:
+[Wed Sep 28 08:59:40.227153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:40.228153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:40.228153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Stack trace:
+[Wed Sep 28 08:59:40.228153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:40.228153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:40.228153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Stack trace:
+[Wed Sep 28 08:59:40.228153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:40.228153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:40.228153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Stack trace:
+[Wed Sep 28 08:59:40.228153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:40.228153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:40.228153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Stack trace:
+[Wed Sep 28 08:59:40.228153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:40.228153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:40.228153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP Stack trace:
+[Wed Sep 28 08:59:40.228153 2022] [:error] [pid 7452:tid 1256] [client ::1:63652] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:48.447760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Notice:  Undefined index: text in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 5
+[Wed Sep 28 08:59:48.447760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Stack trace:
+[Wed Sep 28 08:59:48.447760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:48.458753 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Notice:  Undefined index: text in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 6
+[Wed Sep 28 08:59:48.458753 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Stack trace:
+[Wed Sep 28 08:59:48.458753 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:48.458753 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:48.458753 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Stack trace:
+[Wed Sep 28 08:59:48.458753 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:48.458753 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:48.458753 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Stack trace:
+[Wed Sep 28 08:59:48.458753 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Stack trace:
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Stack trace:
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Stack trace:
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Stack trace:
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Stack trace:
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Stack trace:
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Stack trace:
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Notice:  Array to string conversion in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 25
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP Stack trace:
+[Wed Sep 28 08:59:48.459760 2022] [:error] [pid 7452:tid 1256] [client ::1:63659] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:14.621669 2022] [:error] [pid 7452:tid 1256] [client ::1:63672] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 23, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:29.543524 2022] [:error] [pid 7452:tid 1256] [client ::1:63684] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 24, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 24, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 24, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 24, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 24, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 24, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 24, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 24, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 24, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 24, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 24, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 24, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Notice:  Undefined offset: 0 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php on line 24, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:00:44.232214 2022] [:error] [pid 7452:tid 1256] [client ::1:63690] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:13:52.995863 2022] [:error] [pid 7452:tid 1256] [client ::1:59250] PHP Warning:  Invalid argument supplied for foreach() in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php on line 61, referer: http://localhost/
+[Wed Sep 28 09:13:52.995863 2022] [:error] [pid 7452:tid 1256] [client ::1:59250] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:13:52.995863 2022] [:error] [pid 7452:tid 1256] [client ::1:59250] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:13:52.995863 2022] [:error] [pid 7452:tid 1256] [client ::1:59250] PHP   2. Database->insert() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:5, referer: http://localhost/
+[Wed Sep 28 09:14:12.311812 2022] [:error] [pid 7452:tid 1256] [client ::1:59251] PHP Notice:  Undefined variable: value in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php on line 61, referer: http://localhost/
+[Wed Sep 28 09:14:12.311812 2022] [:error] [pid 7452:tid 1256] [client ::1:59251] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:14:12.311812 2022] [:error] [pid 7452:tid 1256] [client ::1:59251] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:14:12.311812 2022] [:error] [pid 7452:tid 1256] [client ::1:59251] PHP   2. Database->insert() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:5, referer: http://localhost/
+[Wed Sep 28 09:14:12.311812 2022] [:error] [pid 7452:tid 1256] [client ::1:59251] PHP Warning:  Invalid argument supplied for foreach() in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php on line 62, referer: http://localhost/
+[Wed Sep 28 09:14:12.311812 2022] [:error] [pid 7452:tid 1256] [client ::1:59251] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:14:12.311812 2022] [:error] [pid 7452:tid 1256] [client ::1:59251] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:14:12.311812 2022] [:error] [pid 7452:tid 1256] [client ::1:59251] PHP   2. Database->insert() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:5, referer: http://localhost/
+[Wed Sep 28 09:14:24.088679 2022] [:error] [pid 7452:tid 1256] [client ::1:59261] PHP Warning:  Invalid argument supplied for foreach() in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php on line 62, referer: http://localhost/
+[Wed Sep 28 09:14:24.088679 2022] [:error] [pid 7452:tid 1256] [client ::1:59261] PHP Stack trace:, referer: http://localhost/
+[Wed Sep 28 09:14:24.088679 2022] [:error] [pid 7452:tid 1256] [client ::1:59261] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:0, referer: http://localhost/
+[Wed Sep 28 09:14:24.088679 2022] [:error] [pid 7452:tid 1256] [client ::1:59261] PHP   2. Database->insert() C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php:5, referer: http://localhost/
+[Wed Sep 28 09:24:56.514511 2022] [:error] [pid 7452:tid 1256] [client ::1:57566] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'hacked'); </script>')' at line 1 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php:65\nStack trace:\n#0 C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php(65): PDOStatement->execute()\n#1 C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php(6): Database->insert('<script> alert(...')\n#2 {main}\n  thrown in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php on line 65, referer: http://localhost/
+[Wed Sep 28 09:25:39.123707 2022] [:error] [pid 7452:tid 1256] [client ::1:57567] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'hacked'); &lt;/script&gt;')' at line 1 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php:65\nStack trace:\n#0 C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php(65): PDOStatement->execute()\n#1 C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php(6): Database->insert('&lt;script&gt; ...')\n#2 {main}\n  thrown in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php on line 65, referer: http://localhost/
+[Wed Sep 28 09:26:28.474452 2022] [:error] [pid 7452:tid 1280] [client ::1:57593] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'hacked'); &lt;/script&gt;')' at line 1 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php:65\nStack trace:\n#0 C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php(65): PDOStatement->execute()\n#1 C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php(6): Database->insert('&lt;script&gt; ...')\n#2 {main}\n  thrown in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php on line 65, referer: http://localhost/
+[Wed Sep 28 09:27:57.769009 2022] [:error] [pid 7452:tid 1256] [client ::1:57614] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'hacked'); &lt;/script&gt;')' at line 1 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php:65\nStack trace:\n#0 C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php(65): PDOStatement->execute()\n#1 C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php(6): Database->insert('&lt;script&gt; ...')\n#2 {main}\n  thrown in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php on line 65, referer: http://localhost/
+[Wed Sep 28 11:23:42.456168 2022] [mpm_winnt:crit] [pid 7452:tid 604] AH02538: Child: Parent process exited abruptly. Child process is ending

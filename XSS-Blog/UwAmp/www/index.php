@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="my-app/blogEntry.php">
-        <input type="text" name="text">
+    <form method="post" action="my-app/blogEntry.php">
+        <input type="text" id="text" name="text">
         <input type="submit" value="Envoyer">
     </form>
 </body>
