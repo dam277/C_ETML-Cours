@@ -304,4 +304,10 @@ C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Android\ApplicationMobile-
 C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Android\ApplicationMobile-Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Android\ApplicationMobile-Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Android\ApplicationMobile-Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Android\ApplicationMobile-Android\obj\Debug\120\android\src\crc64597298b5a7bb7f4f\SecondActivity.java
+C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Android\ApplicationMobile-Android\obj\Debug\120\res\layout\activity_todolist.xml
+C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Android\ApplicationMobile-Android\obj\Debug\120\res\layout\activity_template.xml
+C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Android\ApplicationMobile-Android\obj\Debug\120\android\src\crc64597298b5a7bb7f4f\ToDoListActivity.java
+C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Android\ApplicationMobile-Android\obj\Debug\120\res\layout\activity_categories.xml
+C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Android\ApplicationMobile-Android\obj\Debug\120\res\layout\activity_myday.xml
+C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Android\ApplicationMobile-Android\obj\Debug\120\android\src\crc64597298b5a7bb7f4f\CategoriesActivity.java
+C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Android\ApplicationMobile-Android\obj\Debug\120\android\src\crc64597298b5a7bb7f4f\MyDayActivity.java
