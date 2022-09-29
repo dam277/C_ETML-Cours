@@ -1,8 +1,6 @@
 SHIPY	= 0	; position verticale du vaisseau
 SHIPX	= 1	; position verticale du vaisseau
-WALL	= 2	; position du mur vertical
-SOLID	= 3	; solidité du mur restante
-LENGTH	= 4	; longueur des variables sur la pile
+LENGTH	= 2	; longueur des variables sur la pile
 
 SHIPDY	= 5	; hauteur totale du vaisseau
 
@@ -11,24 +9,21 @@ SHIPDY	= 5	; hauteur totale du vaisseau
 SUB     #LENGTH, SP;
 MOVE    #_BITMAPHEIGHT/2, {SP}+SHIPY;
 MOVE    #0, {SP}+SHIPX;
-
-; Envoye la position du vaisseau dans Y et X
-MOVE    {SP}+SHIPY, Y;
-MOVE	{SP}+SHIPX, X
+MOVE    {SP}+SHIPY, Y
 
 ; Dessine le vaiseau
-CALL    PlaceShip;
+CALL    INVSHIP;
 
 LOOP:
         MOVE    _KEYBOARD, A;
         TEST    A:#_KEYBOARDDOWN; Touche Down pressée ?
         JUMP,EQ DOWN; Non -> Appelle DOWN
-        INC     Y; Oui -> Descend le vaisseau
+        INC     {SP}+SHIPY; Oui -> Descend le vaisseau
 
 DOWN:
         TEST    A:#_KEYBOARDUP; Touche up pressée ?
         JUMP,EQ UP; Non -> UP
-        DEC     Y; Oui -> Monte le vaisseau
+        DEC     {SP}+SHIPY; Oui -> Monte le vaisseau
 
 UP:
         COMP    #SHIPDY/2, Y; Compare moitier de vaisseau avec Y pour le bas
@@ -40,12 +35,22 @@ TOP:
         JUMP,LS BOTTOM; Si inférieur ou égal
         MOVE	#_BITMAPHEIGHT-(SHIPDY/2), Y; Envoie la position à Y
 
-PlaceShip:				;
+BOTTOM:
+        CALL    INVSHIP; Efface le vaisseau
+        MOVE    Y, {SP}+SHIPY
+        CALL    INVSHIP; Dessine le vaisseau
+        JUMP    LOOP; Renvoie au début
+
+INVSHIP:
+        MOVE    #0, X
+        MOVE    {SP}+SHIPY, Y
+
         ; Display Ship 
-        DEC	Y		            ;  
-        CALL	_NotPixel		; 
-        DEC	Y		            ;  
-        CALL	_NotPixel		;
+
+        DEC	Y               ;  
+        CALL	_NotPixel	; 
+        DEC	Y               ;  
+        CALL	_NotPixel	;
         INC X                   ;  
         CALL    _NotPixel       ; 
         INC Y                   ; 
@@ -81,4 +86,4 @@ PlaceShip:				;
         CALL    _NotPixel       ; 
         INC X                   ;  
         CALL    _NotPixel       ; 
-        CALL    LOOP;
+        RET;
