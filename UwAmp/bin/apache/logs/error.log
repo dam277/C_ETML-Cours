@@ -1,0 +1,15 @@
+[Mon Oct 03 15:49:00.786330 2022] [ssl:warn] [pid 13964:tid 636] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Oct 03 15:49:00.786330 2022] [ssl:warn] [pid 13964:tid 636] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 03 15:49:00.855315 2022] [ssl:warn] [pid 13964:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Oct 03 15:49:00.855315 2022] [ssl:warn] [pid 13964:tid 636] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Oct 03 15:49:00.855315 2022] [ssl:warn] [pid 13964:tid 636] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 03 15:49:01.256428 2022] [mpm_winnt:notice] [pid 13964:tid 636] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Mon Oct 03 15:49:01.256428 2022] [mpm_winnt:notice] [pid 13964:tid 636] AH00456: Server built: Jan 28 2016 09:58:25
+[Mon Oct 03 15:49:01.256428 2022] [core:notice] [pid 13964:tid 636] AH00094: Command line: 'C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/damloup/Desktop/ETML-Cours/UwAmp/bin/apache -f C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Mon Oct 03 15:49:01.256428 2022] [mpm_winnt:notice] [pid 13964:tid 636] AH00418: Parent: Created child process 9436
+[Mon Oct 03 15:49:01.584513 2022] [ssl:warn] [pid 9436:tid 496] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Oct 03 15:49:01.584513 2022] [ssl:warn] [pid 9436:tid 496] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 03 15:49:01.653315 2022] [ssl:warn] [pid 9436:tid 496] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Oct 03 15:49:01.653315 2022] [ssl:warn] [pid 9436:tid 496] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Mon Oct 03 15:49:01.653315 2022] [ssl:warn] [pid 9436:tid 496] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Oct 03 15:49:01.671152 2022] [mpm_winnt:notice] [pid 9436:tid 496] AH00354: Child: Starting 64 worker threads.
