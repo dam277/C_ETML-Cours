@@ -63,11 +63,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CategoriesActivity.cs" />
+    <Compile Include="Classes\Category.cs" />
+    <Compile Include="Classes\Databases\Database.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="MyDayActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ToDoListActivity.cs" />
+    <Compile Include="Classes\UserTask.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -100,7 +103,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.2.0.5" />
     <PackageReference Include="Xamarin.Google.Android.Material" Version="1.0.0.1" />
@@ -125,19 +127,19 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\activity_toDoList.xml">
+    <AndroidResource Include="Resources\layout\activity_ToDo.xml">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\btnImgMenu.png" />
+    <AndroidResource Include="Resources\drawable\myDay.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\btnImgAddNote.png" />
+    <AndroidResource Include="Resources\drawable\Menu.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\btnImgMyDay.png" />
+    <AndroidResource Include="Resources\drawable\addTask.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

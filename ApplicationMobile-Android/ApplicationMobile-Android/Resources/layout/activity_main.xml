@@ -7,6 +7,8 @@
     android:background="@android:color/black"
     android:orientation="vertical">
 
+ 
+
     <!-- === Activity content === -->
 
     <!-- Label of the title -->

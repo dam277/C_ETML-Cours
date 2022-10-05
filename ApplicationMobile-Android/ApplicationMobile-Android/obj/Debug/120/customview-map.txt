@@ -4,6 +4,7 @@ background;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
 Button;obj\Debug\120\res\layout\activity_main.xml
 Button;obj\Debug\120\res\layout\activity_template.xml
+Button;obj\Debug\120\res\layout\activity_todo.xml
 Button;obj\Debug\120\res\layout\activity_todolist.xml
 cache-path;C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Android\ApplicationMobile-Android\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 CheckBox;obj\Debug\120\res\layout\activity_main.xml
@@ -14,13 +15,19 @@ external-cache-path;C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Androi
 external-path;C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Android\ApplicationMobile-Android\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\120\res\mipmap-anydpi-v26\ic_launcher_round.xml
+ImageButton;obj\Debug\120\res\layout\activity_todo.xml
 ImageButton;obj\Debug\120\res\layout\activity_todolist.xml
 item;obj\Debug\120\res\values\styles.xml
 LinearLayout;obj\Debug\120\res\layout\activity_categories.xml
 LinearLayout;obj\Debug\120\res\layout\activity_main.xml
 LinearLayout;obj\Debug\120\res\layout\activity_myday.xml
+LinearLayout;obj\Debug\120\res\layout\activity_second.xml
 LinearLayout;obj\Debug\120\res\layout\activity_template.xml
+LinearLayout;obj\Debug\120\res\layout\activity_todo.xml
 LinearLayout;obj\Debug\120\res\layout\activity_todolist.xml
+ListView;obj\Debug\120\res\layout\activity_main.xml
+ListView;obj\Debug\120\res\layout\activity_second.xml
+ListView;obj\Debug\120\res\layout\activity_todo.xml
 paths;C:\Users\damloup\Desktop\ETML-Cours\ApplicationMobile-Android\ApplicationMobile-Android\obj\Debug\120\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 RelativeLayout;obj\Debug\120\res\layout\activity_main.xml
 RelativeLayout;obj\Debug\120\res\layout\activity_todolist.xml
@@ -28,6 +35,7 @@ resources;obj\Debug\120\res\values\colors.xml
 resources;obj\Debug\120\res\values\ic_launcher_background.xml
 resources;obj\Debug\120\res\values\strings.xml
 resources;obj\Debug\120\res\values\styles.xml
+ScrollView;obj\Debug\120\res\layout\activity_todo.xml
 ScrollView;obj\Debug\120\res\layout\activity_todolist.xml
 string;obj\Debug\120\res\values\strings.xml
 style;obj\Debug\120\res\values\styles.xml
