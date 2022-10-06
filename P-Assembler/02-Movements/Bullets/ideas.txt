@@ -1,0 +1,4 @@
+BULLETLEFTMOVE:
+	COMP	#1, X		; Touch the left of the screen
+	JUMP,HS	BULLETLEFT	; No -> BULLETLEFT
+	MOVE	#_BITMAPWIDTH, X		; Stay in position
