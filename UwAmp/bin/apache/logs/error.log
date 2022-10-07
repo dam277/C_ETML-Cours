@@ -13,3 +13,150 @@
 [Mon Oct 03 15:49:01.653315 2022] [ssl:warn] [pid 9436:tid 496] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
 [Mon Oct 03 15:49:01.653315 2022] [ssl:warn] [pid 9436:tid 496] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
 [Mon Oct 03 15:49:01.671152 2022] [mpm_winnt:notice] [pid 9436:tid 496] AH00354: Child: Starting 64 worker threads.
+[Mon Oct 03 15:53:20.313216 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP Notice:  Undefined variable: UWAMPFOLDER in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\index.php on line 7
+[Mon Oct 03 15:53:20.313216 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP Stack trace:
+[Mon Oct 03 15:53:20.313216 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\index.php:0
+[Mon Oct 03 15:53:20.313216 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP Warning:  opendir(www,www): Le fichier sp\xef\xbf\xbdcifi\xef\xbf\xbd est introuvable. (code: 2) in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\index.php on line 7
+[Mon Oct 03 15:53:20.313216 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP Stack trace:
+[Mon Oct 03 15:53:20.313216 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\index.php:0
+[Mon Oct 03 15:53:20.313216 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP   2. opendir() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\index.php:7
+[Mon Oct 03 15:53:20.313216 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP Warning:  opendir(www): failed to open dir: No such file or directory in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\index.php on line 7
+[Mon Oct 03 15:53:20.313216 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP Stack trace:
+[Mon Oct 03 15:53:20.313216 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\index.php:0
+[Mon Oct 03 15:53:20.313216 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP   2. opendir() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\index.php:7
+[Mon Oct 03 15:53:20.313216 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP Warning:  readdir() expects parameter 1 to be resource, boolean given in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\index.php on line 9
+[Mon Oct 03 15:53:20.314211 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP Stack trace:
+[Mon Oct 03 15:53:20.314211 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\index.php:0
+[Mon Oct 03 15:53:20.314211 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP   2. readdir() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\index.php:9
+[Mon Oct 03 15:53:20.314211 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP Warning:  closedir() expects parameter 1 to be resource, boolean given in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\index.php on line 18
+[Mon Oct 03 15:53:20.314211 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP Stack trace:
+[Mon Oct 03 15:53:20.314211 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\index.php:0
+[Mon Oct 03 15:53:20.314211 2022] [:error] [pid 9436:tid 1304] [client ::1:50107] PHP   2. closedir() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\index.php:18
+[Mon Oct 03 16:53:52.404781 2022] [:error] [pid 9436:tid 1304] [client ::1:58538] PHP Warning:  imagejpeg(Php/): failed to open stream: No such file or directory in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 21
+[Mon Oct 03 16:53:52.404781 2022] [:error] [pid 9436:tid 1304] [client ::1:58538] PHP Stack trace:
+[Mon Oct 03 16:53:52.404781 2022] [:error] [pid 9436:tid 1304] [client ::1:58538] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 16:53:52.404781 2022] [:error] [pid 9436:tid 1304] [client ::1:58538] PHP   2. imagejpeg() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:21
+[Mon Oct 03 17:03:53.891715 2022] [:error] [pid 9436:tid 1304] [client ::1:58695] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:7) in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 17
+[Mon Oct 03 17:03:53.891715 2022] [:error] [pid 9436:tid 1304] [client ::1:58695] PHP Stack trace:
+[Mon Oct 03 17:03:53.891715 2022] [:error] [pid 9436:tid 1304] [client ::1:58695] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:03:53.891715 2022] [:error] [pid 9436:tid 1304] [client ::1:58695] PHP   2. header() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:17
+[Mon Oct 03 17:03:54.241283 2022] [:error] [pid 9436:tid 1304] [client ::1:58695] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:7) in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 17
+[Mon Oct 03 17:03:54.241283 2022] [:error] [pid 9436:tid 1304] [client ::1:58695] PHP Stack trace:
+[Mon Oct 03 17:03:54.241283 2022] [:error] [pid 9436:tid 1304] [client ::1:58695] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:03:54.241283 2022] [:error] [pid 9436:tid 1304] [client ::1:58695] PHP   2. header() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:17
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:7) in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 14
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP Stack trace:
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP   2. header() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:14
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP Notice:  Undefined variable: filename in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 17
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP Stack trace:
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP Warning:  getimagesize(): Filename cannot be empty in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 17
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP Stack trace:
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP   2. getimagesize() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:17
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP Notice:  Undefined variable: filename in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 23
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP Stack trace:
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 23
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP Stack trace:
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP   2. imagecreatefromjpeg() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:23
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 24
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP Stack trace:
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:05:29.011856 2022] [:error] [pid 9436:tid 1304] [client ::1:58708] PHP   2. imagecopyresampled() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:24
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:7) in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 17
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP Stack trace:
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP   2. header() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:17
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP Notice:  Undefined variable: filename in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 20
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP Stack trace:
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP Warning:  getimagesize(): Filename cannot be empty in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 20
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP Stack trace:
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP   2. getimagesize() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:20
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP Notice:  Undefined variable: filename in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 26
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP Stack trace:
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 26
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP Stack trace:
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP   2. imagecreatefromjpeg() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:26
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 27
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP Stack trace:
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:06:43.203736 2022] [:error] [pid 9436:tid 1304] [client ::1:58724] PHP   2. imagecopyresampled() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:27
+[Mon Oct 03 17:06:59.862730 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:7) in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 10
+[Mon Oct 03 17:06:59.862730 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP Stack trace:
+[Mon Oct 03 17:06:59.862730 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:06:59.862730 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP   2. header() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:10
+[Mon Oct 03 17:06:59.862730 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP Notice:  Undefined variable: filename in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 13
+[Mon Oct 03 17:06:59.862730 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP Stack trace:
+[Mon Oct 03 17:06:59.862730 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:06:59.862730 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP Warning:  getimagesize(): Filename cannot be empty in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 13
+[Mon Oct 03 17:06:59.862730 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP Stack trace:
+[Mon Oct 03 17:06:59.862730 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:06:59.862730 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP   2. getimagesize() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:13
+[Mon Oct 03 17:06:59.862730 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP Notice:  Undefined variable: filename in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 19
+[Mon Oct 03 17:06:59.862730 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP Stack trace:
+[Mon Oct 03 17:06:59.862730 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:06:59.863716 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 19
+[Mon Oct 03 17:06:59.863716 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP Stack trace:
+[Mon Oct 03 17:06:59.863716 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:06:59.863716 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP   2. imagecreatefromjpeg() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:19
+[Mon Oct 03 17:06:59.863788 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 20
+[Mon Oct 03 17:06:59.863788 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP Stack trace:
+[Mon Oct 03 17:06:59.863788 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:06:59.863788 2022] [:error] [pid 9436:tid 1280] [client ::1:58735] PHP   2. imagecopyresampled() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:20
+[Mon Oct 03 17:07:42.804347 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:7) in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 10
+[Mon Oct 03 17:07:42.804347 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP Stack trace:
+[Mon Oct 03 17:07:42.804347 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:07:42.804347 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP   2. header() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:10
+[Mon Oct 03 17:07:42.805345 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP Notice:  Undefined variable: filename in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 13
+[Mon Oct 03 17:07:42.805345 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP Stack trace:
+[Mon Oct 03 17:07:42.805345 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:07:42.805345 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP Warning:  getimagesize(): Filename cannot be empty in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 13
+[Mon Oct 03 17:07:42.805345 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP Stack trace:
+[Mon Oct 03 17:07:42.805345 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:07:42.805345 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP   2. getimagesize() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:13
+[Mon Oct 03 17:07:42.805345 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP Notice:  Undefined variable: filename in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 19
+[Mon Oct 03 17:07:42.805345 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP Stack trace:
+[Mon Oct 03 17:07:42.805345 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:07:42.805345 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP Warning:  imagecreatefromjpeg(): Filename cannot be empty in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 19
+[Mon Oct 03 17:07:42.805345 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP Stack trace:
+[Mon Oct 03 17:07:42.805345 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:07:42.805345 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP   2. imagecreatefromjpeg() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:19
+[Mon Oct 03 17:07:42.805345 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, boolean given in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 20
+[Mon Oct 03 17:07:42.805345 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP Stack trace:
+[Mon Oct 03 17:07:42.805345 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:07:42.805345 2022] [:error] [pid 9436:tid 1280] [client ::1:58736] PHP   2. imagecopyresampled() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:20
+[Mon Oct 03 17:13:35.283398 2022] [:error] [pid 9436:tid 1280] [client ::1:58767] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:7) in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 10
+[Mon Oct 03 17:13:35.283398 2022] [:error] [pid 9436:tid 1280] [client ::1:58767] PHP Stack trace:
+[Mon Oct 03 17:13:35.283398 2022] [:error] [pid 9436:tid 1280] [client ::1:58767] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:13:35.283398 2022] [:error] [pid 9436:tid 1280] [client ::1:58767] PHP   2. header() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:10
+[Mon Oct 03 17:13:36.060461 2022] [:error] [pid 9436:tid 1300] [client ::1:58768] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:7) in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 10
+[Mon Oct 03 17:13:36.061462 2022] [:error] [pid 9436:tid 1300] [client ::1:58768] PHP Stack trace:
+[Mon Oct 03 17:13:36.061462 2022] [:error] [pid 9436:tid 1300] [client ::1:58768] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0
+[Mon Oct 03 17:13:36.061462 2022] [:error] [pid 9436:tid 1300] [client ::1:58768] PHP   2. header() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:10
+[Fri Oct 07 13:50:13.310844 2022] [ssl:warn] [pid 8852:tid 540] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Oct 07 13:50:13.310844 2022] [ssl:warn] [pid 8852:tid 540] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 07 13:50:13.326261 2022] [core:warn] [pid 8852:tid 540] AH00098: pid file C:/Users/damloup/Desktop/ETML-Cours/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 07 13:50:13.357082 2022] [ssl:warn] [pid 8852:tid 540] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Oct 07 13:50:13.357082 2022] [ssl:warn] [pid 8852:tid 540] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Oct 07 13:50:13.357082 2022] [ssl:warn] [pid 8852:tid 540] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 07 13:50:13.768040 2022] [mpm_winnt:notice] [pid 8852:tid 540] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Fri Oct 07 13:50:13.768040 2022] [mpm_winnt:notice] [pid 8852:tid 540] AH00456: Server built: Jan 28 2016 09:58:25
+[Fri Oct 07 13:50:13.768040 2022] [core:notice] [pid 8852:tid 540] AH00094: Command line: 'C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/damloup/Desktop/ETML-Cours/UwAmp/bin/apache -f C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Fri Oct 07 13:50:13.768040 2022] [mpm_winnt:notice] [pid 8852:tid 540] AH00418: Parent: Created child process 17360
+[Fri Oct 07 13:50:14.075785 2022] [ssl:warn] [pid 17360:tid 616] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Oct 07 13:50:14.075785 2022] [ssl:warn] [pid 17360:tid 616] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 07 13:50:14.122035 2022] [ssl:warn] [pid 17360:tid 616] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Oct 07 13:50:14.122035 2022] [ssl:warn] [pid 17360:tid 616] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Oct 07 13:50:14.122035 2022] [ssl:warn] [pid 17360:tid 616] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 07 13:50:14.143815 2022] [mpm_winnt:notice] [pid 17360:tid 616] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 07 13:50:17.224099 2022] [:error] [pid 17360:tid 1280] [client ::1:49946] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:7) in C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php on line 10, referer: http://localhost/
+[Fri Oct 07 13:50:17.224099 2022] [:error] [pid 17360:tid 1280] [client ::1:49946] PHP Stack trace:, referer: http://localhost/
+[Fri Oct 07 13:50:17.224099 2022] [:error] [pid 17360:tid 1280] [client ::1:49946] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:0, referer: http://localhost/
+[Fri Oct 07 13:50:17.224099 2022] [:error] [pid 17360:tid 1280] [client ::1:49946] PHP   2. header() C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\www\\RedimensionnementAuto\\index.php:10, referer: http://localhost/
