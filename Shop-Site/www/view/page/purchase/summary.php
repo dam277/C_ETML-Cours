@@ -89,9 +89,26 @@
 				<td><?=$_SESSION["finalTotalPrice"] . " CHF" ?></td>
 			</tr>
 		</table>
-
-		<a href="index.php?controller=purchase&action=confirmation">
-			<input type="button" value="Envoyer la commande">
-		</a>
+		
+		<?php 
+		if ($_SESSION["payment"] == "3") 
+		{
+			echo "Carte de crédit";
+		?>
+			<a href="index.php?controller=purchase&action=paymentByCreditCard">
+				<input type="button" value="Envoyer la commande">
+			</a>
+		<?php
+		}
+		else
+		{
+			echo "Pas carte de crédit";
+		?>
+			<a href="index.php?controller=purchase&action=confirmation">
+				<input type="button" value="Envoyer la commande">
+			</a>
+		<?php
+		}
+		?>
 	</div>
 </div>

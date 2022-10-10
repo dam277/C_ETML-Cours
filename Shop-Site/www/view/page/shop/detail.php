@@ -18,6 +18,18 @@
 				echo 'disabled';
 			}
 			echo '>Ajouter au panier</a>';
+			if ($product[0]["proQuantity"] == 0) 
+			{
+				
+			}
+			else
+			{
+			?>
+				<a href="index.php?controller=purchase&action=instantPay&idProduct=<?=$product[0]['idProduct']?>">
+					<input type="button" class="btn btn-default" value="Achat instantané">
+				</a>
+			<?php
+			}
 		?>
 		</div>
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -28,6 +40,13 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 		<?php
 			echo '<p> CHF : ' . $product[0]['proPrice'] . '</p>';
+			if ($product[0]["proInitalPrice"] != $product[0]["proPrice"]) 
+			{
+				echo 'Au lieu de ' . $product[0]["proInitalPrice"] . 'CHF (Vous économisez ' . $sale[0] . ' ' . $sale[1];
+				echo isset($percentPrice) ? " (" . $percentPrice . "CHF)" : " ";
+				echo ')';
+				echo '<br>';
+			}
 
 			if($product[0]['proLike'] > 0) {
 				echo '<p>Ce produit est aimée déjà  <strong>' . $product[0]['proLike'] . '</strong> fois ! </p>';

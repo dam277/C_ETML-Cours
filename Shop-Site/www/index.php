@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$debugSession = true;
+$debugSession = false;
 if($debugSession)
 {
     echo '<pre>';

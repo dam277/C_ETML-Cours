@@ -154,10 +154,6 @@ class PurchaseController extends Controller
 
     private function confirmAdressAction()
     {
-        echo "<pre>";
-        var_dump($_POST);
-        echo "</pre>";
-
         // Errors
         $errors = array();
 
@@ -192,6 +188,8 @@ class PurchaseController extends Controller
      */
     private function summaryAction() 
     {
+        $_SESSION["isPayed"] = 0;
+
         // Get the repositories
         $paymentRepository = new PaymentRepository();
         $deliveryRepository = new DeliveryRepository();
@@ -225,6 +223,7 @@ class PurchaseController extends Controller
         // Get the final total price after payment added
         if ($payment[0]["payType"] == "CHF") 
         {
+            $payPrice = $payment[0]["payFee"];
             $_SESSION["finalTotalPrice"] += $payment[0]["payFee"];
         }
         else if($payment[0]["payType"] == "%")
@@ -241,6 +240,26 @@ class PurchaseController extends Controller
 
         return $content;
     }
+
+    /**
+     * Display the payment by credit card page
+     *
+     * @return string
+     */
+    private function paymentByCreditCardAction() 
+    {
+        $_SESSION["isPayed"] = 1;
+
+        // Get view
+        $view = file_get_contents('view/page/purchase/paymentByCreditCard.php');
+
+        ob_start();
+        eval('?>' . $view);
+        $content = ob_get_clean();
+
+        return $content;
+    }
+
 
     /**
      * Display the confirmation
@@ -262,7 +281,7 @@ class PurchaseController extends Controller
             $orderNumber = rand(0, 9999999);
 
             // Insert order
-            $orderRepository->insert($orderNumber, $_SESSION["finalTotalPrice"], $_SESSION["totalPrice"], 0, "En attente", $_SESSION["adress"]["title"], $_SESSION["adress"]["name"], $_SESSION["adress"]["surname"], $_SESSION["adress"]["street"], $_SESSION["adress"]["streetNumber"], $_SESSION["adress"]["npa"], $_SESSION["adress"]["locality"], $_SESSION["adress"]["mailAdress"], $_SESSION["adress"]["phone"], $_SESSION["method"], $_SESSION["payment"]);
+            $orderRepository->insert($orderNumber, $_SESSION["finalTotalPrice"], $_SESSION["totalPrice"], $_SESSION["isPayed"], "En attente", $_SESSION["adress"]["title"], $_SESSION["adress"]["name"], $_SESSION["adress"]["surname"], $_SESSION["adress"]["street"], $_SESSION["adress"]["streetNumber"], $_SESSION["adress"]["npa"], $_SESSION["adress"]["locality"], $_SESSION["adress"]["mailAdress"], $_SESSION["adress"]["phone"], $_SESSION["method"], $_SESSION["payment"]);
 
             // Get order
             $order = $orderRepository->findOneByOrderNumber($orderNumber);
@@ -270,6 +289,8 @@ class PurchaseController extends Controller
             // Get all the method did by user
             $payment = $paymentRepository->findOne($order[0]["fkPayment"]);
             $delivery = $deliveryRepository->findOne($order[0]["fkDelivery"]);
+
+            $payPrice = $payment[0]["payFee"];
 
             if($payment[0]["payType"] == "%")
             {
@@ -283,15 +304,15 @@ class PurchaseController extends Controller
                 $products[] = $product;
                 $orderProductRepository->insert($order[0]["idOrder"], $product["idProduct"], $product["quantity"]);
                 $shopRepository->substract($product["idProduct"], $product["quantity"]);
-            }            
+            }
+            
+            $isPayed = $_SESSION["isPayed"];
 
             // Reset all
-            unset($_SESSION["basket"]);
-            unset($_SESSION["totalPrice"]);
-            unset($_SESSION["method"]);
-            unset($_SESSION["payment"]);
-            unset($_SESSION["adress"]);
-            unset($_SESSION["finalTotalPrice"]);
+            foreach ($_SESSION as $key => $value) 
+            {
+                unset($_SESSION[$key]);
+            }
 
             // Get view
             $view = file_get_contents('view/page/purchase/confirmation.php');
@@ -306,6 +327,26 @@ class PurchaseController extends Controller
         {
             header("location: index.php");
         }
+    }
+
+    /**
+     * Instant pay action
+     *
+     * @return string
+     */
+    private function instantPayAction() 
+    {
+        // Unset session (for remove the basket)
+        foreach ($_SESSION as $key => $value) 
+        {
+            unset($_SESSION[$key]);
+        }
+
+        // Set instant pay reference
+        $_SESSION["instantPay"] = true;
+
+        // Add to the basket and instant redirect to the delivery method
+        header("location: index.php?controller=basket&action=add&idProduct=". $_GET["idProduct"]);
     }
 }
 

@@ -9,7 +9,11 @@
 			echo '<div class="boxProduct">';
 			echo '<div class="nameProduct"><h4>' . $product['proName'] . '</h4></div>';
 			echo '<div class="imageProduct"><img src="resources/image/' . $product['proImage'] . '"/></div>';
-			echo '<div class="priceProduct">CHF ' . $product['proPrice'] . '</div>';
+			echo '<div class="priceProduct">CHF ' . $product['proPrice'] . 'CHF' . '</div>';
+			if ($product["proInitalPrice"] != $product["proPrice"]) 
+			{
+				echo 'Au lieu de ' . $product["proInitalPrice"] . 'CHF <br>';
+			}
 			echo '<a class="btn btn-default" href="index.php?controller=shop&action=detail&id=' . $product['idProduct'] . '">Détail</a>';
 			echo '</div>';
 			echo '</div>';

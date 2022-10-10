@@ -12,7 +12,7 @@
 				<?= $order[0]["ordGender"] == "H" ? "Monsieur" : "Madame" ?>
 			</li>
 			<li>
-				<?= $order[0]["ordClientName"] . " " . $order[0]["ordClientSurname"]?>
+				<?= $order[0]["ordClientName"] . " " . $order[0]["ordClientSurname"]?>  <?= $isPayed == 1 ? "[ Statut de paiement : Payé" : "[ Statut de paiement : Non Payé" ?> ]
 			</li>
 			<li>
 				<?= $order[0]["ordClientStreet"] . " " . $order[0]["ordClientStreetNumber"]?>
@@ -31,6 +31,7 @@
 				<th>Sous-total</th>
 			</tr>
 			<?php 
+			// Get products
 			foreach ($products as $key => $product) 
 			{
 			?>

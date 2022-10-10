@@ -60,6 +60,23 @@ class BasketController extends Controller {
         $isNotInBasket = true;
         $isAtMax = false;
 
+        // Set variables
+        $product[0]["proInitalPrice"] = $product[0]["proPrice"];
+
+        // Get the sale
+        $sale = explode("-", $product[0]["proSale"]);
+        $salePrice = (int) $sale[0];
+
+        // Check which is the method
+        if (str_contains($product[0]["proSale"], "CHF")) 
+        {
+            $product[0]["proPrice"] -= $salePrice;
+        }
+        else if(str_contains($product[0]["proSale"], "%"))
+        {
+            $product[0]["proPrice"] -= $product[0]["proPrice"] * $salePrice / 100;
+        }
+
         // Check if basket is set
         if (isset($_SESSION["basket"])) 
         {
@@ -108,7 +125,22 @@ class BasketController extends Controller {
         $this->SetTotal();
 
         // redirect
-        $this->redirectBasket();
+        if (isset($_SESSION["instantPay"])) 
+        {
+            // Check if the method is an instant pay or not
+            if ($_SESSION["instantPay"] == true)
+            {
+                header("location: index.php?controller=purchase&action=delivery");
+            }
+            else
+            {
+                $this->redirectBasket();
+            }
+        }
+        else
+        {
+            $this->redirectBasket();
+        }
     }
 
     /**
