@@ -10,6 +10,7 @@
         <?php
         }
         ?>
+        <li><a href="index.php?controller=profile&action=list">Profil</a></li>
         <li><a href="index.php?controller=home&action=contact">Contact</a></li>
         <?php
         if(isset($_SESSION['right']) && ($_SESSION['right'] == 'admin' || $_SESSION['right'] == 'customer')){

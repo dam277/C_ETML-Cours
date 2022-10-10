@@ -72,6 +72,6 @@ class __TwigTemplate_a13db79532aaafb42e3fc699be9a68d91d6d7008019544cb39fe2076b1e
 
     public function getSourceContext()
     {
-        return new Source("", "secondary_tabs.twig", "C:\\Users\\damloup\\Desktop\\ETML-Cours\\Shop-Site\\phpapps\\phpmyadmin\\templates\\secondary_tabs.twig");
+        return new Source("", "secondary_tabs.twig", "C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\Shop-Site\\phpapps\\phpmyadmin\\templates\\secondary_tabs.twig");
     }
 }

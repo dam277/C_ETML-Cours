@@ -30,6 +30,7 @@ include 'controller/LoginController.php';
 include 'controller/ShopController.php';
 include 'controller/BasketController.php';
 include 'controller/PurchaseController.php';
+include 'controller/ProfileController.php';
 
 date_default_timezone_set('Europe/Zurich');
 
@@ -78,6 +79,9 @@ class MainController {
                 break;
             case 'purchase':
                 $link = new PurchaseController();
+                break;
+            case 'profile':
+                $link = new ProfileController();
                 break;
             default:
                 $link = new HomeController();

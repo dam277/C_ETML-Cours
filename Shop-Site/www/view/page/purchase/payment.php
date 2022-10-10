@@ -11,7 +11,7 @@
 				?>
 				<li>
 					<input type="radio" name="payment" value="<?= $payment["idPayment"]; ?>" id="<?= $payment["idPayment"]; ?>">
-					<label for="<?= $payment["idPayment"]; ?>"><?= isset($payment["payFee"]) ?  $payment["payMethod"] . " ( + CHF " . $payment["payFee"] . ")" :  $payment["payMethod"] ?></label>
+					<label for="<?= $payment["idPayment"]; ?>"><?= isset($payment["payFee"]) ?  $payment["payMethod"] . " ( + " . $payment["payFee"] . " " . $payment["payType"] . ")" :  $payment["payMethod"] ?></label>
 				</li>
 				<?php
 				}

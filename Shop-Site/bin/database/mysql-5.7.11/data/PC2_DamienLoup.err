@@ -1,0 +1,472 @@
+2022-10-02T14:54:10.823556Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-10-02T14:54:10.823556Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-10-02T14:54:10.823556Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-10-02T14:54:10.823556Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-10-02T14:54:10.824553Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-10-02T14:54:10.824553Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML-Cours\Shop-Site\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 17592 ...
+2022-10-02T14:54:10.861967Z 0 [ERROR] Can't open shared library 'C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML-Cours\Shop-Site\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2022-10-02T14:54:10.864959Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2022-10-02T14:54:10.865956Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-02T14:54:10.866953Z 0 [Note] InnoDB: Uses event mutexes
+2022-10-02T14:54:10.867953Z 0 [Note] InnoDB: Memory barrier is not used
+2022-10-02T14:54:10.868949Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-10-02T14:54:10.869947Z 0 [Note] InnoDB: Number of pools: 1
+2022-10-02T14:54:10.870942Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-10-02T14:54:10.940270Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-10-02T14:54:10.949245Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-02T14:54:11.019059Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-10-02T14:54:11.103833Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-02T14:54:11.104830Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-02T14:54:11.113807Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-10-02T14:54:11.122782Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-10-02T14:54:11.124777Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-10-02T14:54:11.125774Z 0 [Note] InnoDB: Waiting for purge to start
+2022-10-02T14:54:11.187608Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 1433307
+2022-10-02T14:54:11.188605Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML-Cours\Shop-Site\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2022-10-02T14:54:11.189603Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-10-02T14:54:11.203566Z 0 [Note] InnoDB: Buffer pool(s) load completed at 221002 16:54:11
+2022-10-02T14:54:11.210548Z 0 [Warning] InnoDB: Cannot open table mysql/plugin from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.plugin' doesn't exist
+2022-10-02T14:54:11.213540Z 0 [ERROR] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2022-10-02T14:54:11.230493Z 0 [Warning] InnoDB: Cannot open table mysql/gtid_executed from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.gtid_executed' doesn't exist
+2022-10-02T14:54:11.233486Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2022-10-02T14:54:11.235481Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2022-10-02T14:54:11.241467Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-10-02T14:54:11.242462Z 0 [Note] IPv6 is available.
+2022-10-02T14:54:11.242462Z 0 [Note]   - '::' resolves to '::';
+2022-10-02T14:54:11.243460Z 0 [Note] Server socket created on IP: '::'.
+2022-10-02T14:54:11.254429Z 0 [Warning] InnoDB: Cannot open table mysql/server_cost from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-02T14:54:11.257422Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2022-10-02T14:54:11.339203Z 0 [Warning] Found invalid password for user: 'recettes_user@localhost'; Ignoring user
+2022-10-02T14:54:11.350173Z 0 [Warning] InnoDB: Cannot open table mysql/time_zone_leap_second from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-02T14:54:11.352168Z 0 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2022-10-02T14:54:11.414003Z 0 [Warning] InnoDB: Cannot open table mysql/servers from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-02T14:54:11.417993Z 0 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2022-10-02T14:54:12.880197Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-10-02T14:54:12.881195Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML-Cours\Shop-Site\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-10-02T14:54:42.820365Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-02T14:54:42.821364Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_product` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-02T14:54:42.834328Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-02T14:54:42.835324Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_category` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T15:55:50.234803Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-10-09T15:55:50.234803Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-10-09T15:55:50.234803Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-10-09T15:55:50.234803Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-10-09T15:55:50.235800Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-10-09T15:55:50.235800Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML-Cours\Shop-Site\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 24140 ...
+2022-10-09T15:55:50.270707Z 0 [ERROR] Can't open shared library 'C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML-Cours\Shop-Site\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2022-10-09T15:55:50.272703Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2022-10-09T15:55:50.278686Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-09T15:55:50.279683Z 0 [Note] InnoDB: Uses event mutexes
+2022-10-09T15:55:50.279683Z 0 [Note] InnoDB: Memory barrier is not used
+2022-10-09T15:55:50.279683Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-10-09T15:55:50.282675Z 0 [Note] InnoDB: Number of pools: 1
+2022-10-09T15:55:50.283672Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-10-09T15:55:50.342516Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-10-09T15:55:50.350495Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-09T15:55:50.394376Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-10-09T15:55:50.396383Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1433326
+2022-10-09T15:55:50.397370Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1433335
+2022-10-09T15:55:50.398367Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1433335
+2022-10-09T15:55:50.399363Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-10-09T15:55:50.399363Z 0 [Note] InnoDB: Starting crash recovery.
+2022-10-09T15:55:50.591522Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-10-09T15:55:50.592519Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-09T15:55:50.593516Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-09T15:55:50.602493Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-10-09T15:55:50.610471Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-10-09T15:55:50.611469Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-10-09T15:55:50.612468Z 0 [Note] InnoDB: Waiting for purge to start
+2022-10-09T15:55:50.671480Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 1433335
+2022-10-09T15:55:50.672477Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML-Cours\Shop-Site\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2022-10-09T15:55:50.672477Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-10-09T15:55:50.683468Z 0 [Note] InnoDB: Buffer pool(s) load completed at 221009 17:55:50
+2022-10-09T15:55:50.689431Z 0 [Warning] InnoDB: Cannot open table mysql/plugin from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.plugin' doesn't exist
+2022-10-09T15:55:50.691426Z 0 [ERROR] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2022-10-09T15:55:50.705389Z 0 [Warning] InnoDB: Cannot open table mysql/gtid_executed from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.gtid_executed' doesn't exist
+2022-10-09T15:55:50.707382Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2022-10-09T15:55:50.709378Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2022-10-09T15:55:50.713369Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-10-09T15:55:50.714368Z 0 [Note] IPv6 is available.
+2022-10-09T15:55:50.714368Z 0 [Note]   - '::' resolves to '::';
+2022-10-09T15:55:50.715364Z 0 [Note] Server socket created on IP: '::'.
+2022-10-09T15:55:50.724756Z 0 [Warning] InnoDB: Cannot open table mysql/server_cost from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T15:55:50.727748Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2022-10-09T15:55:50.794569Z 0 [Warning] Found invalid password for user: 'recettes_user@localhost'; Ignoring user
+2022-10-09T15:55:50.801551Z 0 [Warning] InnoDB: Cannot open table mysql/time_zone_leap_second from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T15:55:50.803546Z 0 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2022-10-09T15:55:50.842957Z 0 [Warning] InnoDB: Cannot open table mysql/servers from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T15:55:50.843951Z 0 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2022-10-09T15:55:51.753031Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-10-09T15:55:51.754028Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML-Cours\Shop-Site\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-10-09T15:55:57.069613Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T15:55:57.070612Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_product` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T15:55:57.081540Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T15:55:57.082535Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_category` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T16:44:10.174494Z 6 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T16:44:10.175495Z 6 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_delivery` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T16:44:15.464978Z 8 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T16:44:15.465939Z 8 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_payment` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T16:46:05.885124Z 15 [Warning] InnoDB: Cannot open table phpmyadmin/pma__relation from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T16:46:05.892105Z 15 [Warning] InnoDB: Cannot open table phpmyadmin/pma__table_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T16:46:05.901082Z 15 [Warning] InnoDB: Cannot open table phpmyadmin/pma__table_coords from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T16:46:05.908064Z 15 [Warning] InnoDB: Cannot open table phpmyadmin/pma__column_info from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T16:46:05.915044Z 15 [Warning] InnoDB: Cannot open table phpmyadmin/pma__history from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T16:46:05.922027Z 15 [Warning] InnoDB: Cannot open table phpmyadmin/pma__recent from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T16:46:05.929007Z 15 [Warning] InnoDB: Cannot open table phpmyadmin/pma__favorite from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T16:46:05.935988Z 15 [Warning] InnoDB: Cannot open table phpmyadmin/pma__table_uiprefs from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T16:46:05.942969Z 15 [Warning] InnoDB: Cannot open table phpmyadmin/pma__tracking from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T16:46:05.949951Z 15 [Warning] InnoDB: Cannot open table phpmyadmin/pma__userconfig from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T16:46:05.957929Z 15 [Warning] InnoDB: Cannot open table phpmyadmin/pma__bookmark from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T16:46:05.963915Z 15 [Warning] InnoDB: Cannot open table phpmyadmin/pma__users from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T16:46:05.970896Z 15 [Warning] InnoDB: Cannot open table phpmyadmin/pma__navigationhiding from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T16:46:05.977876Z 15 [Warning] InnoDB: Cannot open table phpmyadmin/pma__savedsearches from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T16:46:05.984864Z 15 [Warning] InnoDB: Cannot open table phpmyadmin/pma__central_columns from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T16:46:05.990848Z 15 [Warning] InnoDB: Cannot open table phpmyadmin/pma__designer_settings from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T16:46:05.996832Z 15 [Warning] InnoDB: Cannot open table phpmyadmin/pma__export_templates from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T16:46:11.603126Z 28 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T16:46:11.604094Z 28 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_user` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T16:47:09.051971Z 62 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T16:47:09.052968Z 62 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T16:47:09.062941Z 62 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T16:47:09.062941Z 62 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_payment` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T16:47:09.066931Z 62 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T16:47:09.067962Z 62 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_payment` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T16:47:51.499880Z 90 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T16:47:51.500866Z 90 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T16:47:51.504853Z 90 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T16:47:51.505854Z 90 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_payment` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T16:47:51.509833Z 90 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T16:47:51.510830Z 90 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_payment` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T16:49:27.650988Z 144 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T16:49:27.650988Z 144 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T16:49:27.655975Z 144 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T16:49:27.656972Z 144 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_delivery` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T16:49:27.660962Z 144 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T16:49:27.661959Z 144 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_delivery` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T16:51:01.445114Z 174 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T16:51:01.446109Z 174 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_payment` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T20:05:15.445070Z 635 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:05:15.447072Z 635 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:05:15.448060Z 635 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_order` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T20:06:28.548166Z 651 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:06:28.549163Z 651 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:06:28.553154Z 651 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:06:28.553154Z 651 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T20:06:28.557142Z 651 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:06:28.557142Z 651 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_order` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T20:06:55.272309Z 677 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:06:55.273307Z 677 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:06:55.276302Z 677 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:06:55.277298Z 677 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T20:06:55.281285Z 677 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:06:55.282294Z 677 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_order` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T20:07:13.555829Z 701 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:07:13.555829Z 701 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_order` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T20:09:19.648381Z 713 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:09:19.649377Z 713 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:09:19.653367Z 713 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:09:19.654368Z 713 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T20:09:19.658351Z 713 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:09:19.659350Z 713 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_order` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T20:09:28.649708Z 729 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:09:28.650706Z 729 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:09:28.654696Z 729 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:09:28.655695Z 729 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T20:09:28.659682Z 729 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:09:28.660679Z 729 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_order` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T20:15:51.565462Z 747 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:15:51.567458Z 747 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:15:51.567458Z 747 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_productorder` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T20:18:47.010576Z 777 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:18:47.010576Z 777 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:18:47.011573Z 777 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`#sql-5e4c_309` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T20:18:47.018557Z 777 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:18:47.019553Z 777 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:18:47.024539Z 777 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:18:47.025536Z 777 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:18:47.028528Z 777 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:18:47.033515Z 777 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:18:47.033515Z 777 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_productorder` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T20:19:06.811726Z 785 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:19:06.812723Z 785 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:19:06.813720Z 785 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`#sql-5e4c_311` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T20:19:06.821699Z 785 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:19:06.822697Z 785 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:19:06.829678Z 785 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:19:06.830675Z 785 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:19:06.833670Z 785 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:19:06.838654Z 785 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:19:06.839656Z 785 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_productorder` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T20:19:48.667610Z 789 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:19:48.667610Z 789 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_productorder` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T20:19:50.629690Z 795 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T20:19:50.629690Z 795 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_productorder` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T21:17:14.927818Z 969 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:17:14.928815Z 969 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:17:14.928815Z 969 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`#sql-5e4c_3c9` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T21:17:14.940784Z 969 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:17:14.940784Z 969 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:17:14.946767Z 969 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:17:14.947765Z 969 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:17:14.949760Z 969 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:17:14.959733Z 969 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:17:14.960730Z 969 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_order` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T21:18:07.246987Z 1012 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:18:07.247984Z 1012 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:18:07.248982Z 1012 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`#sql-5e4c_3f4` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T21:18:07.256960Z 1012 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:18:07.257962Z 1012 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:18:07.262943Z 1012 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:18:07.263940Z 1012 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:18:07.265935Z 1012 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:18:07.270922Z 1012 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:18:07.271919Z 1012 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_order` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T21:18:19.496766Z 1040 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:18:19.497765Z 1040 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:18:19.497765Z 1040 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`#sql-5e4c_410` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T21:18:19.504745Z 1040 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:18:19.505743Z 1040 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:18:19.510730Z 1040 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:18:19.510730Z 1040 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:18:19.512725Z 1040 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:18:19.517711Z 1040 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:18:19.518708Z 1040 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_order` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T21:29:52.389680Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-10-09T21:29:52.389680Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2022-10-09T21:29:52.389680Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2022-10-09T21:29:52.389680Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-10-09T21:29:52.390676Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2022-10-09T21:29:52.390676Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML-Cours\Shop-Site\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 24440 ...
+2022-10-09T21:29:52.419598Z 0 [ERROR] Can't open shared library 'C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML-Cours\Shop-Site\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Le module spécifié est introuvable.)
+2022-10-09T21:29:52.421592Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2022-10-09T21:29:52.422590Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-09T21:29:52.423588Z 0 [Note] InnoDB: Uses event mutexes
+2022-10-09T21:29:52.423588Z 0 [Note] InnoDB: Memory barrier is not used
+2022-10-09T21:29:52.424584Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2022-10-09T21:29:52.425584Z 0 [Note] InnoDB: Number of pools: 1
+2022-10-09T21:29:52.426580Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2022-10-09T21:29:52.480448Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-10-09T21:29:52.488427Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-09T21:29:52.543267Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-10-09T21:29:52.546258Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 1545255
+2022-10-09T21:29:52.546258Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1545264
+2022-10-09T21:29:52.547258Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 1545264
+2022-10-09T21:29:52.548254Z 0 [Note] InnoDB: Database was not shutdown normally!
+2022-10-09T21:29:52.549286Z 0 [Note] InnoDB: Starting crash recovery.
+2022-10-09T21:29:52.773651Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-10-09T21:29:52.774648Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-09T21:29:52.776642Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-09T21:29:52.784621Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2022-10-09T21:29:52.792600Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-10-09T21:29:52.793597Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-10-09T21:29:52.794595Z 0 [Note] InnoDB: Waiting for purge to start
+2022-10-09T21:29:52.854437Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 1545264
+2022-10-09T21:29:52.855431Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML-Cours\Shop-Site\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2022-10-09T21:29:52.855431Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-10-09T21:29:52.864422Z 0 [Note] InnoDB: Buffer pool(s) load completed at 221009 23:29:52
+2022-10-09T21:29:52.867411Z 0 [Warning] InnoDB: Cannot open table mysql/plugin from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.plugin' doesn't exist
+2022-10-09T21:29:52.869393Z 0 [ERROR] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+2022-10-09T21:29:52.878369Z 0 [Warning] InnoDB: Cannot open table mysql/gtid_executed from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+mysqld: Table 'mysql.gtid_executed' doesn't exist
+2022-10-09T21:29:52.881362Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
+2022-10-09T21:29:52.882359Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2022-10-09T21:29:52.887345Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2022-10-09T21:29:52.888343Z 0 [Note] IPv6 is available.
+2022-10-09T21:29:52.889340Z 0 [Note]   - '::' resolves to '::';
+2022-10-09T21:29:52.890337Z 0 [Note] Server socket created on IP: '::'.
+2022-10-09T21:29:52.897319Z 0 [Warning] InnoDB: Cannot open table mysql/server_cost from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T21:29:52.899314Z 0 [Warning] Failed to open optimizer cost constant tables
+
+2022-10-09T21:29:52.958157Z 0 [Warning] Found invalid password for user: 'recettes_user@localhost'; Ignoring user
+2022-10-09T21:29:52.965137Z 0 [Warning] InnoDB: Cannot open table mysql/time_zone_leap_second from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T21:29:52.967132Z 0 [Warning] Can't open and lock time zone table: Table 'mysql.time_zone_leap_second' doesn't exist trying to live without them
+2022-10-09T21:29:53.008023Z 0 [Warning] InnoDB: Cannot open table mysql/servers from the internal data dictionary of InnoDB though the .frm file for the table exists. Please refer to http://dev.mysql.com/doc/refman/5.7/en/innodb-troubleshooting.html for how to resolve the issue.
+2022-10-09T21:29:53.010018Z 0 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2022-10-09T21:29:53.907395Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-10-09T21:29:53.908384Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML-Cours\Shop-Site\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2022-10-09T21:29:56.635270Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:29:56.636275Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_product` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T21:29:56.652225Z 2 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:29:56.652225Z 2 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_category` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T21:30:25.547300Z 15 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:30:25.547300Z 15 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_delivery` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T21:30:25.557259Z 15 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:30:25.558221Z 15 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_order` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T21:30:25.566234Z 15 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:30:25.567230Z 15 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_payment` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T21:30:25.579164Z 15 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:30:25.579164Z 15 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_productorder` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T21:30:25.589163Z 15 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T21:30:25.590135Z 15 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_user` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T22:16:46.418109Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T22:16:46.419182Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T22:22:21.868683Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T22:22:21.869366Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T22:25:16.134181Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T22:25:16.134181Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T22:30:44.319474Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T22:30:44.320022Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T22:31:35.979092Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T22:31:35.979092Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T22:32:37.521460Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T22:32:37.522457Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T22:33:00.954555Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T22:33:00.955586Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T22:35:35.100036Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T22:35:35.100036Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T22:40:02.292513Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T22:40:02.293617Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T22:46:01.469630Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T22:46:01.470641Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T22:49:02.164368Z 353 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T22:49:02.165366Z 353 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T22:49:02.174341Z 353 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T22:49:02.174341Z 353 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T22:49:02.177333Z 353 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T22:49:02.178332Z 353 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_order` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-09T22:49:25.689100Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T22:49:25.689100Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T22:49:35.699805Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T22:49:35.699805Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T23:04:24.163183Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T23:04:24.164167Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T23:05:15.558471Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T23:05:15.558471Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T23:06:05.095814Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T23:06:05.096964Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T23:10:39.669509Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T23:10:39.670508Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T23:31:13.341895Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T23:31:13.342893Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T23:31:23.355656Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T23:31:23.355656Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T23:33:04.020844Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T23:33:04.021844Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T23:33:45.287147Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T23:33:45.288146Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_productorder` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-09T23:33:51.165192Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-09T23:33:51.165192Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:05:33.665445Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:05:33.665445Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_productorder` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:05:36.719942Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:05:36.720938Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:05:46.741447Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:05:46.742445Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_productorder` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:05:51.131890Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:05:51.131890Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:06:02.631953Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:06:02.631953Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:06:12.634978Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:06:12.634978Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_productorder` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:06:37.984732Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:06:37.985817Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:06:38.046730Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:06:38.047727Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_productorder` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:06:54.523376Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:06:54.524376Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:07:04.532158Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:07:04.534152Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:09:01.585278Z 815 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:09:01.586275Z 815 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:09:01.589265Z 815 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:09:01.590263Z 815 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_productorder` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:09:01.593256Z 815 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:09:01.594252Z 815 [ERROR] InnoDB: Fetch of persistent statistics requested for table `db_shop`.`t_productorder` but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2022-10-10T00:10:46.522246Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:10:46.523233Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_productorder` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:11:02.298508Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:11:02.299505Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_productorder` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:14:43.884031Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:14:43.885045Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_productorder` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:17:30.720040Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:17:30.721037Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:17:30.743974Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:17:30.744971Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_productorder` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:19:38.269275Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:19:38.270271Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:20:17.469224Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:20:17.470221Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:24:03.052117Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:24:03.052117Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:24:13.063051Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:24:13.063051Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:26:41.415864Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:26:41.416861Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_productorder` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:26:58.326100Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:26:58.326100Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_productorder` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:28:40.461445Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:28:40.462443Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_productorder` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:31:58.524790Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:31:58.525791Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:33:03.833907Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:33:03.834904Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_productorder` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T00:52:50.397252Z 0 [ERROR] InnoDB: Table `mysql`.`innodb_table_stats` not found.
+2022-10-10T00:52:50.398404Z 0 [Warning] InnoDB: Recalculation of persistent statistics requested for table `db_shop`.`t_order` but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+2022-10-10T01:07:05.166182Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML-Cours\Shop-Site\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2022-10-10T01:07:05.167180Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2022-10-10T01:07:05.168178Z 0 [Note] Shutting down slave threads
+2022-10-10T01:07:05.168178Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2022-10-10T01:07:05.169173Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-10-10T01:07:05.170171Z 0 [Note] Binlog end
+2022-10-10T01:07:05.177153Z 0 [Note] Shutting down plugin 'ngram'
+2022-10-10T01:07:05.177153Z 0 [Note] Shutting down plugin 'partition'
+2022-10-10T01:07:05.178150Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2022-10-10T01:07:05.178150Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2022-10-10T01:07:05.179147Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2022-10-10T01:07:05.180145Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2022-10-10T01:07:05.180145Z 0 [Note] Shutting down plugin 'MyISAM'
+2022-10-10T01:07:05.181142Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2022-10-10T01:07:05.182139Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2022-10-10T01:07:05.182139Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2022-10-10T01:07:05.183136Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2022-10-10T01:07:05.184134Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2022-10-10T01:07:05.184134Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2022-10-10T01:07:05.184134Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2022-10-10T01:07:05.185131Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2022-10-10T01:07:05.185131Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2022-10-10T01:07:05.186128Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2022-10-10T01:07:05.186128Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2022-10-10T01:07:05.187126Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2022-10-10T01:07:05.188126Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2022-10-10T01:07:05.188126Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2022-10-10T01:07:05.189120Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2022-10-10T01:07:05.189120Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2022-10-10T01:07:05.190118Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2022-10-10T01:07:05.191115Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2022-10-10T01:07:05.191115Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2022-10-10T01:07:05.192112Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2022-10-10T01:07:05.192112Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2022-10-10T01:07:05.193110Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2022-10-10T01:07:05.194109Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2022-10-10T01:07:05.195112Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2022-10-10T01:07:05.195112Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2022-10-10T01:07:05.196103Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2022-10-10T01:07:05.196103Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2022-10-10T01:07:05.197100Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2022-10-10T01:07:05.197100Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2022-10-10T01:07:05.198110Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2022-10-10T01:07:05.198110Z 0 [Note] Shutting down plugin 'InnoDB'
+2022-10-10T01:07:05.199096Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-10-10T01:07:05.200092Z 0 [Note] InnoDB: Starting shutdown...
+2022-10-10T01:07:05.303363Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML-Cours\Shop-Site\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2022-10-10T01:07:05.307351Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 221010  3:07:05
+2022-10-10T01:07:06.292580Z 0 [Note] InnoDB: Shutdown completed; log sequence number 1651963
+2022-10-10T01:07:06.293577Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-10-10T01:07:06.294575Z 0 [Note] Shutting down plugin 'MEMORY'
+2022-10-10T01:07:06.295605Z 0 [Note] Shutting down plugin 'CSV'
+2022-10-10T01:07:06.295605Z 0 [Note] Shutting down plugin 'sha256_password'
+2022-10-10T01:07:06.295605Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2022-10-10T01:07:06.296570Z 0 [Note] Shutting down plugin 'binlog'
+2022-10-10T01:07:06.301556Z 0 [Note] C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML-Cours\Shop-Site\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+

@@ -11,7 +11,7 @@
 				?>
 				<li>
 					<input type="radio" name="method" value="<?= $method["idDelivery"]; ?>" id="<?= $method["idDelivery"]; ?>">
-					<label for="<?= $method["idDelivery"]; ?>"><?= isset($method["delFee"]) ?  $method["delMethod"] . " ( + CHF " . $method["delFee"] . ")" :  $method["delMethod"] ?></label>
+					<label for="<?= $method["idDelivery"]; ?>"><?= isset($method["delFee"]) ?  $method["delMethod"] . " ( + " . $method["delFee"] . " " . $method["delType"] . ")" :  $method["delMethod"] ?></label>
 				</li>
 				<?php
 				}
