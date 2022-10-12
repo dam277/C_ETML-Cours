@@ -1,8 +1,0 @@
- Button btnAppears = new Button(this)
-            {
-                Text = "Aller à un autre activité",
-                TextAlignment = TextAlignment.Center
-            };
-
-            LinearLayout main = FindViewById<LinearLayout>(Resource.Id.main);
-            main.AddView(btnAppears);

@@ -25,7 +25,7 @@ namespace ApplicationMobile_Android
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_ToDo);
-            _taskList = FindViewById<LinearLayout>(Resource.Id.)
+            _taskList = FindViewById<LinearLayout>(388309)
 
         }
     }
