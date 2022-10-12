@@ -1,3 +1,6 @@
+<?php
+var_dump($_SESSION["CSRF"]);
+?>
 <div class="container">
 
 	<h2>Se connecter</h2>
@@ -13,6 +16,7 @@
 					<label for="password">Mot de passe</label>
 					<input name="password" type="password" class="form-control" id="password">
 				</div>
+					<input name="CSRF" type="text" class="form-control" id="CSRF" value="<?=$result?>">
 				<button type="submit" class="btn btn-default">Se connecter</button>
 			</form>
 		</div>

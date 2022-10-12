@@ -38,12 +38,10 @@ class LoginRepository implements Entity {
 
         $table = 't_user';
         $columns = '*';
-        $where = "useLogin = '$login'";
+        $where = "useLogin = '$login' LIMIT 1";
 
         $request = new DataBaseQuery();
-
         return $request->select($table, $columns, $where);
-
     }
 
     /**

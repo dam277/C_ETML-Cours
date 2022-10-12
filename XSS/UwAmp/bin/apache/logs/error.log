@@ -1,0 +1,30 @@
+[Wed Oct 05 08:31:34.610929 2022] [ssl:warn] [pid 17492:tid 632] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Oct 05 08:31:34.610929 2022] [ssl:warn] [pid 17492:tid 632] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 05 08:31:34.667843 2022] [ssl:warn] [pid 17492:tid 632] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 05 08:31:34.667843 2022] [ssl:warn] [pid 17492:tid 632] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Oct 05 08:31:34.667843 2022] [ssl:warn] [pid 17492:tid 632] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 05 08:31:35.971056 2022] [mpm_winnt:notice] [pid 17492:tid 632] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Wed Oct 05 08:31:35.971056 2022] [mpm_winnt:notice] [pid 17492:tid 632] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Oct 05 08:31:35.971056 2022] [core:notice] [pid 17492:tid 632] AH00094: Command line: 'C:\\Users\\damloup\\Desktop\\XSS\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/damloup/Desktop/XSS/UwAmp/bin/apache -f C:\\Users\\damloup\\Desktop\\XSS\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Wed Oct 05 08:31:35.971056 2022] [mpm_winnt:notice] [pid 17492:tid 632] AH00418: Parent: Created child process 20808
+[Wed Oct 05 08:31:36.329155 2022] [ssl:warn] [pid 20808:tid 652] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Oct 05 08:31:36.329155 2022] [ssl:warn] [pid 20808:tid 652] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 05 08:31:36.398183 2022] [ssl:warn] [pid 20808:tid 652] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 05 08:31:36.398183 2022] [ssl:warn] [pid 20808:tid 652] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Oct 05 08:31:36.398183 2022] [ssl:warn] [pid 20808:tid 652] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 05 08:31:36.413814 2022] [mpm_winnt:notice] [pid 20808:tid 652] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 05 08:31:37.793979 2022] [:error] [pid 20808:tid 1312] [client ::1:64707] PHP Notice:  Undefined variable: argv in C:\\Users\\damloup\\Desktop\\XSS\\UwAmp\\www\\index.php on line 4
+[Wed Oct 05 08:31:37.793979 2022] [:error] [pid 20808:tid 1312] [client ::1:64707] PHP Stack trace:
+[Wed Oct 05 08:31:37.793979 2022] [:error] [pid 20808:tid 1312] [client ::1:64707] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\XSS\\UwAmp\\www\\index.php:0
+[Wed Oct 05 08:31:37.793979 2022] [:error] [pid 20808:tid 1312] [client ::1:64707] PHP Warning:  file_get_contents(): Filename cannot be empty in C:\\Users\\damloup\\Desktop\\XSS\\UwAmp\\www\\index.php on line 4
+[Wed Oct 05 08:31:37.793979 2022] [:error] [pid 20808:tid 1312] [client ::1:64707] PHP Stack trace:
+[Wed Oct 05 08:31:37.793979 2022] [:error] [pid 20808:tid 1312] [client ::1:64707] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\XSS\\UwAmp\\www\\index.php:0
+[Wed Oct 05 08:31:37.793979 2022] [:error] [pid 20808:tid 1312] [client ::1:64707] PHP   2. file_get_contents() C:\\Users\\damloup\\Desktop\\XSS\\UwAmp\\www\\index.php:4
+[Wed Oct 05 08:34:19.003635 2022] [:error] [pid 20808:tid 1312] [client ::1:64724] PHP Notice:  Undefined variable: argv in C:\\Users\\damloup\\Desktop\\XSS\\UwAmp\\www\\index.php on line 4
+[Wed Oct 05 08:34:19.003635 2022] [:error] [pid 20808:tid 1312] [client ::1:64724] PHP Stack trace:
+[Wed Oct 05 08:34:19.003635 2022] [:error] [pid 20808:tid 1312] [client ::1:64724] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\XSS\\UwAmp\\www\\index.php:0
+[Wed Oct 05 08:34:19.003635 2022] [:error] [pid 20808:tid 1312] [client ::1:64724] PHP Warning:  file_get_contents(): Filename cannot be empty in C:\\Users\\damloup\\Desktop\\XSS\\UwAmp\\www\\index.php on line 4
+[Wed Oct 05 08:34:19.003635 2022] [:error] [pid 20808:tid 1312] [client ::1:64724] PHP Stack trace:
+[Wed Oct 05 08:34:19.003635 2022] [:error] [pid 20808:tid 1312] [client ::1:64724] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\XSS\\UwAmp\\www\\index.php:0
+[Wed Oct 05 08:34:19.003635 2022] [:error] [pid 20808:tid 1312] [client ::1:64724] PHP   2. file_get_contents() C:\\Users\\damloup\\Desktop\\XSS\\UwAmp\\www\\index.php:4
+[Wed Oct 05 08:34:34.369200 2022] [mpm_winnt:crit] [pid 20808:tid 652] AH02538: Child: Parent process exited abruptly. Child process is ending

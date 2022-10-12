@@ -27,6 +27,15 @@ class LoginController extends Controller {
      */
     private function indexAction() {
 
+        // CSRF
+        $characters = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+        $result = "";
+        for ($i=0; $i < 20; $i++) 
+        { 
+            $result .= $characters[mt_rand(0, 61)];
+        }
+        $_SESSION["CSRF"] = array($result => date(DATE_RFC2822));
+
         $view = file_get_contents('view/page/login/index.php');
 
 
@@ -44,12 +53,24 @@ class LoginController extends Controller {
      */
     private function loginAction() {
 
-        $login = $_POST['login'];
-        $password = $_POST['password'];
+        $login = htmlspecialchars($_POST['login']);
+        $password = htmlspecialchars($_POST['password']);
+        $CSRF = htmlspecialchars($_POST["CSRF"]);
 
         $loginRepository = new LoginRepository();
-        $result = $loginRepository->login($login, $password);
 
+        // Check CSRF
+        foreach ($_SESSION["CSRF"] as $key => $value) 
+        {
+            if ($CSRF == $key) 
+            {
+                $result = $loginRepository->login($login, $password);                    
+            }
+            else
+            {
+                $result = false;
+            }
+        }
 
         $text = "Vous n'êtes pas connnecté ! ";
 

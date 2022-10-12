@@ -94,11 +94,11 @@ class AdminController extends Controller {
     private function insertAction() {
 
 
-        $productName = $_POST['productName'];
-        $productDescription = $_POST['productDescription'];
-        $productPrice = $_POST['productPrice'];
-        $productQuantity = $_POST['productQuantity'];
-        $idCategory = $_POST['productCategory'];
+        $productName = htmlspecialchars($_POST['productName']);
+        $productDescription = htmlspecialchars($_POST['productDescription']);
+        $productPrice = htmlspecialchars($_POST['productPrice']);
+        $productQuantity = htmlspecialchars($_POST['productQuantity']);
+        $idCategory = htmlspecialchars($_POST['productCategory']);
         $targetDirectory = 'resources/image/';
 
 

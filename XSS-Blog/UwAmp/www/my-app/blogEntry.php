@@ -2,17 +2,16 @@
 include_once("database.php");
 
 $database = new Database();
-$text = htmlspecialchars($_POST["text"]);
-$database->insert($text);
-
 $informations = array();
 
 foreach ($_POST as $key => $value) {
     
     $informations[$key] = htmlspecialchars($value);
+    $database->insert($informations[$key]);
 }
 
 $messages = $database->GetData();
+
 ?>
 
 <!DOCTYPE html>
@@ -27,7 +26,7 @@ $messages = $database->GetData();
     <?php
     foreach ($messages as $key => $value) 
     {
-        echo $value["mesText"];
+        echo htmlspecialchars($value["mesText"]);
         echo "<br>";
     }
     ?>

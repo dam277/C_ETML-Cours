@@ -340,3 +340,54 @@
 [Wed Sep 28 09:26:28.474452 2022] [:error] [pid 7452:tid 1280] [client ::1:57593] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'hacked'); &lt;/script&gt;')' at line 1 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php:65\nStack trace:\n#0 C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php(65): PDOStatement->execute()\n#1 C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php(6): Database->insert('&lt;script&gt; ...')\n#2 {main}\n  thrown in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php on line 65, referer: http://localhost/
 [Wed Sep 28 09:27:57.769009 2022] [:error] [pid 7452:tid 1256] [client ::1:57614] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'hacked'); &lt;/script&gt;')' at line 1 in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php:65\nStack trace:\n#0 C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php(65): PDOStatement->execute()\n#1 C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\blogEntry.php(6): Database->insert('&lt;script&gt; ...')\n#2 {main}\n  thrown in C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\www\\my-app\\database.php on line 65, referer: http://localhost/
 [Wed Sep 28 11:23:42.456168 2022] [mpm_winnt:crit] [pid 7452:tid 604] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Oct 05 08:35:57.963630 2022] [ssl:warn] [pid 17580:tid 596] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Oct 05 08:35:57.963630 2022] [ssl:warn] [pid 17580:tid 596] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 05 08:35:57.979226 2022] [core:warn] [pid 17580:tid 596] AH00098: pid file C:/Users/damloup/Desktop/ETML-Cours/XSS-Blog/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Oct 05 08:35:58.026129 2022] [ssl:warn] [pid 17580:tid 596] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 05 08:35:58.026129 2022] [ssl:warn] [pid 17580:tid 596] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Oct 05 08:35:58.026129 2022] [ssl:warn] [pid 17580:tid 596] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 05 08:36:02.686460 2022] [mpm_winnt:notice] [pid 17580:tid 596] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Oct 05 08:36:02.686460 2022] [mpm_winnt:notice] [pid 17580:tid 596] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Oct 05 08:36:02.686460 2022] [core:notice] [pid 17580:tid 596] AH00094: Command line: 'C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/damloup/Desktop/ETML-Cours/XSS-Blog/UwAmp/bin/apache -f C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Wed Oct 05 08:36:02.688461 2022] [mpm_winnt:notice] [pid 17580:tid 596] AH00418: Parent: Created child process 15404
+[Wed Oct 05 08:36:03.032333 2022] [ssl:warn] [pid 15404:tid 552] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Oct 05 08:36:03.032333 2022] [ssl:warn] [pid 15404:tid 552] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 05 08:36:03.079180 2022] [ssl:warn] [pid 15404:tid 552] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 05 08:36:03.094805 2022] [ssl:warn] [pid 15404:tid 552] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Oct 05 08:36:03.094805 2022] [ssl:warn] [pid 15404:tid 552] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 05 08:36:03.100838 2022] [mpm_winnt:notice] [pid 15404:tid 552] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 05 08:39:44.596221 2022] [mpm_winnt:crit] [pid 15404:tid 552] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Oct 05 09:13:58.551991 2022] [ssl:warn] [pid 16080:tid 636] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Oct 05 09:13:58.552992 2022] [ssl:warn] [pid 16080:tid 636] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 05 09:13:58.571605 2022] [core:warn] [pid 16080:tid 636] AH00098: pid file C:/Users/damloup/Desktop/ETML-Cours/XSS-Blog/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Oct 05 09:13:58.610648 2022] [ssl:warn] [pid 16080:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 05 09:13:58.610648 2022] [ssl:warn] [pid 16080:tid 636] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Oct 05 09:13:58.610648 2022] [ssl:warn] [pid 16080:tid 636] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 05 09:13:58.627624 2022] [mpm_winnt:notice] [pid 16080:tid 636] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Oct 05 09:13:58.627624 2022] [mpm_winnt:notice] [pid 16080:tid 636] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Oct 05 09:13:58.627624 2022] [core:notice] [pid 16080:tid 636] AH00094: Command line: 'C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/damloup/Desktop/ETML-Cours/XSS-Blog/UwAmp/bin/apache -f C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Wed Oct 05 09:13:58.629616 2022] [mpm_winnt:notice] [pid 16080:tid 636] AH00418: Parent: Created child process 16900
+[Wed Oct 05 09:13:58.990766 2022] [ssl:warn] [pid 16900:tid 604] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Oct 05 09:13:58.990766 2022] [ssl:warn] [pid 16900:tid 604] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 05 09:13:59.046763 2022] [ssl:warn] [pid 16900:tid 604] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 05 09:13:59.047735 2022] [ssl:warn] [pid 16900:tid 604] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Oct 05 09:13:59.047735 2022] [ssl:warn] [pid 16900:tid 604] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 05 09:13:59.063738 2022] [mpm_winnt:notice] [pid 16900:tid 604] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 05 09:21:58.388910 2022] [mpm_winnt:crit] [pid 16900:tid 604] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed Oct 05 09:22:51.892716 2022] [ssl:warn] [pid 11752:tid 596] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Oct 05 09:22:51.893729 2022] [ssl:warn] [pid 11752:tid 596] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 05 09:22:51.911684 2022] [core:warn] [pid 11752:tid 596] AH00098: pid file C:/Users/damloup/Desktop/ETML-Cours/XSS-Blog/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Oct 05 09:22:51.935290 2022] [ssl:warn] [pid 11752:tid 596] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 05 09:22:51.935290 2022] [ssl:warn] [pid 11752:tid 596] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Oct 05 09:22:51.935290 2022] [ssl:warn] [pid 11752:tid 596] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 05 09:22:51.965566 2022] [mpm_winnt:notice] [pid 11752:tid 596] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Wed Oct 05 09:22:51.965566 2022] [mpm_winnt:notice] [pid 11752:tid 596] AH00456: Server built: Jan 28 2016 09:58:25
+[Wed Oct 05 09:22:51.965566 2022] [core:notice] [pid 11752:tid 596] AH00094: Command line: 'C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/damloup/Desktop/ETML-Cours/XSS-Blog/UwAmp/bin/apache -f C:\\Users\\damloup\\Desktop\\ETML-Cours\\XSS-Blog\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Wed Oct 05 09:22:51.967566 2022] [mpm_winnt:notice] [pid 11752:tid 596] AH00418: Parent: Created child process 7284
+[Wed Oct 05 09:22:52.319400 2022] [ssl:warn] [pid 7284:tid 612] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Oct 05 09:22:52.319400 2022] [ssl:warn] [pid 7284:tid 612] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 05 09:22:52.375429 2022] [ssl:warn] [pid 7284:tid 612] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Wed Oct 05 09:22:52.376431 2022] [ssl:warn] [pid 7284:tid 612] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Wed Oct 05 09:22:52.376431 2022] [ssl:warn] [pid 7284:tid 612] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Oct 05 09:22:52.385440 2022] [mpm_winnt:notice] [pid 7284:tid 612] AH00354: Child: Starting 64 worker threads.
+[Wed Oct 05 09:23:07.204723 2022] [mpm_winnt:crit] [pid 7284:tid 612] AH02538: Child: Parent process exited abruptly. Child process is ending
