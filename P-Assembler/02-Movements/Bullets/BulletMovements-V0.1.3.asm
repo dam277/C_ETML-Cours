@@ -4,28 +4,31 @@
 	BULLETX2 = 3; Position X of the ship
     BULLETY3 = 4; Position Y of the ship	   
 	BULLETX3 = 5; Position X of the ship
-	LENGTH = 6; Lenght of the array
-
-    WIDTH = 0; Get the width of the console
+    WIDTH = 6; Get the width of the console
+	LENGTH = 7; Lenght of the array
 
     .LOC	0 
 	SUB	#LENGTH, SP
 
     ; Get the width
-    MOVE    #_BITMAPWIDTH, WIDTH
+    MOVE    #_BITMAPWIDTH, {SP}+WIDTH
+    SUB     #1, {SP}+WIDTH
 
     ; Bullet 1
-	MOVE	#WIDTH, {SP}+BULLETX1
+    MOVE	{SP}+WIDTH, B
+	MOVE    B, {SP}+BULLETX1
 	MOVE	#4, {SP}+BULLETY1
 
     ; Bullet 2
-    ADD     #WIDTH, #5
-    MOVE	#WIDTH, {SP}+BULLETX2
+    SUB     #5, {SP}+WIDTH 
+    MOVE	{SP}+WIDTH, B
+    MOVE	B, {SP}+BULLETX2 
 	MOVE	#12, {SP}+BULLETY2
 
     ; Bullet 3
-    SUB     #WIDTH, #2
-    MOVE	#WIDTH, {SP}+BULLETX3
+    ADD     #2, {SP}+WIDTH
+    MOVE	{SP}+WIDTH, B
+    MOVE	B, {SP}+BULLETX3
 	MOVE	#20, {SP}+BULLETY3
  
 ; **************************************************************   
