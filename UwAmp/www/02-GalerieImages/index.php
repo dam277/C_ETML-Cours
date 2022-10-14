@@ -12,18 +12,20 @@ ResizeImages();
     <title>Document</title>
 </head>
 <body>
-    
-<?php
-?>
+<header>
+    <h1>GALERIE DE PHOTOS</h1>
+</header>
+<main>
+    <div id="data">
 
-    <div class="flex-container">
-        <?php DisplayImages(); ?>
     </div>
+    <input class="button" id="displayImg" type="button" value="Afficher les images suivantes">
+</main>
+<footer>
 
-<?php
-?>
-
+</footer>
 </body>
+<script src="index.js"></script>
 </html>
 
 <!-- ========= -->
