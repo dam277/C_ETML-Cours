@@ -1,22 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\damloup\\Desktop\\ETML-Cours\\ApplicationMobile-Android\\ApplicationMobile-Android\\ApplicationMobile-Android.csproj": {}
+    "C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\ApplicationMobile-Android\\ApplicationMobile-Android\\ApplicationMobile-Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\damloup\\Desktop\\ETML-Cours\\ApplicationMobile-Android\\ApplicationMobile-Android\\ApplicationMobile-Android.csproj": {
+    "C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\ApplicationMobile-Android\\ApplicationMobile-Android\\ApplicationMobile-Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damloup\\Desktop\\ETML-Cours\\ApplicationMobile-Android\\ApplicationMobile-Android\\ApplicationMobile-Android.csproj",
+        "projectUniqueName": "C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\ApplicationMobile-Android\\ApplicationMobile-Android\\ApplicationMobile-Android.csproj",
         "projectName": "ApplicationMobile-Android",
-        "projectPath": "C:\\Users\\damloup\\Desktop\\ETML-Cours\\ApplicationMobile-Android\\ApplicationMobile-Android\\ApplicationMobile-Android.csproj",
-        "packagesPath": "C:\\Users\\damloup\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damloup\\Desktop\\ETML-Cours\\ApplicationMobile-Android\\ApplicationMobile-Android\\obj\\",
+        "projectPath": "C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\ApplicationMobile-Android\\ApplicationMobile-Android\\ApplicationMobile-Android.csproj",
+        "packagesPath": "C:\\Users\\damis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\ApplicationMobile-Android\\ApplicationMobile-Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\damloup\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\damis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "monoandroid12.0"

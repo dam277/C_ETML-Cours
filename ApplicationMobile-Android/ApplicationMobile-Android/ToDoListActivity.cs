@@ -4,7 +4,6 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using AndroidX.AppCompat.App;
 using ApplicationMobile_Android.Classes;
 using System;
 using System.Collections.Generic;
@@ -25,7 +24,7 @@ namespace ApplicationMobile_Android
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_ToDo);
-            _taskList = FindViewById<LinearLayout>(388309)
+            //_taskList = FindViewById<LinearLayout>(388309)
 
         }
     }
