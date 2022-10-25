@@ -2,7 +2,6 @@
 
 ## Assembler
 1. [The module](#the-module)
-
    1.1. [Documents](#documents)
    
    3.2. []()
