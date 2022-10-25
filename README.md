@@ -1,9 +1,9 @@
 # ETML-Cours
 
 ## Assembler
-1. [The module](#the-module)
+- [The module](#the-module)
   - [Documents](#documents)
-2. [The projet](#the-project)
+- [The projet](#the-project)
   - [Specifications](#specifications)
   - [Static](#static)
     - [Counter](#counter)
