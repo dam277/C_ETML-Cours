@@ -13,11 +13,12 @@
     - [Bullets](#bullets)
     - [Ship](#ship)
   - [Code sharing](#code-sharing)
-![image](https://user-images.githubusercontent.com/60733960/197676894-ec66e0c6-be6a-48bf-b693-b9f66190a136.png)
 
 ### The module
 This module consists to learn assembler code
  #### Documents
+- [First document of theory](dauphin.pdf)
+- [Second document of theory](dauphin2.pdf)
  #### Commands
 ### The project
  #### Specifications
