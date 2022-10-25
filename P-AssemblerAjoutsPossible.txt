@@ -1,2 +1,0 @@
-Si le temps le permet :
-Les balles sont désormais envoyées aléatoirement par des vagues de vaisseaux qui doivent être détruits en leur tirant dessus, le score s’affiche dans le 7-segment et augmente de 1 à chaque vaisseau éliminé.
