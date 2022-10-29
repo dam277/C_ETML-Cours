@@ -684,4 +684,3 @@ PLACESHIP:
     POP	X
     POP	Y
     RET
-
