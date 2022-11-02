@@ -1,0 +1,21 @@
+CREATE TRIGGER checkInsert
+BEFORE INSERT
+ON t_commande
+FOR EACH ROW
+BEGIN
+IF(new.)
+UPDATE INTO t_produit
+VALUES (
+
+
+/* TRIGGER */
+CREATE TRIGGER checkInsert
+BEFORE INSERT
+ON t_commande
+FOR EACH ROW
+BEGIN
+IF(new.stock < 1) THEN
+SIGNAL SQLSTATE '45000'
+SET MESSAGE_TEXT = 'You can not insert this record'
+END IF
+END

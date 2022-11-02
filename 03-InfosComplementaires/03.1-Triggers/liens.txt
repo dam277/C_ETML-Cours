@@ -1,0 +1,2 @@
+https://stackoverflow.com/questions/2263453/get-the-latest-inserted-id-in-a-trigger
+https://www.tutorialspoint.com/use-a-trigger-to-stop-an-insert-or-update-in-mysql#

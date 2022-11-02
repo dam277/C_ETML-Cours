@@ -30,3 +30,19 @@
 [Fri Oct 07 10:14:26.130403 2022] [ssl:warn] [pid 21088:tid 548] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
 [Fri Oct 07 10:14:26.130403 2022] [ssl:warn] [pid 21088:tid 548] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
 [Fri Oct 07 10:14:26.147414 2022] [mpm_winnt:notice] [pid 21088:tid 548] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 14 08:11:34.169333 2022] [ssl:warn] [pid 4384:tid 636] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Oct 14 08:11:34.169333 2022] [ssl:warn] [pid 4384:tid 636] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 14 08:11:34.184879 2022] [core:warn] [pid 4384:tid 636] AH00098: pid file C:/Users/damloup/Desktop/ETML-Cours/03-InfosComplementaires/03.1-Triggers/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 14 08:11:34.238042 2022] [ssl:warn] [pid 4384:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Oct 14 08:11:34.238042 2022] [ssl:warn] [pid 4384:tid 636] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Oct 14 08:11:34.238042 2022] [ssl:warn] [pid 4384:tid 636] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 14 08:11:34.630938 2022] [mpm_winnt:notice] [pid 4384:tid 636] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Fri Oct 14 08:11:34.630938 2022] [mpm_winnt:notice] [pid 4384:tid 636] AH00456: Server built: Jan 28 2016 09:58:25
+[Fri Oct 14 08:11:34.630938 2022] [core:notice] [pid 4384:tid 636] AH00094: Command line: 'C:\\Users\\damloup\\Desktop\\ETML-Cours\\03-InfosComplementaires\\03.1-Triggers\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/damloup/Desktop/ETML-Cours/03-InfosComplementaires/03.1-Triggers/UwAmp/bin/apache -f C:\\Users\\damloup\\Desktop\\ETML-Cours\\03-InfosComplementaires\\03.1-Triggers\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Fri Oct 14 08:11:34.630938 2022] [mpm_winnt:notice] [pid 4384:tid 636] AH00418: Parent: Created child process 6572
+[Fri Oct 14 08:11:35.005478 2022] [ssl:warn] [pid 6572:tid 648] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Oct 14 08:11:35.005478 2022] [ssl:warn] [pid 6572:tid 648] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 14 08:11:35.074197 2022] [ssl:warn] [pid 6572:tid 648] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Oct 14 08:11:35.074197 2022] [ssl:warn] [pid 6572:tid 648] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Oct 14 08:11:35.074197 2022] [ssl:warn] [pid 6572:tid 648] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 14 08:11:35.089756 2022] [mpm_winnt:notice] [pid 6572:tid 648] AH00354: Child: Starting 64 worker threads.
