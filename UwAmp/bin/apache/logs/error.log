@@ -4647,3 +4647,32 @@ Not a JPEG file: starts with 0x89 0x50
 [Fri Oct 14 14:25:22.155100 2022] [mpm_winnt:notice] [pid 7056:tid 532] AH00418: Parent: Created child process 11328
 [Fri Oct 14 14:25:22.455595 2022] [ssl:warn] [pid 11328:tid 604] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
 [Fri Oct 14 14:25:22.455595 2022] [ssl:warn] [pid 11328:tid 604] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 14 14:25:22.507459 2022] [ssl:warn] [pid 11328:tid 604] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Oct 14 14:25:22.507459 2022] [ssl:warn] [pid 11328:tid 604] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Oct 14 14:25:22.507459 2022] [ssl:warn] [pid 11328:tid 604] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Oct 14 14:25:22.522383 2022] [mpm_winnt:notice] [pid 11328:tid 604] AH00354: Child: Starting 64 worker threads.
+[Fri Oct 14 15:21:13.394299 2022] [:error] [pid 11328:tid 1296] [client ::1:50601] script 'C:/Users/damloup/Desktop/ETML-Cours/UwAmp/www/00-Tests/Ajax/data.php' not found or unable to stat, referer: http://localhost/00-Tests/Ajax/
+[Fri Oct 14 15:21:13.794716 2022] [:error] [pid 11328:tid 1296] [client ::1:50601] script 'C:/Users/damloup/Desktop/ETML-Cours/UwAmp/www/00-Tests/Ajax/data.php' not found or unable to stat, referer: http://localhost/00-Tests/Ajax/
+[Fri Oct 14 15:21:13.954708 2022] [:error] [pid 11328:tid 1296] [client ::1:50601] script 'C:/Users/damloup/Desktop/ETML-Cours/UwAmp/www/00-Tests/Ajax/data.php' not found or unable to stat, referer: http://localhost/00-Tests/Ajax/
+[Fri Oct 14 15:21:14.083140 2022] [:error] [pid 11328:tid 1296] [client ::1:50601] script 'C:/Users/damloup/Desktop/ETML-Cours/UwAmp/www/00-Tests/Ajax/data.php' not found or unable to stat, referer: http://localhost/00-Tests/Ajax/
+[Fri Oct 14 15:21:14.386293 2022] [:error] [pid 11328:tid 1296] [client ::1:50601] script 'C:/Users/damloup/Desktop/ETML-Cours/UwAmp/www/00-Tests/Ajax/data.php' not found or unable to stat, referer: http://localhost/00-Tests/Ajax/
+[Fri Oct 14 15:21:14.539421 2022] [:error] [pid 11328:tid 1296] [client ::1:50601] script 'C:/Users/damloup/Desktop/ETML-Cours/UwAmp/www/00-Tests/Ajax/data.php' not found or unable to stat, referer: http://localhost/00-Tests/Ajax/
+[Fri Oct 14 15:21:14.675469 2022] [:error] [pid 11328:tid 1296] [client ::1:50601] script 'C:/Users/damloup/Desktop/ETML-Cours/UwAmp/www/00-Tests/Ajax/data.php' not found or unable to stat, referer: http://localhost/00-Tests/Ajax/
+[Fri Oct 14 15:22:28.172351 2022] [:error] [pid 11328:tid 1296] [client ::1:50616] script 'C:/Users/damloup/Desktop/ETML-Cours/UwAmp/www/00-Tests/Ajax/data.php' not found or unable to stat, referer: http://localhost/00-Tests/Ajax/
+[Fri Nov 04 13:31:00.593766 2022] [ssl:warn] [pid 13288:tid 524] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Nov 04 13:31:00.593766 2022] [ssl:warn] [pid 13288:tid 524] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 04 13:31:00.609382 2022] [core:warn] [pid 13288:tid 524] AH00098: pid file C:/Users/damloup/Desktop/ETML-Cours/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Nov 04 13:31:00.662731 2022] [ssl:warn] [pid 13288:tid 524] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Nov 04 13:31:00.662731 2022] [ssl:warn] [pid 13288:tid 524] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Nov 04 13:31:00.662731 2022] [ssl:warn] [pid 13288:tid 524] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 04 13:31:01.085745 2022] [mpm_winnt:notice] [pid 13288:tid 524] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Fri Nov 04 13:31:01.085745 2022] [mpm_winnt:notice] [pid 13288:tid 524] AH00456: Server built: Jan 28 2016 09:58:25
+[Fri Nov 04 13:31:01.085745 2022] [core:notice] [pid 13288:tid 524] AH00094: Command line: 'C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/damloup/Desktop/ETML-Cours/UwAmp/bin/apache -f C:\\Users\\damloup\\Desktop\\ETML-Cours\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Fri Nov 04 13:31:01.085745 2022] [mpm_winnt:notice] [pid 13288:tid 524] AH00418: Parent: Created child process 408
+[Fri Nov 04 13:31:01.501628 2022] [ssl:warn] [pid 408:tid 552] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Nov 04 13:31:01.502627 2022] [ssl:warn] [pid 408:tid 552] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 04 13:31:01.561432 2022] [ssl:warn] [pid 408:tid 552] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Fri Nov 04 13:31:01.561432 2022] [ssl:warn] [pid 408:tid 552] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Fri Nov 04 13:31:01.561432 2022] [ssl:warn] [pid 408:tid 552] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Nov 04 13:31:01.576645 2022] [mpm_winnt:notice] [pid 408:tid 552] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 04 16:21:06.557758 2022] [mpm_winnt:crit] [pid 408:tid 552] AH02538: Child: Parent process exited abruptly. Child process is ending

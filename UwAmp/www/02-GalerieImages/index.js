@@ -30,7 +30,7 @@ function displayImages()
                 }
                 else
                 {
-                    btnDisplayImages.style.display = false;
+                    btnDisplayImages.style.display = none;
                     break;
                 }
             }
