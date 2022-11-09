@@ -6,7 +6,7 @@
 - [ ] 152-Multimedia
 - [ ] 153-dbAvancee
 - [ ] 183-SecApp
-- [ ] 335-ApplicationMobileEleve
+- [ ] 335-ApplicationMobile
 - [x] Assembler
 - [x] Javascript
 ## Projets
