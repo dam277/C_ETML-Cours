@@ -38,12 +38,12 @@ ENDLOSE:
 ; *********************Table of lose letters********************   
 ; **************************************************************  
 TABLELOSE:
-	BYTE	#"1"		; D
-	BYTE	#"2"		; E
-	BYTE	#"3"		; F
-	BYTE	#"4"		; A
-	BYTE	#"5"		; I
-	BYTE	#"6"		; T
-	BYTE	#"7"		; E
-	BYTE	#"8"		; !
+	BYTE	#"D"		; D
+	BYTE	#"E"		; E
+	BYTE	#"F"		; F
+	BYTE	#"A"		; A
+	BYTE	#"I"		; I
+	BYTE	#"T"		; T
+	BYTE	#"E"		; E
+	BYTE	#"!"		; !
 	BYTE	#0		; end of table

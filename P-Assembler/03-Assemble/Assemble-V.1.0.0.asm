@@ -1,3 +1,6 @@
+; Auteur : Damien Loup
+; Etablissement : Etml
+
 	BULLETY1 = 0; Position Y of the first bullet	   
 	BULLETX1 = 1; Position X of the first bullet	
     BULLETY2 = 2; Position Y of the second bullet		   
