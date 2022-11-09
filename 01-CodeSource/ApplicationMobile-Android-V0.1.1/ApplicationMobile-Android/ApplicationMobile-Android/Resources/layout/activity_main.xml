@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/lytMain"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+ 
+
+    <!-- === Activity content === -->
+
+    <!-- Label of the title -->
+    <TextView
+        android:id="@+id/lblTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textSize="35dip"
+        android:text="Modules"/>
+
+    <!-- Button to redirect to the to do list -->
+    <Button
+        android:id="@+id/btnToDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Do List"/>
+
+    <!-- Button to redirect to the to do list -->
+    <Button
+        android:id="@+id/btnMyDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ma journée"/>
+
+    <!-- Button to redirect to the to do list -->
+    <Button
+        android:id="@+id/btnCategories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:text="Catégories"/>
+
+</LinearLayout>
