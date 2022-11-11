@@ -5,7 +5,5 @@ $database = new DataBaseQuery();
 $aritcles = array();
 $aritcles = $database->allArticles();
 
-var_dump($aritcles);
-
-die();
+echo json_encode($aritcles);
 ?>

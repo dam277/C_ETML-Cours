@@ -40,6 +40,8 @@ class DataBaseQuery
         }
     }
 
+    
+
     /**
      * Création du select
      *

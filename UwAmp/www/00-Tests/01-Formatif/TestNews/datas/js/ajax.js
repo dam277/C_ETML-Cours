@@ -39,9 +39,8 @@ function DisplayArticle()
 
 function SetArray(articlesInfos) 
 {
-    articles = new Array();
     articlesInfos.forEach(article => 
     {
-        
+        articlesObjects.push();
     });
 }

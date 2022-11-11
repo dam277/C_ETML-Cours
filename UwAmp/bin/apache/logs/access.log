@@ -3674,3 +3674,6 @@
 127.0.0.1 - - [11/Nov/2022:08:10:07 +0100] "PUT /03-SliderImages/datas.php HTTP/1.1" 200 158
 127.0.0.1 - - [11/Nov/2022:08:10:08 +0100] "PUT /03-SliderImages/datas.php HTTP/1.1" 200 158
 127.0.0.1 - - [11/Nov/2022:08:10:09 +0100] "PUT /03-SliderImages/datas.php HTTP/1.1" 200 158
+::1 - - [11/Nov/2022:15:23:59 +0100] "GET / HTTP/1.1" 200 1101
+::1 - - [11/Nov/2022:15:23:59 +0100] "GET /?getimg=folder HTTP/1.1" 200 537
+::1 - - [11/Nov/2022:15:23:59 +0100] "GET /?getimg=favicon HTTP/1.1" 200 5430
