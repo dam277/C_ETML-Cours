@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, verdana, sans-serif;
+    font-size: 16px;
+}
+a {
+    text-decoration : none;
+    color : black;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer{
+    background-color: rgba(62, 192, 224, 0.95);
+    height: 150px;
+    color: #fff;
+}
+#headerBox{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    top: 30px;
+    padding: 10px 0;
+}
+#headerBox h1{
+    margin: 0;
+    font-variant: small-caps;
+    font-size: 72px;
+}
+#headerBox h4 {
+    margin: 0;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 36px;
+}
+header.block {
+    position: relative;
+    height: auto;
+    border-radius: 3%;
+}
+img {
+    display: block;
+    border-radius: 2%;
+}
+article:hover img {
+    opacity: 0.5;
+}
+.title {
+    position: absolute;
+    bottom:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+.title h3 {
+    color: white;
+    padding-left: 15px;
+}
+footer {
+    height: 30px;
+    text-align: center;
+}
+footer span {
+    text-align: center;
+    font-size: 12px;
+    padding-top:5px;
+    color: black;
+}
+article{
+    background: #eee;
+    padding-bottom: 10px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 2%;
+}
+.hidden {
+    display: none;
+}
+
+article:hover {
+    background-color: rgb(62, 192, 224);
+}
+
+/* Shrink menu */
+#header_image {
+    height: 500px;
+    background: url("Images/Background/backcountry.jpg") no-repeat center;
+    background-size: cover;
+    box-shadow: 8px 8px 12px #ccc;
+    margin-bottom: 30px;
+}
+.shrink #headerBox{
+    height: 130px;
+    background-color: rgba(62, 192, 224, 0.95) !important;
+    border-bottom: 0px;
+    animation: fadeInDown 0.3s ease-out forwards;
+    box-shadow: 8px 8px 12px #ccc;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.shrink #headerBox h1{
+    font-size: 36px;
+}
+.shrink #headerBox h4 {
+    font-size: 18px;
+}
+
+
+
+/* Contenu */
+.content {
+    padding: 20px;
+}
+.text, .source {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.slogan{
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.source {
+    text-align: right;
+}
+.source a {
+    text-decoration: none;
+    color: #444;
+}
+
+
+/* ICONES */
+
+.socialLink {
+    display: flex;
+    justify-content: space-around;
+}
+
+ /* Style all font awesome icons */
+ .fa {
+    padding: 5px;
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  } 
+  /* Twitter */
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  } 

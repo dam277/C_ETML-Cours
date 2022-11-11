@@ -3666,3 +3666,11 @@
 ::1 - - [04/Nov/2022:16:20:43 +0100] "GET /02-GalerieImages/ImagesResize/11.jpg HTTP/1.1" 200 23709
 ::1 - - [04/Nov/2022:16:20:43 +0100] "GET /02-GalerieImages/ImagesResize/12.jpg HTTP/1.1" 200 11701
 ::1 - - [04/Nov/2022:16:20:43 +0100] "GET /02-GalerieImages/ImagesResize/13.jpg HTTP/1.1" 200 27142
+::1 - - [11/Nov/2022:08:09:19 +0100] "GET / HTTP/1.1" 200 1101
+::1 - - [11/Nov/2022:08:09:19 +0100] "GET /?getimg=folder HTTP/1.1" 200 537
+127.0.0.1 - - [11/Nov/2022:08:10:07 +0100] "GET /03-SliderImages/ HTTP/1.1" 200 564
+127.0.0.1 - - [11/Nov/2022:08:10:07 +0100] "GET /03-SliderImages/slider.js HTTP/1.1" 200 2016
+127.0.0.1 - - [11/Nov/2022:08:10:07 +0100] "GET /favicon.ico HTTP/1.1" 404 308
+127.0.0.1 - - [11/Nov/2022:08:10:07 +0100] "PUT /03-SliderImages/datas.php HTTP/1.1" 200 158
+127.0.0.1 - - [11/Nov/2022:08:10:08 +0100] "PUT /03-SliderImages/datas.php HTTP/1.1" 200 158
+127.0.0.1 - - [11/Nov/2022:08:10:09 +0100] "PUT /03-SliderImages/datas.php HTTP/1.1" 200 158

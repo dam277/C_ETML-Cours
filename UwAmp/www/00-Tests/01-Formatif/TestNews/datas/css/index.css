@@ -1,0 +1,61 @@
+/* ======== Body ========= */
+body
+{
+    margin: 0;
+}
+
+/* Center something and reduce the width */
+.center
+{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Set the style of all of the source text*/
+.source
+{
+    color: #444;
+    text-decoration:none;
+    text-align: right;
+}
+
+/* ======== Header ========= */
+header
+{
+    background-color: #444444;
+    width: 100%;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* ======== Main ========= */
+main
+{
+}
+
+/* ======== Footer ========= */
+footer
+{
+}
+
+/* Set the background color of the conclusion */
+#conclusion
+{
+    background-color: #EEEEEE;
+}
+
+/* Set the style of the end banner */
+#endBanner
+{
+    background-color: #444444;
+    width: 100%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+main
+{
+   
+    
+}
