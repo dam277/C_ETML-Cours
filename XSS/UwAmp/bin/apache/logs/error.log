@@ -28,3 +28,34 @@
 [Wed Oct 05 08:34:19.003635 2022] [:error] [pid 20808:tid 1312] [client ::1:64724] PHP   1. {main}() C:\\Users\\damloup\\Desktop\\XSS\\UwAmp\\www\\index.php:0
 [Wed Oct 05 08:34:19.003635 2022] [:error] [pid 20808:tid 1312] [client ::1:64724] PHP   2. file_get_contents() C:\\Users\\damloup\\Desktop\\XSS\\UwAmp\\www\\index.php:4
 [Wed Oct 05 08:34:34.369200 2022] [mpm_winnt:crit] [pid 20808:tid 652] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Nov 13 16:41:38.654664 2022] [ssl:warn] [pid 18572:tid 568] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Nov 13 16:41:38.655662 2022] [ssl:warn] [pid 18572:tid 568] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 13 16:41:38.734451 2022] [core:warn] [pid 18572:tid 568] AH00098: pid file C:/Users/damis/Desktop/developpement/01-Github/02-Autres/ETML-Cours/XSS/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 13 16:41:38.921950 2022] [ssl:warn] [pid 18572:tid 568] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Nov 13 16:41:38.922948 2022] [ssl:warn] [pid 18572:tid 568] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Nov 13 16:41:38.922948 2022] [ssl:warn] [pid 18572:tid 568] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 13 16:41:39.818549 2022] [mpm_winnt:notice] [pid 18572:tid 568] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/5.6.18 configured -- resuming normal operations
+[Sun Nov 13 16:41:39.818549 2022] [mpm_winnt:notice] [pid 18572:tid 568] AH00456: Server built: Jan 28 2016 09:58:25
+[Sun Nov 13 16:41:39.818549 2022] [core:notice] [pid 18572:tid 568] AH00094: Command line: 'C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\XSS\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/damis/Desktop/developpement/01-Github/02-Autres/ETML-Cours/XSS/UwAmp/bin/apache -f C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\XSS\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Sun Nov 13 16:41:39.827528 2022] [mpm_winnt:notice] [pid 18572:tid 568] AH00418: Parent: Created child process 8368
+[Sun Nov 13 16:41:41.117073 2022] [ssl:warn] [pid 8368:tid 660] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Nov 13 16:41:41.118071 2022] [ssl:warn] [pid 8368:tid 660] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 13 16:41:41.331183 2022] [ssl:warn] [pid 8368:tid 660] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Nov 13 16:41:41.332180 2022] [ssl:warn] [pid 8368:tid 660] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sun Nov 13 16:41:41.332180 2022] [ssl:warn] [pid 8368:tid 660] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Nov 13 16:41:41.373072 2022] [mpm_winnt:notice] [pid 8368:tid 660] AH00354: Child: Starting 64 worker threads.
+[Sun Nov 13 17:07:47.930595 2022] [:error] [pid 8368:tid 1292] [client ::1:59653] PHP Notice:  Undefined variable: _SESSION in C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\XSS\\UwAmp\\www\\index.php on line 13
+[Sun Nov 13 17:07:47.930595 2022] [:error] [pid 8368:tid 1292] [client ::1:59653] PHP Stack trace:
+[Sun Nov 13 17:07:47.930595 2022] [:error] [pid 8368:tid 1292] [client ::1:59653] PHP   1. {main}() C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\XSS\\UwAmp\\www\\index.php:0
+[Sun Nov 13 17:09:17.324494 2022] [:error] [pid 8368:tid 1292] [client ::1:59754] PHP Notice:  Undefined variable: _SESSION in C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\XSS\\UwAmp\\www\\index.php on line 12
+[Sun Nov 13 17:09:17.324494 2022] [:error] [pid 8368:tid 1292] [client ::1:59754] PHP Stack trace:
+[Sun Nov 13 17:09:17.324494 2022] [:error] [pid 8368:tid 1292] [client ::1:59754] PHP   1. {main}() C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\XSS\\UwAmp\\www\\index.php:0
+[Sun Nov 13 17:09:38.214957 2022] [:error] [pid 8368:tid 1292] [client ::1:59755] PHP Warning:  session_start(): open(C:/Users/damis/Desktop/developpement/01-Github/02-Autres/ETML-Cours/XSS/UwAmp/bin/apache/sessions\\sess_1rusghhu9vpvfleqe9aslk5pd6, O_RDWR) failed: No such file or directory (2) in C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\XSS\\UwAmp\\www\\index.php on line 1
+[Sun Nov 13 17:09:38.214957 2022] [:error] [pid 8368:tid 1292] [client ::1:59755] PHP Stack trace:
+[Sun Nov 13 17:09:38.214957 2022] [:error] [pid 8368:tid 1292] [client ::1:59755] PHP   1. {main}() C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\XSS\\UwAmp\\www\\index.php:0
+[Sun Nov 13 17:09:38.214957 2022] [:error] [pid 8368:tid 1292] [client ::1:59755] PHP   2. session_start() C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\XSS\\UwAmp\\www\\index.php:1
+[Sun Nov 13 17:09:38.214957 2022] [:error] [pid 8368:tid 1292] [client ::1:59755] PHP Notice:  Array to string conversion in C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\XSS\\UwAmp\\www\\index.php on line 14
+[Sun Nov 13 17:09:38.214957 2022] [:error] [pid 8368:tid 1292] [client ::1:59755] PHP Stack trace:
+[Sun Nov 13 17:09:38.214957 2022] [:error] [pid 8368:tid 1292] [client ::1:59755] PHP   1. {main}() C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\XSS\\UwAmp\\www\\index.php:0
+[Sun Nov 13 17:09:38.215954 2022] [:error] [pid 8368:tid 1292] [client ::1:59755] PHP Warning:  Unknown: open(C:/Users/damis/Desktop/developpement/01-Github/02-Autres/ETML-Cours/XSS/UwAmp/bin/apache/sessions\\sess_1rusghhu9vpvfleqe9aslk5pd6, O_RDWR) failed: No such file or directory (2) in Unknown on line 0
+[Sun Nov 13 17:09:38.215954 2022] [:error] [pid 8368:tid 1292] [client ::1:59755] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (N;C:/Users/damis/Desktop/developpement/01-Github/02-Autres/ETML-Cours/XSS/UwAmp/bin/apache/sessions) in Unknown on line 0

@@ -391,3 +391,20 @@
 [Wed Oct 05 09:22:52.376431 2022] [ssl:warn] [pid 7284:tid 612] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
 [Wed Oct 05 09:22:52.385440 2022] [mpm_winnt:notice] [pid 7284:tid 612] AH00354: Child: Starting 64 worker threads.
 [Wed Oct 05 09:23:07.204723 2022] [mpm_winnt:crit] [pid 7284:tid 612] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Nov 12 17:27:20.866201 2022] [ssl:warn] [pid 20236:tid 604] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Nov 12 17:27:20.868196 2022] [ssl:warn] [pid 20236:tid 604] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Nov 12 17:27:21.002834 2022] [core:warn] [pid 20236:tid 604] AH00098: pid file C:/Users/damis/Desktop/developpement/01-Github/02-Autres/ETML-Cours/XSS-Blog/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Nov 12 17:27:21.288073 2022] [ssl:warn] [pid 20236:tid 604] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Nov 12 17:27:21.290067 2022] [ssl:warn] [pid 20236:tid 604] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Nov 12 17:27:21.290067 2022] [ssl:warn] [pid 20236:tid 604] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Nov 12 17:27:22.586137 2022] [mpm_winnt:notice] [pid 20236:tid 604] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Sat Nov 12 17:27:22.586137 2022] [mpm_winnt:notice] [pid 20236:tid 604] AH00456: Server built: Jan 28 2016 09:58:25
+[Sat Nov 12 17:27:22.586137 2022] [core:notice] [pid 20236:tid 604] AH00094: Command line: 'C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\XSS-Blog\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/damis/Desktop/developpement/01-Github/02-Autres/ETML-Cours/XSS-Blog/UwAmp/bin/apache -f C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML-Cours\\XSS-Blog\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Sat Nov 12 17:27:22.604089 2022] [mpm_winnt:notice] [pid 20236:tid 604] AH00418: Parent: Created child process 6440
+[Sat Nov 12 17:27:24.507913 2022] [ssl:warn] [pid 6440:tid 772] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Nov 12 17:27:24.509907 2022] [ssl:warn] [pid 6440:tid 772] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Nov 12 17:27:24.975661 2022] [ssl:warn] [pid 6440:tid 772] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sat Nov 12 17:27:24.976659 2022] [ssl:warn] [pid 6440:tid 772] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Nov 12 17:27:24.976659 2022] [ssl:warn] [pid 6440:tid 772] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Nov 12 17:27:25.053454 2022] [mpm_winnt:notice] [pid 6440:tid 772] AH00354: Child: Starting 64 worker threads.
+[Sat Nov 12 18:40:31.482059 2022] [mpm_winnt:crit] [pid 6440:tid 772] AH02538: Child: Parent process exited abruptly. Child process is ending

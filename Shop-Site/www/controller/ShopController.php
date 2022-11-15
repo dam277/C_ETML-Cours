@@ -36,12 +36,12 @@ class ShopController extends Controller {
 
         $shopRepository = new ShopRepository();
 
-        $counter = 0;
         /*******************************/
         // Set watermark
         /*******************************/
         $images = glob("resources/image/*.png");
-        var_dump($images);
+        
+        $counter = 0;
         foreach ($images as $key => $imageSource)
         {
             var_dump($imageSource);
@@ -56,16 +56,42 @@ class ShopController extends Controller {
             $red = imagecolorallocate($image_p, 255, 0, 0);
             $font = 'C://Windows/Fonts/Arial.ttf';
             $font_size = 10;
+
             // Set watermark
             imagettftext($image_p, $font_size, 40, 100, $height, $red, $font, "COPYRIGHT DL");
+
             // Save as Php/{counter}->value.jpg
             imagepng($image_p, "resources/image/watermark/".$counter.".jpg");
             $products[] = "resources/image/watermark/".$counter.".jpg";
             $counter++;
         }
 
-        $products = $shopRepository->findAll();
+        $notVerifiedProducts = $shopRepository->findAll();
         $view = file_get_contents('view/page/shop/list.php');
+
+        // Set the valid datas
+        $products = array();
+        foreach ($notVerifiedProducts as $productNumber => $currentProduct) 
+        {
+            // Verify in all of the current product values
+            foreach ($currentProduct as $key => $value) 
+            {
+                // Verify if the value contains a script tag
+                if (str_contains($value, '<' || '>')) 
+                {
+                    $products[$productNumber] = htmlspecialchars($value);
+                }
+                else
+                {
+                    $products[$productNumber] = $value;
+                }
+            }
+        }
+
+
+        echo "<pre>";
+        var_dump($products);
+        echo "</pre>";
 
         ob_start();
         eval('?>' . $view);
