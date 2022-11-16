@@ -1,3 +1,4 @@
+<?php if(isset($product)){ ?>
 <div class="container">
 
 	<h2>
@@ -30,3 +31,6 @@
 		</div>
 	</div>
 </div>
+<?php } else{
+	echo 'erreur';
+} ?>

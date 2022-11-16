@@ -1,5 +1,5 @@
+<?php if(isset($product) && isset($id)){ ?>
 <div class="container">
-
 	<h2>Ajouter un article</h2>
 	<!-- Three columns of text below the carousel -->
 	<div class="row">
@@ -54,3 +54,6 @@
 		</div>
 	</div>
 </div>
+<?php } else{
+	echo 'erreur';
+} ?>

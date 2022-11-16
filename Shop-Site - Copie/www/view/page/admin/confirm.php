@@ -1,5 +1,5 @@
+<?php if(isset($text)){ ?>
 <div class="container">
-
 	<h2>Administration des articles</h2>
 	<!-- Three columns of text below the carousel -->
 	<div class="row">
@@ -14,3 +14,6 @@
 		<p><a href="index.php?controller=admin&action=index">Retour à la liste des produits [ADMIN]</a></p>
 		</div>
 </div>
+<?php } else{
+	echo 'erreur';
+} ?>

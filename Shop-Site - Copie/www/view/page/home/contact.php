@@ -24,21 +24,23 @@
 			</div>
 			<input type="submit" value="Envoyer">
 		</form>
-		<div id="secret" style="display: flex; flex-direction: row;">
-			<?php
-				$characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
-				$result = ''; 
-				for ($i=0; $i < 16; $i++) {
-					$result .= $characters[mt_rand(0, 61)];
-				}
-				$_SESSION['capcha'] = $result;
-			?>
-			<p><?= $result?></p>
-			<div id="capcha" style="display: flex; flex-direction: row;">
-				<input id="userCapcha" type="text" name="capcha" placeholder="Entrez la suite de caractère affiché à côté">
-				<button onclick="DisplayEmail('<?=$_SESSION['capcha']?>');">Afficher email</button>
+		<?php if(isset($_SESSION['capcha'])){ ?>
+			<div id="secret" style="display: flex; flex-direction: row;">
+				<?php
+					$characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+					$result = ''; 
+					for ($i=0; $i < 16; $i++) {
+						$result .= $characters[mt_rand(0, 61)];
+					}
+					$_SESSION['capcha'] = $result;
+				?>
+				<p><?= $result?></p>
+				<div id="capcha" style="display: flex; flex-direction: row;">
+					<input id="userCapcha" type="text" name="capcha" placeholder="Entrez la suite de caractère affiché à côté">
+					<button onclick="DisplayEmail('<?=$_SESSION['capcha']?>');">Afficher email</button>
+				</div>
 			</div>
-		</div>
+		<?php } ?>
 	</div>
 <script>
 const secret = document.getElementById("secret");   // Secret email

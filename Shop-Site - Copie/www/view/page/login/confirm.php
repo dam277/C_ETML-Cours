@@ -1,5 +1,5 @@
+<?php if(isset($text)){ ?>
 <div class="container">
-
 	<h2>Connexion</h2>
 	<!-- Three columns of text below the carousel -->
 	<div class="row">
@@ -7,7 +7,7 @@
 		<?php echo $text; ?>
 		<p><a href="index.php?controller=shop&action=list">Retour au shop</a></p>
 		</div>
-		<?php
-		var_dump($_SESSION);
-		?>
 </div>
+<?php } else{
+	echo 'erreur';
+} ?>

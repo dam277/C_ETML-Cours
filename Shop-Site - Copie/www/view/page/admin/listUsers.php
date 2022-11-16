@@ -1,3 +1,4 @@
+<?php if(isset($users)){ ?>
 <div class="container">
 
 	<h2>Administration des utilisateurs</h2>
@@ -32,3 +33,6 @@
 		</div>
 	</div>
 </div>
+<?php } else{
+	echo 'erreur';
+} ?>

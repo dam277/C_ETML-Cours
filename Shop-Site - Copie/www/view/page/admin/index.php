@@ -1,5 +1,5 @@
+<?php if(isset($users)){ ?>
 <div class="container">
-
 	<h2>Administration des articles</h2>
 	<!-- Three columns of text below the carousel -->
 	<div class="row">
@@ -39,3 +39,6 @@
 		</div>
 	</div>
 </div>
+<?php } else{
+	echo 'erreur';
+} ?>
