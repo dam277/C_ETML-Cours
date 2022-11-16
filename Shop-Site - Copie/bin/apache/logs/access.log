@@ -20603,3 +20603,15 @@
 127.0.0.1 - - [13/Nov/2022:18:13:31 +0100] "GET /index.php?controller=\\..\\..\\..\\..\\WEB-INF\\web.xml&action=detail&id=6 HTTP/1.1" 200 934
 127.0.0.1 - - [13/Nov/2022:18:13:31 +0100] "GET /index.php?controller=\\..\\..\\..\\..\\..\\WEB-INF\\web.xml&action=detail&id=6 HTTP/1.1" 200 934
 127.0.0.1 - - [13/Nov/2022:18:13:31 +0100] "GET /index.php?controller=/./&action=detail&id=6 HTTP/1.1" 200 934
+::1 - - [15/Nov/2022:19:37:53 +0100] "GET / HTTP/1.1" 200 4445
+::1 - - [15/Nov/2022:19:37:53 +0100] "GET /resources/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 117154
+::1 - - [15/Nov/2022:19:37:53 +0100] "GET /resources/tablesorter/css/theme.default.css HTTP/1.1" 404 341
+::1 - - [15/Nov/2022:19:37:53 +0100] "GET /resources/css/justified-nav.css HTTP/1.1" 200 2459
+::1 - - [15/Nov/2022:19:37:53 +0100] "GET /controller/ImageController.php?image=default.jpg HTTP/1.1" 200 287
+::1 - - [15/Nov/2022:19:37:53 +0100] "GET /resources/css/style.css HTTP/1.1" 200 114
+::1 - - [15/Nov/2022:19:37:53 +0100] "GET /controller/ImageController.php?image=usb.png HTTP/1.1" 200 21165
+::1 - - [15/Nov/2022:19:37:53 +0100] "GET /resources/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 35458
+::1 - - [15/Nov/2022:19:37:53 +0100] "GET /controller/ImageController.php?image=pants.png HTTP/1.1" 200 91253
+::1 - - [15/Nov/2022:19:37:53 +0100] "GET /controller/ImageController.php?image=harddisk.png HTTP/1.1" 200 34292
+::1 - - [15/Nov/2022:19:37:53 +0100] "GET /controller/ImageController.php?image=shirt1.png HTTP/1.1" 200 41915
+::1 - - [15/Nov/2022:19:37:54 +0100] "GET /favicon.ico HTTP/1.1" 404 309
