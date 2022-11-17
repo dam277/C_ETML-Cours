@@ -1,6 +1,8 @@
 const CONTAINER = document.getElementById("Container");
 
 let maxArticles = 2;
+let index = 0;
+let articleArraySize;
 let articlesObjects = Array();
 
 DisplayArticle();
@@ -18,16 +20,51 @@ window.onscroll = function()
 function DisplayArticle()
 {
     let xhr = new XMLHttpRequest();
-    xhr.open("PUT", "../datas.php");
+    xhr.open("PUT", "datas/datas.php");
     xhr.setRequestHeader("Content-Type", "image/jpeg");
     xhr.onload = function()
     {
         if(xhr.status === 200)
         {
             let articlesInfos = JSON.parse(xhr.responseText);
-            let size = Object.keys(articlesInfos).length;
+            articleArraySize = Object.keys(articlesInfos).length;
 
             SetArray(articlesInfos);
+
+            for (index; index < maxArticles; index++) 
+            {
+                if (index < articleArraySize) 
+                {
+                    // Article
+                    let articleHtml = 
+                    "<article class='article center'>" +
+                        // Section title
+                        "<section>" +
+                            "<h3>" +
+                                articlesObjects[index].title +
+                            "</h3>" +
+                        "</section>" +
+                        // Section image
+                        "<section>" +
+                            "<img src='images/articles/"+ articlesObjects[index].image +"'>" +
+                        "</section>" +
+                        // Section text
+                        "<section>" +
+                            "<aside>" +
+                                articlesObjects[index].text +
+                            "</aside>" +
+                        "</section>" +
+                        // Section source
+                        "<section class='source'>" +
+                            "<a href='"+ articlesObjects[index].source +"'>" +
+                                "Source" +
+                            "</a>" +
+                        "</section>" +
+                    "</article>";
+
+                    CONTAINER.innerHTML += articleHtml;
+                }
+            }
         }
     };
     xhr.onerror = function()
@@ -41,6 +78,27 @@ function SetArray(articlesInfos)
 {
     articlesInfos.forEach(article => 
     {
-        articlesObjects.push();
+        let articleObject = new Article(article['artTitle'], article['artText'], article['artImage'], article['artSource']);
+        articlesObjects.push(articleObject);
     });
 }
+
+
+//  // Section title
+//  articleHtml += "<section>";
+//  // Title
+//  articleHtml += "<h2>";
+//  articleHtml += "</h2>";
+//  articleHtml += "</section>";
+
+//  // Section text
+//  articleHtml += "<section>";
+//  // Aside text
+//  articleHtml += "<aside>";
+//  // Text
+//  articleHtml += "<p>";
+//  articleHtml += "</p>";
+//  articleHtml += "</aside>";
+//  articleHtml += "</section>";
+
+//  articleHtml += "</article>";

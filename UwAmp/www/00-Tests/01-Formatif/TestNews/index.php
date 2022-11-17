@@ -1,3 +1,7 @@
+<?php
+//header("location: datas/datas.php");
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -18,7 +22,6 @@
     <!-- MAIN -->
     <main class="center">
         <div id="Container">
-
         </div>
     </main>
     <!-- FOOTER -->
@@ -40,7 +43,7 @@
                 Qu'est-ce qui se passe ? Je dois finir ça'"
             </p>
             <div class="source">
-                <a class="source" href="">Source</a>
+                <a href="">Source</a>
             </div>
         </div>
         <div id="endBanner">
@@ -49,4 +52,5 @@
     </footer>
 </body>
 </html>
+<script src="datas/js/Article.js"></script>
 <script src="datas/js/ajax.js"></script>

@@ -2,6 +2,7 @@
 body
 {
     margin: 0;
+    font-family: arial, Verdana;
 }
 
 /* Center something and reduce the width */
@@ -14,8 +15,7 @@ body
 /* Set the style of all of the source text*/
 .source
 {
-    color: #444;
-    text-decoration:none;
+    padding: 0px 10px 10px 0px;
     text-align: right;
 }
 
@@ -32,6 +32,51 @@ header
 /* ======== Main ========= */
 main
 {
+    
+}
+
+/* Article */
+.article 
+{
+    background-color: #EEEEEE;
+}
+
+/* all section of the elements which contains article class */
+.article > section
+{
+
+}
+
+/* Set the color, background and padding of the titles of all articles */
+.article > section > h3
+{
+    background-color: #444444;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+/* Set the style of the image of all articles */
+.article > section > img
+{
+    padding: 5px;
+    margin: 0px 10px 10px 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #444;
+    float: left;
+}
+
+/* Set the style of the text of all the articles */
+.article > section > aside
+{
+    padding: 0px 10px 0px 10px;
+}
+
+/* Set the style of the source links */
+.source > a
+{
+    text-decoration: none;
+    color: #444;
 }
 
 /* ======== Footer ========= */
@@ -45,17 +90,20 @@ footer
     background-color: #EEEEEE;
 }
 
+/* Set the style of the text of the conclusion */
+#conclusion > p
+{
+    text-align: left; 
+    padding: 10px;
+}
+
 /* Set the style of the end banner */
 #endBanner
 {
+    margin-top: 15px;
     background-color: #444444;
     width: 100%;
     color: #FFFFFF;
     text-align: center;
-}
-
-main
-{
-   
-    
+    padding: 5px 0px;
 }
