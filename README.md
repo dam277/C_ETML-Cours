@@ -1,14 +1,33 @@
 # ETML-Cours
 ## Modules
 - [x] 122-Powershell
+  - Notes
+    - 
 - [x] 150-ECommerce
+  - Notes
+    - 5
+    - 5
 - [x] 151-PHP
+  - Notes
+    - 5
 - [ ] 152-Multimedia
+  - Notes
+    - 
 - [x] 153-dbAvancee
+  - Notes
+    - 
 - [ ] 155-ProgrammtionTempsReel
+  - Notes
+    - 
 - [x] 183-SecApp
+  - Notes
+    - 
 - [ ] 335-ApplicationMobileEleve
+  - Notes
+    - 
 - [x] 242-Assembler
+  - Notes
+    - 
 - [x] Javascript
 ## Projets
 - [x] Projet Assembler
