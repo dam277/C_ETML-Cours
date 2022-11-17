@@ -1,0 +1,15 @@
+C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\SudokuValidator\SudokuValidator\SudokuValidator\bin\Debug\net6.0\SudokuValidator.exe
+C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\SudokuValidator\SudokuValidator\SudokuValidator\bin\Debug\net6.0\SudokuValidator.deps.json
+C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\SudokuValidator\SudokuValidator\SudokuValidator\bin\Debug\net6.0\SudokuValidator.runtimeconfig.json
+C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\SudokuValidator\SudokuValidator\SudokuValidator\bin\Debug\net6.0\SudokuValidator.dll
+C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\SudokuValidator\SudokuValidator\SudokuValidator\bin\Debug\net6.0\SudokuValidator.pdb
+C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\SudokuValidator\SudokuValidator\SudokuValidator\obj\Debug\net6.0\SudokuValidator.csproj.AssemblyReference.cache
+C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\SudokuValidator\SudokuValidator\SudokuValidator\obj\Debug\net6.0\SudokuValidator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\SudokuValidator\SudokuValidator\SudokuValidator\obj\Debug\net6.0\SudokuValidator.AssemblyInfoInputs.cache
+C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\SudokuValidator\SudokuValidator\SudokuValidator\obj\Debug\net6.0\SudokuValidator.AssemblyInfo.cs
+C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\SudokuValidator\SudokuValidator\SudokuValidator\obj\Debug\net6.0\SudokuValidator.csproj.CoreCompileInputs.cache
+C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\SudokuValidator\SudokuValidator\SudokuValidator\obj\Debug\net6.0\SudokuValidator.dll
+C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\SudokuValidator\SudokuValidator\SudokuValidator\obj\Debug\net6.0\refint\SudokuValidator.dll
+C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\SudokuValidator\SudokuValidator\SudokuValidator\obj\Debug\net6.0\SudokuValidator.pdb
+C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\SudokuValidator\SudokuValidator\SudokuValidator\obj\Debug\net6.0\SudokuValidator.genruntimeconfig.cache
+C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\SudokuValidator\SudokuValidator\SudokuValidator\obj\Debug\net6.0\ref\SudokuValidator.dll
