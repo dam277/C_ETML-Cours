@@ -8,7 +8,7 @@
 - [ ] 155-ProgrammtionTempsReel
 - [x] 183-SecApp
 - [ ] 335-ApplicationMobileEleve
-- [x] Assembler
+- [x] 242-Assembler
 - [x] Javascript
 ## Projets
 - [x] Projet Assembler
