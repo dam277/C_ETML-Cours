@@ -9,12 +9,16 @@ using System.Collections.Generic;
 using System.Linq;
 using AndroidX.AppCompat.App;
 using System.Text;
+using AppAndroid_V0._1._3.Services;
+using AppAndroid_V0._1._3.Models;
 
 namespace AppAndroid_V0._1._3.Views
 {
     [Activity(Label = "@strings/activity_todo", Theme = "@style/DarkTheme", MainLauncher = false)]
     public class ToDoListActivity : AppCompatActivity
     {
+        List<TaskTable> tasks;
+        ListView listView;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -23,6 +27,15 @@ namespace AppAndroid_V0._1._3.Views
             SetContentView(Resource.Layout.activity_toDo);
 
             // Create your application here
+            tasks = new List<TaskTable>();
+            tasks.Add(new TaskTable(0, "tâche 1", "Description de la tâche 1", DateTime.Now));
+            tasks.Add(new TaskTable(1, "tâche 2", "Description de la tâche 2", DateTime.Now));
+            tasks.Add(new TaskTable(2, "tâche 3", "Description de la tâche 3", DateTime.Now));
+
+            TaskAdapter taskAdapter = new TaskAdapter(tasks, this);
+
+            listView = FindViewById<ListView>(Resource.Id.lstTasks);
+            listView.Adapter = taskAdapter;
         }
     }
 }

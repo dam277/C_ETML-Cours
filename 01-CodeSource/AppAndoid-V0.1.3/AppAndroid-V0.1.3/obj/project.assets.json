@@ -2111,11 +2111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\etml\\01-CodeSource\\AppAndoid-V0.1.3\\AppAndroid-V0.1.3\\AppAndroid-V0.1.3.csproj",
+      "projectUniqueName": "C:\\Users\\damloup\\Desktop\\ETML-Cours\\01-CodeSource\\AppAndoid-V0.1.3\\AppAndroid-V0.1.3\\AppAndroid-V0.1.3.csproj",
       "projectName": "AppAndroid-V0.1.3",
-      "projectPath": "C:\\etml\\01-CodeSource\\AppAndoid-V0.1.3\\AppAndroid-V0.1.3\\AppAndroid-V0.1.3.csproj",
+      "projectPath": "C:\\Users\\damloup\\Desktop\\ETML-Cours\\01-CodeSource\\AppAndoid-V0.1.3\\AppAndroid-V0.1.3\\AppAndroid-V0.1.3.csproj",
       "packagesPath": "C:\\Users\\damloup\\.nuget\\packages\\",
-      "outputPath": "C:\\etml\\01-CodeSource\\AppAndoid-V0.1.3\\AppAndroid-V0.1.3\\obj\\",
+      "outputPath": "C:\\Users\\damloup\\Desktop\\ETML-Cours\\01-CodeSource\\AppAndoid-V0.1.3\\AppAndroid-V0.1.3\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

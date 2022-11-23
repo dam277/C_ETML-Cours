@@ -19,6 +19,9 @@ appandroid_v0._1._3.views.TaskDetailsActivity;crc64110a603075c62b2e.TaskDetailsA
 AppAndroid_V0._1._3.Views.ToDoListActivity, AppAndroid-V0.1.3;crc64110a603075c62b2e.ToDoListActivity
 AppAndroid_V0._1._3.Views.ToDoListActivity;crc64110a603075c62b2e.ToDoListActivity
 appandroid_v0._1._3.views.ToDoListActivity;crc64110a603075c62b2e.ToDoListActivity
+AppAndroid_V0._1._3.Models.TaskAdapter, AppAndroid-V0.1.3;crc64d50cc9782318def4.TaskAdapter
+AppAndroid_V0._1._3.Models.TaskAdapter;crc64d50cc9782318def4.TaskAdapter
+appandroid_v0._1._3.models.TaskAdapter;crc64d50cc9782318def4.TaskAdapter
 AndroidX.Activity.IOnBackPressedDispatcherOwner, Xamarin.AndroidX.Activity;androidx.activity.OnBackPressedDispatcherOwner
 AndroidX.Activity.IOnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner
 androidx.activity.OnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner

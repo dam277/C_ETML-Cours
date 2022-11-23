@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V7LXY8ToZ/1QiK8hdAHUoGsDK7bwthLd4cVaNE7MW4/N4yL87kDzhUmf78uwCtPUpl2QaZ17z0IarfgeDzmlUw==",
+  "dgSpecHash": "w24sJzD4alH97/w8HohWXrrwcyCniraDwdDs0EkDsVe7B4sgWQWFl0nh5BQ5irbnobhwe1hzsjkysWC23AQCLA==",
   "success": true,
-  "projectFilePath": "C:\\etml\\01-CodeSource\\AppAndoid-V0.1.3\\AppAndroid-V0.1.3\\AppAndroid-V0.1.3.csproj",
+  "projectFilePath": "C:\\Users\\damloup\\Desktop\\ETML-Cours\\01-CodeSource\\AppAndoid-V0.1.3\\AppAndroid-V0.1.3\\AppAndroid-V0.1.3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\damloup\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\damloup\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
