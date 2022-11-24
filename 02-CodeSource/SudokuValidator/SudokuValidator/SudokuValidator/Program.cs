@@ -1,4 +1,6 @@
 ﻿using SudokuValidator.GameObjects;
+using SudokuValidator.Methods;
+using SudokuValidator.Methods.MonoThreading;
 
 namespace SudokuValidator
 {
@@ -6,20 +8,14 @@ namespace SudokuValidator
     {
         static void Main(string[] args)
         {
+
             // Sudoku with size 9
-            Sudoku sudoku = new Sudoku();
-        }
+            Sudoku sudoku = new Sudoku(2);
+            MonoThreadingMethod monoThreading = new MonoThreadingMethod(sudoku);
+            monoThreading.CreateSudoku();
+            monoThreading.Resolve();
 
-        static void Display(Sudoku sudoku)
-        {
-            for(int y = 0; y < 10; y++)
-            {
-                for(int x = 0; x < 10; x++)
-                {
-
-                }
-            }
-
+            Console.ReadLine();
         }
     }
 }

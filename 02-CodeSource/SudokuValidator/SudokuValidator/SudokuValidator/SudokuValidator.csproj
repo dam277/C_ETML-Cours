@@ -8,10 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Method\Model\BossWorkerModel\" />
-    <Folder Include="Method\Model\PipelineModel\" />
-    <Folder Include="Method\Model\PeerModel\" />
-    <Folder Include="Method\MonoThreading\" />
+    <Compile Remove="Methods\Model\**" />
+    <EmbeddedResource Remove="Methods\Model\**" />
+    <None Remove="Methods\Model\**" />
   </ItemGroup>
 
 </Project>

@@ -30,7 +30,7 @@ namespace SudokuValidator.GameObjects.Components
         /// 
         /// </summary>
         /// <param name="case"></param>
-        protected void AddCase(Case @case)
+        public void AddCase(Case @case)
         {
             _cases.Add(@case);
         }

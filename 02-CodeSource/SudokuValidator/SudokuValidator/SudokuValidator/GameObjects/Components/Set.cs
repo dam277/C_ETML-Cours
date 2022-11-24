@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SudokuValidator.GameObjects.Components
 {
-    public class Line : CaseSet
+    public class Set : CaseSet
     {
     }
 }

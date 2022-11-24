@@ -1,4 +1,5 @@
-﻿using SudokuValidator.GameObjects.Utils;
+﻿using SudokuValidator.GameObjects.Components;
+using SudokuValidator.GameObjects.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace SudokuValidator.Logs
     public class Error
     {
         private string _message;                     // 
-        private Coordinate _coordinate;              //
+        private Case _case;                          //
 
         /// <summary>
         /// 
@@ -20,12 +21,9 @@ namespace SudokuValidator.Logs
             get { return _message; }
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        public Coordinate Coordinate
+        public Case Case
         {
-            get { return _coordinate; }
+            get { return _case; }
         }
 
         /// <summary>
@@ -33,10 +31,10 @@ namespace SudokuValidator.Logs
         /// </summary>
         /// <param name="message"></param>
         /// <param name="coordinate"></param>
-        public Error(string message, Coordinate coordinate)
+        public Error(string message, Case @case)
         {
             _message = message;
-            _coordinate = coordinate;
+            _case = @case;
         }
     }
 }
