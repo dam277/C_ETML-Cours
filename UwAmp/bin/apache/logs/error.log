@@ -4885,3 +4885,20 @@ Not a JPEG file: starts with 0x89 0x50
 [Wed Nov 16 13:00:44.198827 2022] [:error] [pid 27284:tid 1344] [client ::1:55371] script 'C:/Users/damis/Desktop/developpement/01-Github/02-Autres/ETML-Cours/UwAmp/www/00-Tests/01-Formatif/datas.php' not found or unable to stat, referer: http://localhost/00-Tests/01-Formatif/TestNews/
 [Wed Nov 16 13:00:44.198827 2022] [:error] [pid 27284:tid 1324] [client ::1:55372] script 'C:/Users/damis/Desktop/developpement/01-Github/02-Autres/ETML-Cours/UwAmp/www/00-Tests/01-Formatif/datas.php' not found or unable to stat, referer: http://localhost/00-Tests/01-Formatif/TestNews/
 [Wed Nov 16 18:05:26.725285 2022] [mpm_winnt:crit] [pid 27284:tid 648] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Thu Nov 24 23:13:00.074210 2022] [ssl:warn] [pid 10644:tid 640] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Nov 24 23:13:00.076206 2022] [ssl:warn] [pid 10644:tid 640] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 24 23:13:00.141033 2022] [core:warn] [pid 10644:tid 640] AH00098: pid file C:/Users/damis/Desktop/developpement/developpement/01-Github/02-Autres/ETML-Cours/ETML-Cours/UwAmp/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 24 23:13:00.265699 2022] [ssl:warn] [pid 10644:tid 640] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Nov 24 23:13:00.266705 2022] [ssl:warn] [pid 10644:tid 640] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Nov 24 23:13:00.266705 2022] [ssl:warn] [pid 10644:tid 640] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 24 23:13:00.818222 2022] [mpm_winnt:notice] [pid 10644:tid 640] AH00455: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.0.3 configured -- resuming normal operations
+[Thu Nov 24 23:13:00.818222 2022] [mpm_winnt:notice] [pid 10644:tid 640] AH00456: Server built: Jan 28 2016 09:58:25
+[Thu Nov 24 23:13:00.818222 2022] [core:notice] [pid 10644:tid 640] AH00094: Command line: 'C:\\Users\\damis\\Desktop\\developpement\\developpement\\01-Github\\02-Autres\\ETML-Cours\\ETML-Cours\\UwAmp\\bin\\apache\\bin\\httpd.exe -d C:/Users/damis/Desktop/developpement/developpement/01-Github/02-Autres/ETML-Cours/ETML-Cours/UwAmp/bin/apache -f C:\\Users\\damis\\Desktop\\developpement\\developpement\\01-Github\\02-Autres\\ETML-Cours\\ETML-Cours\\UwAmp\\bin\\apache\\conf\\httpd.conf'
+[Thu Nov 24 23:13:00.825204 2022] [mpm_winnt:notice] [pid 10644:tid 640] AH00418: Parent: Created child process 20192
+[Thu Nov 24 23:13:01.713552 2022] [ssl:warn] [pid 20192:tid 476] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Nov 24 23:13:01.714549 2022] [ssl:warn] [pid 20192:tid 476] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 24 23:13:01.877088 2022] [ssl:warn] [pid 20192:tid 476] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Nov 24 23:13:01.878086 2022] [ssl:warn] [pid 20192:tid 476] AH01906: main-serveur:443:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Thu Nov 24 23:13:01.878086 2022] [ssl:warn] [pid 20192:tid 476] AH01909: main-serveur:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Nov 24 23:13:01.908006 2022] [mpm_winnt:notice] [pid 20192:tid 476] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 25 01:18:31.958758 2022] [mpm_winnt:crit] [pid 20192:tid 476] AH02538: Child: Parent process exited abruptly. Child process is ending

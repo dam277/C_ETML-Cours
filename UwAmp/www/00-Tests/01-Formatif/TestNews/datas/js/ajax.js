@@ -46,7 +46,9 @@ function DisplayArticle()
                         "</section>" +
                         // Section image
                         "<section>" +
-                            "<img src='images/articles/"+ articlesObjects[index].image +"'>" +
+                            "<a class='example-image-link' href='Images/lightboxs/"+ articlesObjects[index].image +"' data-lightbox='example-set' data-title='"+ articlesObjects[index].title +"'>" +
+                                "<img class='example-image' src='Images/articles/"+ articlesObjects[index].image +"'/>" +
+                            "</a>" +
                         "</section>" +
                         // Section text
                         "<section>" +

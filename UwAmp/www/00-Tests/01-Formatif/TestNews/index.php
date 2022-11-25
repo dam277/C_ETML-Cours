@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="datas/css/index.css">
     <title>Document</title>
+    <link rel="stylesheet" href="Librairie/lightbox2-master/dist/css/lightbox.min.css">
 </head>
 <body>
     <!-- HEADER -->
@@ -26,6 +27,8 @@
     </main>
     <!-- FOOTER -->
     <footer>
+    <a href="Images/articles/dog-216282_1920.jpg" data-lightbox>s</a>
+    
         <div id="conclusion" class="center">
             <p>
                 Dans une interview donnée à Entertainment Weekly 
@@ -54,3 +57,4 @@
 </html>
 <script src="datas/js/Article.js"></script>
 <script src="datas/js/ajax.js"></script>
+<script src="Librairie/lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
