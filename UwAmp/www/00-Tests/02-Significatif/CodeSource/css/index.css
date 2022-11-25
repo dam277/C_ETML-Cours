@@ -1,0 +1,163 @@
+/**
+ * Damien Loup
+ * 152-Multimedia
+ * Test significatif
+ * Date: 25.11.2022
+ * Style file of the web page
+ */
+
+ /* ======== Body ========= */
+body
+{
+    margin: 0;
+    font-family: arial, Verdana;
+}
+
+/* Center something and reduce the width */
+.center
+{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* Set the content to uppercase */
+.upperCase
+{
+    text-transform: uppercase;
+}
+
+/* ======== Header ========= */
+header
+{
+    background-color: #F4A958;
+    width: 100%;
+    color: #000000;
+    padding-bottom: 50px;
+    box-shadow: 8px 8px 12px #ccc;
+}
+
+/* Set the font-size of all h1 in the header */
+header > h1
+{
+    font-size: 36px;
+}
+
+/* Set the font-size of all h4 in the header */
+header > h4
+{
+    font-size: 18px;
+}
+
+/* ======== Main ========= */
+main
+{
+    
+}
+
+/* Set the style of the buttons of the slider */
+main > div > input
+{
+    border: none;
+    background: none;
+    font-size: 28px;
+    color: #F4A958;
+}
+
+/* Set the style of a vignette with border */
+.vignette
+{
+    margin: 20px;
+    border: #F4A958;
+    border-style: solid;
+    border-radius: 2%;
+}
+
+/* Set the style of the ingredients of the reciepe */
+.ingredients
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Set flex to the container to set all the vignettes in one line */
+#reciepes
+{
+    display: flex;
+}
+
+/* Set flex to the container to set all in one line */
+#container
+{
+    display: flex;
+}
+
+/* On hover of the vignette */
+#reciepes > div:hover
+{
+    background-color: #F4A958;
+    cursor: pointer;
+}
+
+/* Set the title and put a background */
+#reciepes > div > h3
+{
+    margin: 0%;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    opacity: 80%;
+    position: absolute;
+}
+
+/* Center the source and the text in the vignettes */
+#reciepes > div > h4, #reciepes > div > p 
+{
+    text-align: center;
+    max-width: 360px;
+}
+
+/* Set border on the source */
+#reciepes > div > p
+{
+    margin-left: 20%;
+    width: 60%;
+    border-bottom: #F4A958;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+    border-top: #F4A958;
+    border-top-style: solid;
+    border-top-width: 1px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Set the style of all of the source text*/
+.source
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* ======== Footer ========= */
+footer
+{
+    background-color: #F4A958;
+    width: 100%;
+    color: #000000;
+}
+
+/* Set the style of all of the link of the footer */
+footer > div > a
+{
+    color: #F4B6A7;
+    text-decoration: none;
+}
+
+

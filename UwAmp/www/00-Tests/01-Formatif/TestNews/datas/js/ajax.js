@@ -84,23 +84,3 @@ function SetArray(articlesInfos)
         articlesObjects.push(articleObject);
     });
 }
-
-
-//  // Section title
-//  articleHtml += "<section>";
-//  // Title
-//  articleHtml += "<h2>";
-//  articleHtml += "</h2>";
-//  articleHtml += "</section>";
-
-//  // Section text
-//  articleHtml += "<section>";
-//  // Aside text
-//  articleHtml += "<aside>";
-//  // Text
-//  articleHtml += "<p>";
-//  articleHtml += "</p>";
-//  articleHtml += "</aside>";
-//  articleHtml += "</section>";
-
-//  articleHtml += "</article>";
