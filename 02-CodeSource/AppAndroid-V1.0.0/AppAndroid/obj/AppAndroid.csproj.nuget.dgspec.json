@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML\\ETML-Cours\\02-CodeSource\\AppAndroid-V1.0.0\\AppAndroid\\AppAndroid.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML\\ETML-Cours\\02-CodeSource\\AppAndroid-V1.0.0\\AppAndroid\\AppAndroid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML\\ETML-Cours\\02-CodeSource\\AppAndroid-V1.0.0\\AppAndroid\\AppAndroid.csproj",
+        "projectName": "AppAndroid",
+        "projectPath": "C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML\\ETML-Cours\\02-CodeSource\\AppAndroid-V1.0.0\\AppAndroid\\AppAndroid.csproj",
+        "packagesPath": "C:\\Users\\damis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML\\ETML-Cours\\02-CodeSource\\AppAndroid-V1.0.0\\AppAndroid\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "D:\\Datas\\Dev\\webModules\\Microsoft\\VS2022\\Components\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\damis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid13.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid13.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid13.0": {
+          "dependencies": {
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.2.0.5, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
