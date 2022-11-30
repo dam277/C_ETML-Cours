@@ -42,7 +42,7 @@
 
     </LinearLayout>
 
-    <!-- === Buttons layout === -->
+    <!-- === Tasks layout === -->
     <LinearLayout
         android:id="@+id/lytToDoTasks"
         android:orientation="horizontal"

@@ -11,15 +11,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
+        android:text="Nom de la tâche"
         android:id="@+id/txtName"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
+        android:text="Description de la tâche"
         android:id="@+id/txtDescription"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Date de fin de la tâche"
         android:id="@+id/btnTask"/>
 
 </LinearLayout>

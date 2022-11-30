@@ -1,24 +1,19 @@
 ﻿using Android.App;
-using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
 using AndroidX.AppCompat.App;
 using AppAndroid.Adapters;
-using AppAndroid.Datas;
+using AppAndroid.Model;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace AppAndroid.Views
 {
     [Activity(Label = "@strings/activity_todo", Theme = "@style/DarkTheme", MainLauncher = false)]
     public class ToDoListActivity : AppCompatActivity
     {
-        List<TaskTable> tasks;
-        ListView listView;
+        List<TaskTable> _tasks;
+        ListView _listView;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -27,15 +22,32 @@ namespace AppAndroid.Views
             SetContentView(Resource.Layout.activity_toDo);
 
             // Create your application here
-            tasks = new List<TaskTable>();
-            tasks.Add(new TaskTable(0, "tâche 1", "Description de la tâche 1", DateTime.Now));
-            tasks.Add(new TaskTable(1, "tâche 2", "Description de la tâche 2", DateTime.Now));
-            tasks.Add(new TaskTable(2, "tâche 3", "Description de la tâche 3", DateTime.Now));
+            _tasks = new List<TaskTable>();
+            _tasks.Add(new TaskTable(0, "Apprendre le typescript", "Apprendre le typescript en Web pour créer des sites personnels", DateTime.Now));
+            _tasks.Add(new TaskTable(1, "Finir la doc Xamarin", "Finir la doc Xamarin pour mardi", DateTime.Now));
+            _tasks.Add(new TaskTable(2, "Faire les courses", "Prendre 25Kg de lait, 12L de farine et 7g d'oeufs", DateTime.Now));
 
-            TaskAdapter taskAdapter = new TaskAdapter(tasks, this);
+            // Get new task adapter
+            TaskAdapter taskAdapter = new TaskAdapter(_tasks, this);
 
-            listView = FindViewById<ListView>(Resource.Id.lstTasks);
-            listView.Adapter = taskAdapter;
+            // Get ListView
+            _listView = FindViewById<ListView>(Resource.Id.lstTasks);
+
+            // Add adapter to the ListView
+            _listView.Adapter = taskAdapter;
+        }
+
+        private void Adapter()
+        {
+            // Create Adapter
+            var classicAdapter = ArrayAdapter.CreateFromResource(this, Resource.Array.array_tasks, Android.Resource.Layout.SimpleSpinnerItem);
+
+            // Set a drop down view to the adapter
+            classicAdapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
+
+            // Add to the ListView
+            _listView = FindViewById<ListView>(Resource.Id.lstTasks);
+            _listView.Adapter = classicAdapter;
         }
     }
 }

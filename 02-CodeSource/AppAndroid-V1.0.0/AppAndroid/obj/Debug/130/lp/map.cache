@@ -73,3 +73,4 @@ androidx.appcompat.appcompat-resources.aar
 androidx.appcompat.appcompat.aar
 com.google.android.material.material.aar
 androidx.browser.browser.aar
+SQLitePCLRaw.lib.e_sqlite3.android.dll

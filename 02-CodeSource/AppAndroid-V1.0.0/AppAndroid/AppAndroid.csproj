@@ -63,16 +63,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adapters\TaskAdapter.cs" />
-    <Compile Include="Datas\CategoryTable.cs" />
-    <Compile Include="Datas\Database.cs" />
-    <Compile Include="Datas\TaskTable.cs" />
-    <Compile Include="MainActivity.cs" />
+    <Compile Include="Model\CategoryTable.cs" />
+    <Compile Include="Model\TaskTable.cs" />
+    <Compile Include="Repository\TaskRepository.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\CategoryAddActivity.cs" />
     <Compile Include="Views\CategoryListActivity.cs" />
     <Compile Include="Views\MenuActivity.cs" />
     <Compile Include="Views\MyDayActivity.cs" />
+    <Compile Include="Views\SecondActivity.cs" />
     <Compile Include="Views\TaskAddActivity.cs" />
     <Compile Include="Views\TaskDetailsActivity.cs" />
     <Compile Include="Views\ToDoListActivity.cs" />
@@ -105,10 +105,14 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\ic_launcher_round.png" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-  <ItemGroup>
+    <PackageReference Include="sqlite-net-pcl">
+      <Version>1.8.116</Version>
+    </PackageReference>
+    <PackageReference Include="SQLiteNetExtensions">
+      <Version>2.1.0</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.2.0.5" />
     <PackageReference Include="Xamarin.Google.Android.Material" Version="1.0.0.1" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
@@ -148,6 +152,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\myDay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_second.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

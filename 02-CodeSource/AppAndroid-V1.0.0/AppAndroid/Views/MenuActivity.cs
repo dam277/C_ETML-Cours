@@ -97,7 +97,10 @@ namespace AppAndroid.Views
         /// <param name="e">Event</param>
         private void _btnMyDay_Click(object sender, EventArgs e)
         {
-
+            Intent activity = new Intent(this, typeof(SecondActivity));
+            activity.PutExtra("Data", "Datas to send to another activity");
+            activity.PutStringArrayListExtra("Names", new List<string> { "Jerôme", "Michel", "Paul" });
+            StartActivity(activity);
         }
 
         /// <summary>

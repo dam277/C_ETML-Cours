@@ -8,4 +8,13 @@
   <string name="activity_task_add">Ajouter une tâche</string>
   <string name="activity_task_details"></string>
   <string name="activity_todo">To Do List</string>
+
+  <array name="array_tasks">
+    <item>Faire les courses</item>
+    <item>Apprendre le typescript</item>
+    <item>Finir la doc Xamarin</item>
+    <item>Préparer le mariage</item>
+    <item>Prendre rendez-vous pour le stage de 3ème année</item>
+  </array>
+
 </resources>
