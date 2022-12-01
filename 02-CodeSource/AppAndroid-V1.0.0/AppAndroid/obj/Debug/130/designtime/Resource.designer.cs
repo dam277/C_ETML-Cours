@@ -4147,37 +4147,40 @@ namespace AppAndroid
 			public const int txtName = 2131296501;
 			
 			// aapt resource value: 0x7F0900F6
-			public const int @unchecked = 2131296502;
+			public const int txtSensors = 2131296502;
 			
 			// aapt resource value: 0x7F0900F7
-			public const int uniform = 2131296503;
+			public const int @unchecked = 2131296503;
 			
 			// aapt resource value: 0x7F0900F8
-			public const int unlabeled = 2131296504;
+			public const int uniform = 2131296504;
 			
 			// aapt resource value: 0x7F0900F9
-			public const int up = 2131296505;
+			public const int unlabeled = 2131296505;
 			
 			// aapt resource value: 0x7F0900FA
-			public const int useLogo = 2131296506;
+			public const int up = 2131296506;
 			
 			// aapt resource value: 0x7F0900FB
-			public const int view_offset_helper = 2131296507;
+			public const int useLogo = 2131296507;
 			
 			// aapt resource value: 0x7F0900FC
-			public const int view_tree_saved_state_registry_owner = 2131296508;
+			public const int view_offset_helper = 2131296508;
 			
 			// aapt resource value: 0x7F0900FD
-			public const int visible = 2131296509;
+			public const int view_tree_saved_state_registry_owner = 2131296509;
 			
 			// aapt resource value: 0x7F0900FE
-			public const int visible_removing_fragment_view_tag = 2131296510;
+			public const int visible = 2131296510;
 			
 			// aapt resource value: 0x7F0900FF
-			public const int withText = 2131296511;
+			public const int visible_removing_fragment_view_tag = 2131296511;
 			
 			// aapt resource value: 0x7F090100
-			public const int wrap_content = 2131296512;
+			public const int withText = 2131296512;
+			
+			// aapt resource value: 0x7F090101
+			public const int wrap_content = 2131296513;
 			
 			static Id()
 			{

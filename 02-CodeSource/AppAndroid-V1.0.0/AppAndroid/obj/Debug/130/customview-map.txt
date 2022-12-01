@@ -6,11 +6,11 @@ background;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher_round.xml
 Button;obj\Debug\130\res\layout\activity_menu.xml
 Button;obj\Debug\130\res\layout\activity_modeltask.xml
 Button;obj\Debug\130\res\layout\activity_todo.xml
-cache-path;C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML\ETML-Cours\02-CodeSource\AppAndroid-V1.0.0\AppAndroid\obj\Debug\130\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\AppAndroid-V1.0.0\AppAndroid\obj\Debug\130\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\130\res\values\colors.xml
 color;obj\Debug\130\res\values\ic_launcher_background.xml
-external-cache-path;C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML\ETML-Cours\02-CodeSource\AppAndroid-V1.0.0\AppAndroid\obj\Debug\130\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-external-path;C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML\ETML-Cours\02-CodeSource\AppAndroid-V1.0.0\AppAndroid\obj\Debug\130\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\AppAndroid-V1.0.0\AppAndroid\obj\Debug\130\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\AppAndroid-V1.0.0\AppAndroid\obj\Debug\130\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher_round.xml
 ImageButton;obj\Debug\130\res\layout\activity_todo.xml
@@ -21,11 +21,10 @@ LinearLayout;obj\Debug\130\res\layout\activity_modeltask.xml
 LinearLayout;obj\Debug\130\res\layout\activity_second.xml
 LinearLayout;obj\Debug\130\res\layout\activity_todo.xml
 ListView;obj\Debug\130\res\layout\activity_todo.xml
-paths;C:\Users\damis\Desktop\developpement\01-Github\02-Autres\ETML\ETML-Cours\02-CodeSource\AppAndroid-V1.0.0\AppAndroid\obj\Debug\130\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+paths;C:\Users\damloup\Desktop\ETML-Cours\02-CodeSource\AppAndroid-V1.0.0\AppAndroid\obj\Debug\130\lp\39\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 RelativeLayout;obj\Debug\130\res\layout\activity_categoryadd.xml
 RelativeLayout;obj\Debug\130\res\layout\activity_categorylist.xml
 RelativeLayout;obj\Debug\130\res\layout\activity_categorytaskdetails.xml
-RelativeLayout;obj\Debug\130\res\layout\activity_main.xml
 RelativeLayout;obj\Debug\130\res\layout\activity_myday.xml
 RelativeLayout;obj\Debug\130\res\layout\activity_taskadd.xml
 RelativeLayout;obj\Debug\130\res\layout\activity_taskdetails.xml
@@ -37,3 +36,4 @@ string;obj\Debug\130\res\values\strings.xml
 style;obj\Debug\130\res\values\styles.xml
 TextView;obj\Debug\130\res\layout\activity_menu.xml
 TextView;obj\Debug\130\res\layout\activity_modeltask.xml
+TextView;obj\Debug\130\res\layout\activity_myday.xml

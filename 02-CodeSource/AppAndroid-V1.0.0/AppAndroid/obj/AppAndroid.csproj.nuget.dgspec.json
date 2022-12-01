@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML\\ETML-Cours\\02-CodeSource\\AppAndroid-V1.0.0\\AppAndroid\\AppAndroid.csproj": {}
+    "C:\\Users\\damloup\\Desktop\\ETML-Cours\\02-CodeSource\\AppAndroid-V1.0.0\\AppAndroid\\AppAndroid.csproj": {}
   },
   "projects": {
-    "C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML\\ETML-Cours\\02-CodeSource\\AppAndroid-V1.0.0\\AppAndroid\\AppAndroid.csproj": {
+    "C:\\Users\\damloup\\Desktop\\ETML-Cours\\02-CodeSource\\AppAndroid-V1.0.0\\AppAndroid\\AppAndroid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML\\ETML-Cours\\02-CodeSource\\AppAndroid-V1.0.0\\AppAndroid\\AppAndroid.csproj",
+        "projectUniqueName": "C:\\Users\\damloup\\Desktop\\ETML-Cours\\02-CodeSource\\AppAndroid-V1.0.0\\AppAndroid\\AppAndroid.csproj",
         "projectName": "AppAndroid",
-        "projectPath": "C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML\\ETML-Cours\\02-CodeSource\\AppAndroid-V1.0.0\\AppAndroid\\AppAndroid.csproj",
-        "packagesPath": "C:\\Users\\damis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\damis\\Desktop\\developpement\\01-Github\\02-Autres\\ETML\\ETML-Cours\\02-CodeSource\\AppAndroid-V1.0.0\\AppAndroid\\obj\\",
+        "projectPath": "C:\\Users\\damloup\\Desktop\\ETML-Cours\\02-CodeSource\\AppAndroid-V1.0.0\\AppAndroid\\AppAndroid.csproj",
+        "packagesPath": "C:\\Users\\damloup\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\damloup\\Desktop\\ETML-Cours\\02-CodeSource\\AppAndroid-V1.0.0\\AppAndroid\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "D:\\Datas\\Dev\\webModules\\Microsoft\\VS2022\\Components\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\damis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\damloup\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

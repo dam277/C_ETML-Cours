@@ -30,8 +30,9 @@ namespace AppAndroid.Repository
             _connection = new SQLiteAsyncConnection(path);
 
             // Creation of the task table
-            _connection.CreateTableAsync<TaskTable>();
+            //_connection.CreateTableAsync<TaskTable>();
         }
+
 
         /// <summary>
         /// Add a new task
@@ -46,7 +47,7 @@ namespace AppAndroid.Repository
             try
             {
                 // Insert into task table
-                result = await _connection.InsertAsync(new TaskTable { Name= name, Description = description });
+                //result = await _connection.InsertAsync(new TaskTable { Name= name, Description = description });
                 StatusMessage = $"tâche ajoutée : {name} - {result}";
             }
             catch (Exception ex)
@@ -65,7 +66,8 @@ namespace AppAndroid.Repository
             try
             {
                 // Return the list of tasks
-                return await _connection.Table<TaskTable>().ToListAsync();  
+                //return await _connection.Table<TaskTable>().ToListAsync();  
+                return null;
             }
             catch(Exception ex)
             {
